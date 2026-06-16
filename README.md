@@ -2,9 +2,9 @@
 
 Exercícios físicos e bem-estar físico-mental
 
-
 Trabalho do prof. Mehran 
 Projeto Integrador.  1 
+
 Data: 02/06/2026.
 
 Coordenador(a): Beatriz Gomes.
@@ -29,6 +29,7 @@ Melissa:Vídeos e fontes de mídia
 
 Todos: Contribuir com ideias de layout, design e mais coisas do site.				 
 
+---
 
 
 Trabalho do prof. Mehran 
@@ -58,6 +59,8 @@ Isabela Luiza Maciel: Elaborar uma estrutura do site, com ideias das páginas, i
 
 Melissa:Vídeos e fontes de mídia
 
+---
+
 Trabalho do prof. Mehran 
 Projeto Integrador.  3
 
@@ -79,4 +82,12 @@ Beatriz Gomes dos santos: Pesquisas profundas de possíveis assuntos que podem e
 
 Isabela Luiza Maciel: Elaborar uma estrutura do site, com ideias das páginas, imagens e vídeos 
 
-Melissa:Vídeos e fontes de mídia
+Melissa: Vídeos e fontes de mídia
+
+Figma esta sendo feito pela aluna: Beatriz Costa, porem as alunas: Isabala e Melisa estao dando ideias em um segundo pagina do figma para ajudar a aluna Beatriz.
+
+a aluna: Beatriz Gomes está a faznedo os textos e buscando modelos de wireframe
+
+---
+
+
