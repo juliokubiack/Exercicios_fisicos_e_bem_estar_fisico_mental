@@ -1,9 +1,6 @@
-# Exercicios-fisicos-e-bem-estar-fsico-mental
+# Exercícios físicos e bem-estar físico-mental
 
-Exercícios físicos e bem-estar físico-mental
-
-Trabalho do prof. Mehran 
-Projeto Integrador.  1 
+## Trabalho do prof. Mehran Projeto Integrador.  1 
 
 Data: 02/06/2026.
 
@@ -13,7 +10,7 @@ Secretário(a) e responsável pelo GitHub: Julio César da SIlva Kubiack
 
 Assunto: Organizar as funções dos integrantes.
 
-Não houveram ausentes.
+**Não houveram ausentes**
 
 Responsabilidades:
 
@@ -32,12 +29,9 @@ Todos: Contribuir com ideias de layout, design e mais coisas do site.
 ---
 
 
-Trabalho do prof. Mehran 
-Projeto Integrador.  2
+## Trabalho do prof. Mehran Projeto Integrador.  2
 
 Data: 09/06/2026.
-
-Não houveram ausentes.
 
 Coordenador(a): Beatriz Gomes.
 
@@ -45,7 +39,7 @@ Secretário(a) e responsável pelo GitHub: Julio César da SIlva Kubiack
 
 Assunto:Figma, assunto a discutir, organização das pesquisas
 
-Não houveram ausentes.
+**Não houveram ausentes**
 
 Responsabilidades:
 
@@ -61,8 +55,7 @@ Melissa:Vídeos e fontes de mídia
 
 ---
 
-Trabalho do prof. Mehran 
-Projeto Integrador.  3
+## Trabalho do prof. Mehran Projeto Integrador.  3
 
 Data: 16/06/2026.
 
@@ -72,7 +65,9 @@ Coordenador(a): Beatriz Gomes.
 
 Secretário(a) e responsável pelo GitHub: Julio César da SIlva Kubiack
 
-Assunto:
+Assunto: figma e textos 
+
+**faltantes: Beatriz Costa**
 
 Responsabilidades:
 
@@ -89,5 +84,7 @@ Figma esta sendo feito pela aluna: Beatriz Costa, porem as alunas: Isabala e Mel
 a aluna: Beatriz Gomes está a faznedo os textos e buscando modelos de wireframe
 
 ---
+
+
 
 
