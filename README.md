@@ -131,5 +131,3 @@ Isabela Luiza Maciel: figma/Páginas
 Melissa: figma/Páginas
 
 --- 
-
-beatriz grtande faltouu 
