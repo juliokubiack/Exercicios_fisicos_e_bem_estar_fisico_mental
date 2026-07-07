@@ -156,3 +156,4 @@ Isabela Luiza Maciel: Figma (ideias)
 
 Melissa: figma (ideias)
 
+COISA D IDIOTA EVITAR A PESSOA 
