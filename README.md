@@ -148,9 +148,12 @@ Responsabilidades: terminar o Figma
 
 Julio Kubiack: Git Hab
 
-Beatriz Gomes dos santos: Figma 
+Beatriz Gomes dos santos: Figma (ideias)
 
-Isabela Luiza Maciel: Figma
+Beatriz Costa: figma final definitivo
 
-Melissa: figma 
+Isabela Luiza Maciel: Figma (ideias)
+
+Melissa: figma (ideias)
+
 
