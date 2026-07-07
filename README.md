@@ -1,4 +1,4 @@
-# Exercícios físicos e bem-estar físico-mental
+# Exercícios físicos e bem estar físico mental
 
 ## Trabalho do prof. Mehran Projeto Integrador.  1 
 
