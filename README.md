@@ -122,7 +122,7 @@ Assunto: figma e index.html
 
 Responsabilidades:
 
-Julio Kubiack: Git Hab
+Julio Kubiack: Git Hub
 
 Beatriz Gomes dos santos:figma/Páginas
 
@@ -142,11 +142,11 @@ Coordenador(a): Beatriz Gomes.
 
 Secretário(a) e responsável pelo GitHub: Julio César da Silva Kubiack
 
-Assunto: Figma e Git Hab 
+Assunto: Figma e Git Hub 
 
 Responsabilidades: terminar o Figma 
 
-Julio Kubiack: Git Hab
+Julio Kubiack: Git Hub
 
 Beatriz Gomes dos santos: Figma (ideias)
 
