@@ -133,21 +133,24 @@ Melissa: figma/Páginas
 ---
 ## Trabalho do prof. Mehran Projeto Integrador.  6
 
-Data: /2026.
+**Hoje terá a primeira avaliação parcial, professor Mehran irá avaliar o figma e o Git Hab**
+
+
+Data: 07/07/2026.
 
 Coordenador(a): Beatriz Gomes.
 
 Secretário(a) e responsável pelo GitHub: Julio César da Silva Kubiack
 
-Assunto: 
+Assunto: Figma e Git Hab 
 
-Responsabilidades:
+Responsabilidades: terminar o Figma 
 
 Julio Kubiack: Git Hab
 
-Beatriz Gomes dos santos:
+Beatriz Gomes dos santos: Figma 
 
-Isabela Luiza Maciel: 
+Isabela Luiza Maciel: Figma
 
-Melissa:
+Melissa:figma 
 
