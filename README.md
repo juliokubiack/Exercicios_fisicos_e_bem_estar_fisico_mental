@@ -152,5 +152,5 @@ Beatriz Gomes dos santos: Figma
 
 Isabela Luiza Maciel: Figma
 
-Melissa:figma 
+Melissa: figma 
 
