@@ -139,7 +139,7 @@ Nesta reunião foi realizada a preparação para a **primeira avaliação parcia
 
 # Ata 7 – Projeto Integrador (Professor Mehran)
 
-**Data:** 14/07/2026 *(alterar caso a data seja outra)*
+**Data:** 14/07/2026 
 **Coordenadora:** Beatriz Gomes
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
