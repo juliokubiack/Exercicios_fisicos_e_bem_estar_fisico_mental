@@ -157,4 +157,4 @@ Continuação do projeto e integração de um novo integrante ao grupo.
 
 ### Observações
 
-O aluno **Vinicios Kormann** passou a integrar a equipe. Durante a reunião, foram apresentados o andamento do Projeto Integrador, os objetivos do site e as atividades já realizadas. Neste primeiro momento, o novo integrante está se familiarizando com o projeto. Suas responsabilidades serão definidas nas próximas reuniões, conforme o avanço das atividades.
+O aluno **Vinicio Kormann** passou a integrar a equipe. Durante a reunião, foram apresentados o andamento do Projeto Integrador, os objetivos do site e as atividades já realizadas. Neste primeiro momento, o novo integrante está se familiarizando com o projeto. Suas responsabilidades serão definidas nas próximas reuniões, conforme o avanço das atividades.
