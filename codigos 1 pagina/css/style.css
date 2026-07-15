@@ -7,6 +7,10 @@ html {
 .inicial{
     color: rgba(73, 136, 196, 1);
 }
+h2{
+    font-size: 5vw;
+    padding:5vw;
+}
 
 /*===HEADER===*/
 header {
@@ -39,10 +43,10 @@ header img {
 }
 
 /*===BODY===*/
-.missao img{
+.frasedaimagem img{
     padding: 1vw 15vw 5vw 5vw;
 }
-.frase da imagem {
+.frasedaimagem {
     position: relative; /* Isso cria o "limite" para o texto não sair da imagem */
     display: inline-block;
     width: 100%; /
@@ -59,8 +63,15 @@ header img {
     padding: 1vw 5vw 1vw 0;
    }
 
-.missao h2{
-    font-size: 5vw;
+ div.nossamissao{
+    display: flex;
+}
+.nossamissao img{
+    width: 60%;
+}
+
+section.nossamissao p{
+    font-size: 2vw;
 }
 
 
