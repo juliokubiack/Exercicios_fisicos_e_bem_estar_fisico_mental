@@ -183,3 +183,5 @@ Continuação do desenvolvimento do Projeto Integrador.
 ### Observações
 
 Neste dia, os integrantes do grupo se reuniram fora da sala de aula para dar continuidade ao desenvolvimento e à finalização do protótipo no Figma, além de adiantar etapas do projeto, contribuindo para o cumprimento do cronograma estabelecido.
+
+sdfsdfsfds
