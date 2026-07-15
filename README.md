@@ -158,3 +158,28 @@ Continuação do projeto e integração de um novo integrante ao grupo.
 ### Observações
 
 O aluno **Vinicio Kormann** passou a integrar a equipe. Durante a reunião, foram apresentados o andamento do Projeto Integrador, os objetivos do site e as atividades já realizadas. Neste primeiro momento, o novo integrante está se familiarizando com o projeto. Suas responsabilidades serão definidas nas próximas reuniões, conforme o avanço das atividades.
+
+---
+
+# Ata 9 – Projeto Integrador (Professor Mehran)
+
+## Fora da sala
+
+**Data:** 15/07/2026
+**Coordenadora:** Beatriz Gomes
+**Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
+
+### Assunto
+
+Continuação do desenvolvimento do Projeto Integrador.
+
+### Responsabilidades
+
+* **Julio César da Silva Kubiack:** Organização e manutenção do repositório no GitHub, além do desenvolvimento da primeira página em HTML e CSS (index).
+* **Beatriz Gomes dos Santos:** Auxílio nas melhorias do protótipo no Figma.
+* **Isabela Luiza Maciel:** Sugestões e melhorias para o protótipo no Figma.
+* **Melissa:** Sugestões e melhorias para o protótipo no Figma.
+
+### Observações
+
+Neste dia, os integrantes do grupo se reuniram fora da sala de aula para dar continuidade ao desenvolvimento e à finalização do protótipo no Figma, além de adiantar etapas do projeto, contribuindo para o cumprimento do cronograma estabelecido.
