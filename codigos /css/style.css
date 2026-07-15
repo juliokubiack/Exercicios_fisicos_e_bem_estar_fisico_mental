@@ -1,0 +1,70 @@
+/*===GERAL===*/
+html {
+    font-family: 'Inter', sans-serif;
+    margin: 3vw 3vw 3vw 3vw;
+    background-color: rgba(230, 229, 229, 1);
+}
+.inicial{
+    color: rgba(73, 136, 196, 1);
+}
+
+/*===HEADER===*/
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* espaço entre a logo e o menu */
+    margin-bottom: 50px;
+}
+
+/* Logo */
+header img {
+    width: 70px;
+    background-color: rgb(73, 136, 196);
+    border-radius: 50%;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+/* Menu */
+.comandos {
+    display: flex;
+    align-items: center;
+    gap: 90px; 
+}
+
+
+.comandos .inicial a {
+    color: rgb(73, 136, 196);
+    font-weight: bold;
+}
+
+/*===BODY===*/
+.missao img{
+    padding: 1vw 15vw 5vw 5vw;
+}
+.frase da imagem {
+    position: relative; /* Isso cria o "limite" para o texto não sair da imagem */
+    display: inline-block;
+    width: 100%; /
+
+}
+
+
+.frese {
+    position: absolute; 
+    top: 40%; 
+    left: 13%; 
+    color: white; 
+    font-size: 35px; 
+    padding: 1vw 5vw 1vw 0;
+   }
+
+.missao h2{
+    font-size: 5vw;
+}
+
+
+/*===FOOTER===*/
+footer {
+    background-color: rgba(28, 77, 141, 1);
+}   
