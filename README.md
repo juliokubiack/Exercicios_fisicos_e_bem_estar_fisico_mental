@@ -161,7 +161,7 @@ O aluno **Vinicio Kormann** passou a integrar a equipe. Durante a reunião, fora
 
 ---
 
-# Ata 9 – Projeto Integrador (Professor Mehran)
+# Ata 8.1 – Projeto Integrador (Professor Mehran)
 
 ## Fora da sala
 
@@ -183,5 +183,19 @@ Continuação do desenvolvimento do Projeto Integrador.
 ### Observações
 
 Neste dia, os integrantes do grupo se reuniram fora da sala de aula para dar continuidade ao desenvolvimento e à finalização do protótipo no Figma, além de adiantar etapas do projeto, contribuindo para o cumprimento do cronograma estabelecido.
+
+---
+
+# Ata 8.2 – Projeto Integrador (Professor Mehran)
+
+## Fora da sala
+
+**Data:** 16/07/2026
+**Coordenadora:** Beatriz Gomes
+**Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
+
+### Responsabilidades
+
+* **Julio César da Silva Kubiack:** desenvolvimento da primeira página em HTML e CSS (index).
 
 ---
