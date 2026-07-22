@@ -1,22 +1,26 @@
 /*===GERAL===*/
 html {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
     margin: 3vw 3vw 3vw 3vw;
     background-color: rgba(230, 229, 229, 1);
 }
-.inicial{
+
+.inicial {
     color: rgba(73, 136, 196, 1);
 }
-h2{
+
+h2 {
     font-size: 5vw;
-    padding:5vw;
+    padding: 5vw;
 }
 
 /*===HEADER===*/
 header {
     display: flex;
     align-items: center;
-    gap: 30px; /* espaço entre a logo e o menu */
+    gap: 30px;
+    /* espaço entre a logo e o menu */
     margin-bottom: 50px;
 }
 
@@ -33,7 +37,7 @@ header img {
 .comandos {
     display: flex;
     align-items: center;
-    gap: 90px; 
+    gap: 90px;
 }
 
 
@@ -43,39 +47,122 @@ header img {
 }
 
 /*===BODY===*/
-.frasedaimagem img{
+.frasedaimagem img {
     padding: 1vw 15vw 5vw 5vw;
 }
-.frasedaimagem {
-    position: relative; /* Isso cria o "limite" para o texto não sair da imagem */
-    display: inline-block;
-    width: 100%; /
 
+.frasedaimagem {
+    position: relative;
+    /* Isso cria o "limite" para o texto não sair da imagem */
+    display: inline-block;
+    width: 100%;/
 }
 
 
 .frese {
-    position: absolute; 
-    top: 40%; 
-    left: 13%; 
-    color: white; 
-    font-size: 35px; 
-    padding: 1vw 5vw 1vw 0;
-   }
+    position: absolute;
+    top: 32%;
+    left: 13%;
+    color: white;
+    font-size: 59px;
+    padding: 1vw 30vw 1vw 1vw;
+}
 
- div.nossamissao{
+div.nossamissao {
     display: flex;
 }
-.nossamissao img{
-    width: 60%;
+
+div.nossamissao img {
+    width: 40%;
+    padding: 1vw 2vw 5vw 1vw;
 }
 
-section.nossamissao p{
-    font-size: 2vw;
+div.nossamissao p {
+    font-size: 35px;
+    padding: 1vw 2vw 5vw 1vw;
+}
+
+
+/*===FOTO NOSSA===*/
+section.nos {
+    display: flex;
+    gap: 2px;
+}
+
+section.nos div img {
+    width: 30%;
+    padding: 1vw;
+
+}
+
+section.nos div.cuidar {
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+
+section.nos div.cuidar p {
+    font-size: 35px;
+    padding: 10px 10px 10px 10px;
+}
+
+div.formação {
+    padding: 1vw 10vw 1vw 1vw;
+}
+
+section.etapa span {
+    font-weight: 200;
+
+}
+
+section.etapa h2 {
+    font-size: 40px;
+}
+
+/*===borda e sua ligaduras===*/
+
+
+div.liga {
+    display: flex;
+    padding: 1vw 1vw 1vw 2vw;
+    gap: 40vw;
+    font-size: 15px;
+}
+
+div.liga p.escolhemos {
+    background-color: bisque;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 1vw 10vw 2vw 4vw;
+}
+
+div.liga p.proposta {
+    background-color: bisque;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 1vw 10vw 2vw 4vw;
+}
+sec
+
+section.etapa div.imagem {
+    display: flex;
+    padding: 1vw 1vw 1vw 2vw;
+    gap: 40vw;
+    font-size: 15px;
+}
+
+img.aprendiz {
+    width: 30%;
+    justify-content: space-between;
+    display: flex;
+}
+
+img.estudo {
+    width: 30%;
+
 }
 
 
 /*===FOOTER===*/
 footer {
     background-color: rgba(28, 77, 141, 1);
-}   
+}
