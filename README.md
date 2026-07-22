@@ -1,4 +1,3 @@
-
 # Exercícios Físicos e Bem-Estar Físico e Mental
 
 # Ata 1 – Projeto Integrador (Professor Mehran)
@@ -15,12 +14,12 @@ Organização das funções e distribuição das tarefas entre os integrantes do
 
 ### Responsabilidades
 
-* **Julio César da Silva Kubiack:** Realizar pesquisas aprofundadas sobre possíveis conteúdos para o site.
-* **Beatriz Gomes dos Santos:** Pesquisar temas e conteúdos que poderão ser utilizados no projeto.
-* **Beatriz Costa:** Desenvolver a estrutura inicial do site (wireframe), propondo ideias para as páginas.
-* **Isabela Luiza Maciel:** Auxiliar na elaboração da estrutura do site e sugerir ideias para as páginas.
-* **Melissa:** Buscar vídeos e outras fontes de mídia para utilização no projeto.
-* **Todos os integrantes:** Contribuir com sugestões de layout, design e melhorias para o desenvolvimento do site.
+- **Julio César da Silva Kubiack:** Realizar pesquisas aprofundadas sobre possíveis conteúdos para o site.
+- **Beatriz Gomes dos Santos:** Pesquisar temas e conteúdos que poderão ser utilizados no projeto.
+- **Beatriz Costa:** Desenvolver a estrutura inicial do site (wireframe), propondo ideias para as páginas.
+- **Isabela Luiza Maciel:** Auxiliar na elaboração da estrutura do site e sugerir ideias para as páginas.
+- **Melissa:** Buscar vídeos e outras fontes de mídia para utilização no projeto.
+- **Todos os integrantes:** Contribuir com sugestões de layout, design e melhorias para o desenvolvimento do site.
 
 ---
 
@@ -38,11 +37,11 @@ Discussão sobre o desenvolvimento do Figma e organização das pesquisas.
 
 ### Responsabilidades
 
-* **Julio César da Silva Kubiack:** Continuação das pesquisas sobre os conteúdos do site.
-* **Beatriz Gomes dos Santos:** Continuação das pesquisas dos conteúdos.
-* **Beatriz Costa:** Desenvolvimento do projeto no Figma.
-* **Isabela Luiza Maciel:** Organização das páginas, imagens e vídeos.
-* **Melissa:** Pesquisa de vídeos e demais mídias.
+- **Julio César da Silva Kubiack:** Continuação das pesquisas sobre os conteúdos do site.
+- **Beatriz Gomes dos Santos:** Continuação das pesquisas dos conteúdos.
+- **Beatriz Costa:** Desenvolvimento do projeto no Figma.
+- **Isabela Luiza Maciel:** Organização das páginas, imagens e vídeos.
+- **Melissa:** Pesquisa de vídeos e demais mídias.
 
 ---
 
@@ -60,10 +59,10 @@ Andamento do Figma e elaboração dos textos do site.
 
 ### Responsabilidades
 
-* **Julio César da Silva Kubiack:** Continuação das pesquisas.
-* **Beatriz Gomes dos Santos:** Produção dos textos e pesquisa de modelos de wireframe.
-* **Isabela Luiza Maciel:** Organização das páginas, imagens e vídeos.
-* **Melissa:** Pesquisa de vídeos e fontes de mídia.
+- **Julio César da Silva Kubiack:** Continuação das pesquisas.
+- **Beatriz Gomes dos Santos:** Produção dos textos e pesquisa de modelos de wireframe.
+- **Isabela Luiza Maciel:** Organização das páginas, imagens e vídeos.
+- **Melissa:** Pesquisa de vídeos e fontes de mídia.
 
 ### Observações
 
@@ -85,10 +84,10 @@ Desenvolvimento do Figma e início da programação da página **index.html**.
 
 ### Responsabilidades
 
-* **Julio César da Silva Kubiack:** Desenvolvimento do Figma e da página **index.html**.
-* **Beatriz Gomes dos Santos:** Auxílio no desenvolvimento do Figma.
-* **Isabela Luiza Maciel:** Desenvolvimento do Figma.
-* **Melissa:** Desenvolvimento do Figma.
+- **Julio César da Silva Kubiack:** Desenvolvimento do Figma e da página **index.html**.
+- **Beatriz Gomes dos Santos:** Auxílio no desenvolvimento do Figma.
+- **Isabela Luiza Maciel:** Desenvolvimento do Figma.
+- **Melissa:** Desenvolvimento do Figma.
 
 ---
 
@@ -106,10 +105,10 @@ Continuação do desenvolvimento do Figma, das páginas do site e organização 
 
 ### Responsabilidades
 
-* **Julio César da Silva Kubiack:** Organização e atualização do GitHub.
-* **Beatriz Gomes dos Santos:** Desenvolvimento das páginas no Figma.
-* **Isabela Luiza Maciel:** Desenvolvimento das páginas no Figma.
-* **Melissa:** Desenvolvimento das páginas no Figma.
+- **Julio César da Silva Kubiack:** Organização e atualização do GitHub.
+- **Beatriz Gomes dos Santos:** Desenvolvimento das páginas no Figma.
+- **Isabela Luiza Maciel:** Desenvolvimento das páginas no Figma.
+- **Melissa:** Desenvolvimento das páginas no Figma.
 
 ---
 
@@ -129,17 +128,17 @@ Nesta reunião foi realizada a preparação para a **primeira avaliação parcia
 
 ### Responsabilidades
 
-* **Julio César da Silva Kubiack:** Organização do GitHub.
-* **Beatriz Gomes dos Santos:** Sugestões e melhorias para o Figma.
-* **Beatriz Costa:** Finalização da versão definitiva do Figma.
-* **Isabela Luiza Maciel:** Sugestões e melhorias para o Figma.
-* **Melissa:** Sugestões e melhorias para o Figma.
+- **Julio César da Silva Kubiack:** Organização do GitHub.
+- **Beatriz Gomes dos Santos:** Sugestões e melhorias para o Figma.
+- **Beatriz Costa:** Finalização da versão definitiva do Figma.
+- **Isabela Luiza Maciel:** Sugestões e melhorias para o Figma.
+- **Melissa:** Sugestões e melhorias para o Figma.
 
 ---
 
 # Ata 7 – Projeto Integrador (Professor Mehran)
 
-**Data:** 14/07/2026 
+**Data:** 14/07/2026
 **Coordenadora:** Beatriz Gomes
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
@@ -149,11 +148,11 @@ Continuação do projeto e integração de um novo integrante ao grupo.
 
 ### Responsabilidades
 
-* **Julio César da Silva Kubiack:** Organização e manutenção do GitHub.
-* **Beatriz Gomes dos Santos:** Auxílio nas melhorias do Figma.
-* **Beatriz Costa:** Finalização do layout do Figma.
-* **Isabela Luiza Maciel:** Sugestões para o Figma.
-* **Melissa:** Sugestões para o Figma.
+- **Julio César da Silva Kubiack:** Organização e manutenção do GitHub.
+- **Beatriz Gomes dos Santos:** Auxílio nas melhorias do Figma.
+- **Beatriz Costa:** Finalização do layout do Figma.
+- **Isabela Luiza Maciel:** Sugestões para o Figma.
+- **Melissa:** Sugestões para o Figma.
 
 ### Observações
 
@@ -175,10 +174,10 @@ Continuação do desenvolvimento do Projeto Integrador.
 
 ### Responsabilidades
 
-* **Julio César da Silva Kubiack:** Organização e manutenção do repositório no GitHub, além do desenvolvimento da primeira página em HTML e CSS (index).
-* **Beatriz Gomes dos Santos:** Auxílio nas melhorias do protótipo no Figma.
-* **Isabela Luiza Maciel:** Sugestões e melhorias para o protótipo no Figma.
-* **Melissa:** Sugestões e melhorias para o protótipo no Figma.
+- **Julio César da Silva Kubiack:** Organização e manutenção do repositório no GitHub, além do desenvolvimento da primeira página em HTML e CSS (index).
+- **Beatriz Gomes dos Santos:** Auxílio nas melhorias do protótipo no Figma.
+- **Isabela Luiza Maciel:** Sugestões e melhorias para o protótipo no Figma.
+- **Melissa:** Sugestões e melhorias para o protótipo no Figma.
 
 ### Observações
 
@@ -196,7 +195,7 @@ Neste dia, os integrantes do grupo se reuniram fora da sala de aula para dar con
 
 ### Responsabilidades
 
-* **Julio César da Silva Kubiack:** desenvolvimento da primeira página em HTML e CSS (index).
+- **Julio César da Silva Kubiack:** desenvolvimento da primeira página em HTML e CSS (index).
 
 ---
 
@@ -210,6 +209,6 @@ Neste dia, os integrantes do grupo se reuniram fora da sala de aula para dar con
 
 ### Responsabilidades
 
-* **Julio César da Silva Kubiack:** finalização da primeira página em HTML e CSS (index).
+- **Julio César da Silva Kubiack:** finalização da primeira página em HTML e CSS (index).
 
---- 
+---
