@@ -1,15 +1,12 @@
-/*===GERAL===*/
+/*===GERAL TODOS VÃO TER O MESMO TIPO ===*/
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-    margin: 3vw 3vw 3vw 3vw;
+    margin: 2vw 2vw 2vw 2vw;
     background-color: rgba(230, 229, 229, 1);
 }
-
-.inicial {
-    color: rgba(73, 136, 196, 1);
-}
-
+/*===OS H2 TODOS VÃO TER O MOSMO TIPO DE MODELO OS QUE NAO TIVEREM VAI SER COLOCADO UMA CLASSE NELES === */
+/*===NO SOBRE-NOS TEM 3===*/
 h2 {
     font-size: 5vw;
     padding: 5vw;
@@ -19,7 +16,7 @@ h2 {
 header {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     /* espaço entre a logo e o menu */
     margin-bottom: 50px;
 }
@@ -161,8 +158,35 @@ img.estudo {
 
 }
 
+/*===Cadastro===*/
+.entrar{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.entrar {
+    font-family:"Montserrat", sans-serif;
+    background-color: black;
+}
+
+
 
 /*===FOOTER===*/
 footer {
     background-color: rgba(28, 77, 141, 1);
+}
+
+
+
+/*===SEGUNDA PAGINA INICIO ===*/
+
+li.segunda{
+
+    background-color: rgba(73, 136, 196, 0.73);
+    border-radius: 20px;
+    font-size: 15px;
+
+
+
 }
