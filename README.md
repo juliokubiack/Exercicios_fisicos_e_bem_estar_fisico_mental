@@ -189,26 +189,35 @@ Neste dia, os integrantes do grupo se reuniram fora da sala de aula para dar con
 
 ## Fora da sala
 
-**Data:** 16/07/2026
+**Data:** 16/07/2026 ao dia 03/08/2026
 **Coordenadora:** Beatriz Gomes
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
 ### Responsabilidades
 
-- **Julio César da Silva Kubiack:** desenvolvimento da primeira página em HTML e CSS (index).
+- **Julio César  da Silva Kubiack:** desenvolvimento da primeira página em HTML e CSS (index).
 
 ---
+# Ata 9 – Projeto Integrador (Professor Mehran)
 
-# Ata 8.3 – Projeto Integrador (Professor Mehran)
-
-## Fora da sala FÉRIASSSSS
-
-**Data:** 22/07/2026
+**Data:** 04/08/2026
 **Coordenadora:** Beatriz Gomes
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
+### Assunto
+
+SABER>>>
+
+### Observação
+
+SABER>>>
+
 ### Responsabilidades
 
-- **Julio César da Silva Kubiack:** finalização da primeira página em HTML e CSS (index).
+- **Julio César da Silva Kubiack:** 
+- **Beatriz Gomes dos Santos:** 
+- **Beatriz Costa:** 
+- **Isabela Luiza Maciel:** 
+- **Melissa:** 
 
 ---
