@@ -5,6 +5,7 @@ html {
     margin: 2vw 2vw 2vw 2vw;
     background-color: rgba(230, 229, 229, 1);
 }
+
 /*===OS H2 TODOS VÃO TER O MOSMO TIPO DE MODELO OS QUE NAO TIVEREM VAI SER COLOCADO UMA CLASSE NELES === */
 /*===NO SOBRE-NOS TEM 3===*/
 h2 {
@@ -80,27 +81,32 @@ div.nossamissao p {
 }
 
 
-/*===FOTO NOSSA===*/
-section.nos {
+/*===FOTO NOSSA MAIS TEXTO SOBRE NÓS===*/
+
+
+
+
+ 
+section.nos div.tres div.mais{
     display: flex;
-    gap: 2px;
+    flex-direction: column;
+    gap: 50px;
 }
 
-section.nos div img {
+section.nos div.tres {
+    display: flex;
+    gap: 15px;
     width: 30%;
-    padding: 1vw;
-
+    padding: 1vw 1vw 1vw 1vw;
 }
 
-section.nos div.cuidar {
+section.nos div.mais {
     display: flex;
-    padding: 10px 0 10px 0;
+    gap: 15px;
+    width: 30%;
+    padding: 1vw 1vw 1vw 1vw;
 }
-
-section.nos div.cuidar p {
-    font-size: 35px;
-    padding: 10px 10px 10px 10px;
-}
+/*===Etapas do desenvolvimento===*/
 
 div.formação {
     padding: 1vw 10vw 1vw 1vw;
@@ -138,9 +144,8 @@ div.liga p.proposta {
     font-size: 15px;
     padding: 1vw 10vw 2vw 4vw;
 }
-sec
 
-section.etapa div.imagem {
+sec section.etapa div.imagem {
     display: flex;
     padding: 1vw 1vw 1vw 2vw;
     gap: 40vw;
@@ -159,14 +164,14 @@ img.estudo {
 }
 
 /*===Cadastro===*/
-.entrar{
+.entrar {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .entrar {
-    font-family:"Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     background-color: black;
 }
 
@@ -181,7 +186,7 @@ footer {
 
 /*===SEGUNDA PAGINA INICIO ===*/
 
-li.segunda{
+li.segunda {
 
     background-color: rgba(73, 136, 196, 0.73);
     border-radius: 20px;
