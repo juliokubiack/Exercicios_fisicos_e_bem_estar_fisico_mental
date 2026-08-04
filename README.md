@@ -206,7 +206,7 @@ Neste dia, os integrantes do grupo se reuniram fora da sala de aula para dar con
 
 ### Assunto
 
-SABER>>>
+Arrumar oq está acontecendo com os commits e dar continuidade com as página em HTML e CSS (index).
 
 ### Observação
 
@@ -214,13 +214,10 @@ SABER>>>
 
 ### Responsabilidades
 
-- **Julio César da Silva Kubiack:** 
-- **Beatriz Gomes dos Santos:** 
-- **Beatriz Costa:** 
-- **Isabela Luiza Maciel:** 
-- **Melissa:** 
+- **Julio César da Silva Kubiack:** página em HTML e CSS (index).
+- **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
+- **Beatriz Costa:** página em HTML e CSS (index).
+- **Isabela Luiza Maciel:** página em HTML e CSS (index).
+- **Melissa:** página em HTML e CSS (index).
 
 ---
-
-
-asdf
