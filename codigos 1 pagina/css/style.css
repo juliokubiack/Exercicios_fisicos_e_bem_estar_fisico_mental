@@ -1,10 +1,17 @@
 /*===GERAL TODOS VÃO TER O MESMO TIPO ===*/
 html {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    font-family: Inter, sans-serif;
+    ;
     margin: 2vw 2vw 2vw 2vw;
     background-color: rgba(230, 229, 229, 1);
 }
+
+html {
+    font-size: clamp(0.9rem, calc(0.5rem + 0.6vw), 1.2rem);
+    font-family: "Mulish", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #252b42;
+}
+
 
 /*===OS H2 TODOS VÃO TER O MOSMO TIPO DE MODELO OS QUE NAO TIVEREM VAI SER COLOCADO UMA CLASSE NELES === */
 /*===NO SOBRE-NOS TEM 3===*/
@@ -86,8 +93,8 @@ div.nossamissao p {
 
 
 
- 
-section.nos div.tres div.mais{
+
+section.nos div.tres div.mais {
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -106,6 +113,7 @@ section.nos div.mais {
     width: 30%;
     padding: 1vw 1vw 1vw 1vw;
 }
+
 /*===Etapas do desenvolvimento===*/
 
 div.formação {
@@ -185,6 +193,22 @@ footer {
 
 
 /*===SEGUNDA PAGINA INICIO ===*/
+body {
+    background-color: #E6E5E5;
+}
+
+/* ===== cores base ===== */
+:root {
+    --azul: #4a90d9;
+    --azul-escuro: #2f6fb0;
+    --azul-claro: #eaf3fb;
+    --azul-footer: #5b93c5;
+    --verde-claro: #d9f0e6;
+    --cinza-texto: #6b7280;
+    --texto-principal: #252b42;
+}
+
+
 
 li.segunda {
 
@@ -194,4 +218,103 @@ li.segunda {
 
 
 
+}
+
+
+main section.comeco {
+    display: flex;
+    background-color: #E6E5E5;
+}
+
+section.comeco img {
+    max-width: 80%;
+}
+
+section.comeco h2 {
+    font-size: 3rem;
+    padding: 5vw 0 0 5vw;
+}
+
+section.comeco h2 span {
+    font-weight: 800;
+}
+
+section.comeco p {
+    padding: 5vw 0vw 0vw 10vw;
+    width: 300px;
+    font-size: 1.5rem;
+}
+
+section.diferenciais h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 8vw;
+}
+
+section.diferenciais h3 span {
+    font-weight: 600;
+}
+
+section.diferenciais div.peso img {
+    max-width: 10%;
+    padding: 0vw 0vw 0vw 10vw;
+}
+
+section.diferenciais div.peso h4 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 0vw 0vw 0vw 8vw;
+}
+
+section.diferenciais div.peso p {
+    max-width: 200px;
+    padding: 1vw 0vw 0vw 10vw;
+}
+
+section.diferenciais div.relogio img {
+    max-width: 10%;
+    padding: 0vw 0vw 0vw 10vw;
+}
+
+section.diferenciais div.relogio h4 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 0vw 0vw 0vw 8vw;
+}
+
+section.diferenciais div.relogio p {
+    max-width: 200px;
+    padding: 1vw 0vw 0vw 10vw;
+}
+
+section.diferenciais div.andar img {
+    max-width: 10%;
+    padding: 0vw 0vw 0vw 10vw;
+}
+
+section.diferenciais div.andar h4 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 0vw 0vw 0vw 8vw;
+}
+
+section.diferenciais div.andar p {
+    max-width: 200px;
+    padding: 1vw 0vw 0vw 10vw;
+}
+
+section.diferenciais div.mente img {
+    max-width: 10%;
+    padding: 0vw 0vw 0vw 10vw;
+}
+
+section.diferenciais div.mente h4 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 0vw 0vw 0vw 8vw;
+}
+
+section.diferenciais div.mente p {
+    max-width: 200px;
+    padding: 1vw 0vw 0vw 10vw;
 }
