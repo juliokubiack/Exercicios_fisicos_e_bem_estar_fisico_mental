@@ -92,26 +92,28 @@ div.nossamissao p {
 
 
 
-
-
 section.nos div.tres div.mais {
     display: flex;
-    flex-direction: column;
     gap: 50px;
 }
 
 section.nos div.tres {
     display: flex;
     gap: 15px;
-    width: 30%;
+    width: 20%;
     padding: 1vw 1vw 1vw 1vw;
 }
 
 section.nos div.mais {
     display: flex;
     gap: 15px;
-    width: 30%;
+    width: 20%;
     padding: 1vw 1vw 1vw 1vw;
+}
+
+section.nos li{
+display: flex;
+display: inline-block;
 }
 
 /*===Etapas do desenvolvimento===*/
@@ -189,6 +191,30 @@ img.estudo {
 footer {
     background-color: rgba(28, 77, 141, 1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

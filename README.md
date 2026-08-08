@@ -198,6 +198,7 @@ Neste dia, os integrantes do grupo se reuniram fora da sala de aula para dar con
 - **Julio César  da Silva Kubiack:** desenvolvimento da primeira página em HTML e CSS (index).
 
 ---
+
 # Ata 9 – Projeto Integrador (Professor Mehran)
 
 **Data:** 04/08/2026
@@ -208,17 +209,38 @@ Neste dia, os integrantes do grupo se reuniram fora da sala de aula para dar con
 
 Arrumar oq está acontecendo com os commits e dar continuidade com as página em HTML e CSS (index).
 
-### Observação
-
-SABER>>>
+**Ausências:** Beatriz Costa .
 
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** página em HTML e CSS (index).
 - **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
-- **Beatriz Costa:** página em HTML e CSS (index).
 - **Isabela Luiza Maciel:** página em HTML e CSS (index).
 - **Melissa:** página em HTML e CSS (index).
 
 ---
+
+
+# Ata 9.1 – Projeto Integrador (Professor Mehran)
+
+**Data:** 07/08/2026
+**Coordenadora:** Beatriz Gomes
+**Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
+
+### Assunto
+
+Aprender e executar banco de dados
+
+### Observação
+
+esse passo apenas o aluno Julio esta fazendo por conta propria 
+
+### Responsabilidades
+
+- **Julio César da Silva Kubiack:** página em HTML e CSS (index).
+
+---
+
+
+
 
