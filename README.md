@@ -241,6 +241,28 @@ esse passo apenas o aluno Julio esta fazendo por conta propria
 
 ---
 
+# Ata 10 – Projeto Integrador (Professor Mehran)
+
+**Data:** 11/08/2026
+**Coordenadora:** Beatriz Gomes
+**Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
+
+### Assunto
+
+--------
+
+### Observação
+
+-----
+
+### Responsabilidades
+
+- **Julio César da Silva Kubiack:** página em HTML e CSS (index).
+- **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
+- **Isabela Luiza Maciel:** página em HTML e CSS (index).
+- **Melissa:** página em HTML e CSS (index).
+
+---
 
 
 
