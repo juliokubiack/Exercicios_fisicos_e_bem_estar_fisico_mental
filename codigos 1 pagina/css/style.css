@@ -24,14 +24,14 @@ h2 {
 header {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 150px;
     /* espaço entre a logo e o menu */
     margin-bottom: 50px;
 }
 
 /* Logo */
 header img {
-    width: 70px;
+    width: 90px;
     background-color: rgb(73, 136, 196);
     border-radius: 50%;
     padding: 1vw 1vw 1vw 1vw;
@@ -42,7 +42,7 @@ header img {
 .comandos {
     display: flex;
     align-items: center;
-    gap: 90px;
+    gap: 110px;
 }
 
 
@@ -78,7 +78,7 @@ div.nossamissao {
 }
 
 div.nossamissao img {
-    width: 40%;
+    width: 85%;
     padding: 1vw 2vw 5vw 1vw;
 }
 
@@ -94,27 +94,36 @@ div.nossamissao p {
 
 section.nos div.tres div.mais {
     display: flex;
-    gap: 50px;
+    gap: 60px;
+    display: inline-block;
 }
 
 section.nos div.tres {
     display: flex;
-    gap: 15px;
-    width: 20%;
+    gap: 20px;
+    width: 60%;
     padding: 1vw 1vw 1vw 1vw;
+
 }
 
 section.nos div.mais {
     display: flex;
-    gap: 15px;
-    width: 20%;
+    gap: 20px;
+    width: 60%;
     padding: 1vw 1vw 1vw 1vw;
 }
 
-section.nos li{
-display: flex;
-display: inline-block;
+.nos{
+    display: flex;
 }
+section.nos h2{
+    padding:2vw 1vw 2vw 25vw ;
+}
+section.nos p{
+    padding:2vw 1vw 2vw 25vw ;
+    font-size: 25px;
+}
+
 
 /*===Etapas do desenvolvimento===*/
 
