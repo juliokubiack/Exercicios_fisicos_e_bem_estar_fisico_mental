@@ -249,11 +249,11 @@ esse passo apenas o aluno Julio esta fazendo por conta propria
 
 ### Assunto
 
---------
+Arrumar oq está acontecendo com os commits e dar continuidade com as página em HTML e CSS (index).
 
-### Observação
+**Ausências:** Beatriz Costa 
 
------
+
 
 ### Responsabilidades
 
