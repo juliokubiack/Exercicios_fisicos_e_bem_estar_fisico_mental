@@ -294,128 +294,187 @@ footer {
 
 
 /*===SEGUNDA PAGINA INICIO ===*/
+html {
+    font-family: Inter, sans-serif;;
+}
+html {
+  font-size: clamp(0.9rem, calc(0.5rem + 0.6vw), 1.2rem);
+  font-family: "Mulish", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #252b42;
+  
+}
+
 body {
-    background-color: #E6E5E5;
+  background-color: #E6E5E5;
 }
 
 /* ===== cores base ===== */
 :root {
-    --azul: #4a90d9;
-    --azul-escuro: #2f6fb0;
-    --azul-claro: #eaf3fb;
-    --azul-footer: #5b93c5;
-    --verde-claro: #d9f0e6;
-    --cinza-texto: #6b7280;
-    --texto-principal: #252b42;
+  --azul: #4a90d9;
+  --azul-escuro: #2f6fb0;
+  --azul-claro: #eaf3fb;
+  --azul-footer: #5b93c5;
+  --verde-claro: #d9f0e6;
+  --cinza-texto: #6b7280;
+  --texto-principal: #252b42;
 }
 
-
-
-li.segunda {
-
-    background-color: rgba(73, 136, 196, 0.73);
-    border-radius: 20px;
-    font-size: 15px;
-
-
-
+/* ===== header ===== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vw 5vw;
+  border-bottom: 1px solid #cccccc;
 }
 
+.logo-circle {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: var(--azul);
+}
 
+header nav ul {
+  display: flex;
+  gap: 2vw;
+  font-size: 0.9rem;
+}
+
+header nav ul li a {
+  color: var(--texto-principal);
+  font-weight: 500;
+}
+
+header nav ul li a.ativo {
+  color: var(--azul);
+  font-weight: 700;
+}
+
+.header-icones {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-icones .avatar {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background-color: #E6E5E5;
+  display: inline-block;
+}
+
+.sino img {
+  width: 27px;
+  height: auto;
+}
+header {
+    background-color: #E6E5E5;
+}
 main section.comeco {
     display: flex;
     background-color: #E6E5E5;
 }
-
 section.comeco img {
     max-width: 80%;
 }
-
 section.comeco h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 5vw 0 0 5vw;
 }
-
 section.comeco h2 span {
     font-weight: 800;
 }
-
 section.comeco p {
     padding: 5vw 0vw 0vw 10vw;
     width: 300px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
-
 section.diferenciais h3 {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding: 8vw;
 }
-
 section.diferenciais h3 span {
     font-weight: 600;
 }
-
-section.diferenciais div.peso img {
-    max-width: 10%;
-    padding: 0vw 0vw 0vw 10vw;
+section.diferenciais ul li img {
+    max-width: 70%;
 }
-
-section.diferenciais div.peso h4 {
+section.diferenciais ul li {
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding: 0vw 0vw 0vw 8vw;
 }
-
-section.diferenciais div.peso p {
+section.diferenciais ul li {
     max-width: 200px;
     padding: 1vw 0vw 0vw 10vw;
 }
-
-section.diferenciais div.relogio img {
-    max-width: 10%;
-    padding: 0vw 0vw 0vw 10vw;
+section.diferenciais ul {
+    display: flex;
+    padding: 0vw 0vw 3vw 5vw;
 }
-
-section.diferenciais div.relogio h4 {
-    font-weight: 600;
-    font-size: 1.4rem;
-    padding: 0vw 0vw 0vw 8vw;
+section.diferenciais  h4 {
+    font-weight: 700;
+    padding-bottom: 3vw;
 }
-
-section.diferenciais div.relogio p {
+section.diferenciais p {
+    max-width: 250px;
+}
+.item {
+    display: flex;
+    padding: 3vw 2vw 0vw 4vw;
+    position: relative;
+    bottom: 3.7vw;
+}
+section.beneficios .texto {
     max-width: 200px;
-    padding: 1vw 0vw 0vw 10vw;
+    font-size: 1.3rem;
 }
+.numero {
+    margin: 0vw 8vw;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    position: relative;
 
-section.diferenciais div.andar img {
-    max-width: 10%;
-    padding: 0vw 0vw 0vw 10vw;
 }
-
-section.diferenciais div.andar h4 {
-    font-weight: 600;
-    font-size: 1.4rem;
-    padding: 0vw 0vw 0vw 8vw;
-}
-
-section.diferenciais div.andar p {
+section.beneficios h2 {
+    font-weight: 700;
+    font-size: 4.3rem;
     max-width: 200px;
-    padding: 1vw 0vw 0vw 10vw;
-}
+    padding: 6vw 5vw 4vw 15vw;
 
-section.diferenciais div.mente img {
-    max-width: 10%;
-    padding: 0vw 0vw 0vw 10vw;
 }
-
-section.diferenciais div.mente h4 {
-    font-weight: 600;
-    font-size: 1.4rem;
-    padding: 0vw 0vw 0vw 8vw;
+section.beneficios {
+    background: linear-gradient(#9bb8df 0%,
+        #C9D4FF 100%);
+        border-radius: 6%;
+        padding-bottom: 1vw;;
+        max-height: 50vw;
 }
-
-section.diferenciais div.mente p {
+section.beneficios {
+  display: flex;
+}
+section.beneficios div.imagem img {
+  max-width: 680px;
+  position: relative;
+  bottom: 2.1vw;
+}
+section.beneficios div.direitatexto {
+  margin-top: 15vw;
+}
+section.beneficios div.direitatexto h5 {
+  font-size: 2rem;
     max-width: 200px;
-    padding: 1vw 0vw 0vw 10vw;
+}
+section.beneficios div.direitatexto p {
+  font-size: 0.9rem;
+    max-width: 180px;
 }
