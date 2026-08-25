@@ -1,129 +1,151 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Be Well - Rotina</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Well - Progresso</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
   </head>
-  <body id="processo_index">
+  <body>
     <header>
       <div class="logo-circle">
-        <img src="img_exercicios/image-removebg-preview (1) 14.png" alt="logo site" />
+        <img src="Imagens/logo.png" alt="logo site">
       </div>
       <nav>
         <ul>
-          <li><a href="contate-nos_index.html">Contate-nos</a></li>
-          <li><a href="inicio_index.html">Início</a></li>
-          <li><a href="sobre-nos _index.html">Sobre nós</a></li>
-          <li><a href="rotina_index.html" class="ativo">Rotina</a></li>
-          <li><a href="exercicio_index.html">Exercícios</a></li>
-          <li><a href="processo_index.html">Progresso</a></li>
-          <li><a href="perfil_index.html">Perfil</a></li>
+          <li><a href="#">Contate-nos</a></li>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Rotina</a></li>
+          <li><a href="#">Exercícios</a></li>
+          <li><a href="#" class="ativo">Progresso</a></li>
+          <li><a href="#">Perfil</a></li>
         </ul>
       </nav>
       <div class="header-icones">
-        <span class="sino"
-          ><img src="img_sobre-nos/notifications.png" alt="sino notificações">
-        /></span>
+        <span class="sino"><img src="Imagens/notifications.svg" alt="sino notificações"></span>
         <span class="avatar"></span>
       </div>
     </header>
 
+    <main>
+<section class="inicio">
+    <h1>Acompanhe a <span>sua jornada!</span></h1>
+    <div class="card-jornada-container">
+      <div class="card-metas">
+        <h2>Suas metas para o dia:</h2>
+        <p>Complete para avançar e derrotar chefões!</p>
+
+        <div class="medalhas-conquista">
+          <img src="Imagens/medalha-um.png" alt="Medalha Bronze">
+          <img src="Imagens/medalha-dois.png" alt="Medalha Prata">
+          <img src="Imagens/medalha-tres.png" alt="Medalha Ouro">
+          <span><strong id="contador">0/3</strong> Tarefas concluídas!</span>
+        </div>
+
+        <ul class="lista-tarefas">
+          <li>
+            <input type="checkbox" id="meta1">
+            <label for="meta1">Completar estudo diario</label>
+          </li>
+          <li>
+            <input type="checkbox" id="meta2">
+            <label for="meta2">Resolver ficha de 10 min</label>
+          </li>
+          <li>
+            <input type="checkbox" id="meta3">
+            <label for="meta3">Praticar 15 min de algo</label>
+          </li>
+        </ul>
+      </div>
+      <div class="imagem-castelo">
+        <img src="Imagens/castelo.png" alt="Caminho para o castelo">
+      </div>
+
+    </div>
+  </section>
+        <section class="grafico">
+          <h2>Você está indo muito bem, <span>Nome de usuário!</span></h2>
+
+          <div style="width: 400px;">
+            <canvas id="meuGrafico"></canvas>
+          </div>
+
+          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+          
+          <div>
+              <button id="adicionar"><a href="#">Adicionar Meta</a></button>
+              <button id="remover"><a href="#">Remover Meta</a></button>
+          </div>
+        </section>
+        <section class="exercicios">
+          <h2>Prática de exercícios</h2>
+
+          <p>
+            Dicas para desenvolver resistência e bem estar no esporte/atividade física:
+          </p>
+
+          <ul>
+            <li>Sempre se mantenha constante no exercício, por mais leve que seja!</li>
+            <li>Respeite os <span>limites do seu corpo</span>, não use pesos ou realize atividades que exigem demais de você</li>
+            <li>Procure incluir exercícios simples no seu dia a dia!</li>
+            <li> Se você não tem muita experiência com esportes ou exercícios, procure realizar um desses em conjunto com outras pessoas! Isso ajuda a não te sentir sozinho!</li>
+          </ul>
+
+          <div><img src="Imagens/boneco.png" alt="imagem boneco"></div>
+        </section>
+        <section class="sono">
+          <div class="semana">
+            <h2>Você reparou no seu sono essa semana?</h2>
+          <h3>Com a correria do dia-a-dia, muitas pessoas acabam deixando seu sono em segunda mão, mas você sabe a importância dele para a sua saúde?</h3>
+          <ul>
+            <li>Melhora a memória e a aprendizagem;</li>
+            <li>Fortalece o sistema imunológico;</li>
+            <li>Reduz a chance de doenças crônicas;</li>
+          </ul>
+        </div>
+
+          <div class="regular">
+            <h2>Algumas sugestões para te ajudar a regular seu sono</h2>
+          <ul>
+            <li>Desligue as telas no mínimo <span>1 hora antes </span>de dormir</li>
+            <li>Crie um ritual do sono, para preparar seu corpo para o descanso</li>
+            <li>Deixe luzes apagadas ou baixas</li>
+            <li>Realize leituras</li>
+          </ul>
+        </div>
+        </section>
+    </main>
+   <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <div class="logo-circle">
+            <img src="Imagens/logo-escuro.png" alt="logo site">
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#">Contate-nos</a>
+          <a href="#">Início</a>
+          <a href="#">Sobre nós</a>
+          <a href="#">Progresso</a>
+        </div>
+        <div class="footer-copy">
+          <p>Transforme sua rotina!</p>
+          <p>Cuidar de você é o primeiro passo para uma vida leve.</p>
+        </div>
+        <div class="footer-redes">
+          <a href="#"><img src="Imagens/facebook.svg" alt="Facebook"></a>
+          <a href="#"><img src="Imagens/tiktok.svg" alt="TikTok"></a>
+          <a href="#"><img src="Imagens/instagram.svg" alt="Instagram"></a>
+        </div>
+      </div>
+    </footer>
+      <script src="script.js"></script>
   </body>
 </html>
 
-
-
-
-Contate-nos
-Início
-Sobre nós
-Rotina
-Progresso
-Exercícios
-Contate-nos
-Início
-Sobre nós
-Sobre nós
-Rotina
-Rotina
-Exercícios
-Progresso
-Progresso
-Exercícios
-Perfil
-Contate-nos
-Início
-Acompanhe a sua jornada!
-Suas metas para o dia
-Complete para avançar e derrotar chefões!
-1/3 Tarefas concluídas! Continue dando seu melhor!
-Mínimo de 8 horas de sono
-Descanso de telas 20 minutos
-Beber 700ml de água
-Você está indo muito bem, 
-Nome de usuário!
-Seg
-Ter
-Qua
-Qui
-Sex
-Sáb
-Dom
-Com a correria do dia-a-dia, muitas pessoas acabam deixando seu sono em segunda mão, mas você sabe a importância dele para a sua saúde?
-Você reparou no seu sono essa semana?
-Algumas sugestões para te ajudar a regular seu sono
-Melhora a memória e a aprendizagem;
-
-Fortalece o sistema imunológico;
-
-Aumenta a energia e estimula a concentração;
-
-Reduz a chance de doenças crônicas;
-Desligue as telas no mínimo 1 hora antes de dormir
-
-Crie um ritual do sono, para preparar seu corpo para o descanso
-
-Deixe luzes apagadas ou baixas
-
-Realize leituras 
-80
-Você praticou exercícios 4 vezes nessa semana! Descanse bem para que seu corpo esteja preparado para os próximos!
-Seg
-Frequência de exercícios na semana:
-Ter
-Qua
-Qui
-Sex
-Sáb
-Dom
-Praticou
-Não praticou
-Prática de exercícios
-Dicas para desenvolver resistência e bem estar no esporte/atividade física:
-Sempre se mantenha constante no exercício, por mais leve que seja!
-
-Respeite os limites do seu corpo, não use pesos ou realize atividades que exigem demais de você
-
-Procure incluir exercícios simples no seu dia a dia!
-
- Se você não tem muita experiência com esportes ou exercícios, procure realizar um desses em conjunto com outras pessoas! Isso ajuda a não te sentir sozinho!
-Adicionar meta
-Remover meta
-Be
-Well
-Navegação
-Exercícios
-“A saúde não é apenas um destino a alcançar, mas uma jornada!”
-Progresso
-Rotina
-Contate-nos
-Sobre nós
+mudar o resto
