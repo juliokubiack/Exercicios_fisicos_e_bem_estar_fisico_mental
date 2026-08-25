@@ -178,6 +178,7 @@ Continuação do desenvolvimento do Projeto Integrador.
 - **Beatriz Gomes dos Santos:** Auxílio nas melhorias do protótipo no Figma.
 - **Isabela Luiza Maciel:** Sugestões e melhorias para o protótipo no Figma.
 - **Melissa:** Sugestões e melhorias para o protótipo no Figma.
+- **Vinicio Kormann** ( se integrando )
 
 ### Observações
 
@@ -217,6 +218,7 @@ Arrumar oq está acontecendo com os commits e dar continuidade com as página em
 - **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
 - **Isabela Luiza Maciel:** página em HTML e CSS (index).
 - **Melissa:** página em HTML e CSS (index).
+- - **Vinicio Kormann** ( se integrando )
 
 ---
 
@@ -251,9 +253,6 @@ esse passo apenas o aluno Julio esta fazendo por conta propria
 
 Arrumar oq está acontecendo com os commits e dar continuidade com as página em HTML e CSS (index).
 
-**Ausências:** Beatriz Costa 
-
-
 
 ### Responsabilidades
 
@@ -261,43 +260,37 @@ Arrumar oq está acontecendo com os commits e dar continuidade com as página em
 - **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
 - **Isabela Luiza Maciel:** página em HTML e CSS (index).
 - **Melissa:** página em HTML e CSS (index).
+- **Vinicio Kormann** Html
 
+# Atas 11 – Projeto Integrador (Professor Mehran) (as dos dias 11 e 18 foram apenas continuação de html todos fizeram as mesmas coisas html)
+
+**Data:** 25/08/2026
+**Coordenadora:** Beatriz Gomes
+**Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
+
+### Assunto
+
+Arrumar oque está acontecendo com os commits e dar continuidade com as página em HTML e CSS (index).
+
+### Responsabilidades
+
+- **Julio César da Silva Kubiack:** página em HTML e CSS (index).
+- **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
+- **Isabela Luiza Maciel:** página em HTML e CSS (index).
+- **Melissa:** página em HTML e CSS (index).
+- **Beatriz Costa:** página em HTML e CSS (index).
+- **Vinicio Kormann** Html
+  
 ---
 
+### Observação
 
+A seguir vai estar quais paginas cada integrante fez...
 
-/* === IMPORTAÇÃO DE FONTES */
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
-/*
-Follow - font-family: "Fredoka", sans-serif;
-Medu - Oswald
-*/
-/* ==========================*/
-
-/* ==== FORMATAÇÃO GERAL === */
-html{
-    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
-    font-family: "Epilogue", sans-serif;
-}
-h1{
-    font-family: "Nunito", sans-serif;
-}
-h2,h3,h4,h5,h6{
-    font-family: "Oswald", sans-serif;
-}
-
-
-
-
-
-/* MEDIA QUERY - DESKTOP */
-@media  screen and (min-width: 600px) {
-
-}
-
-JULIO LEMBRAR DE COLOCAR ISSO NO CSS
-
-
-
-
+- **Julio César da Silva Kubiack:** página Sobre nós
+- **Beatriz Gomes dos Santos:** página Rotina, progresso
+- **Isabela Luiza Maciel:** página Exercícios
+- **Melissa:** página Início
+- **Beatriz Costa:** página login e cadastro
+- **Vinicio Kormann** página formulário
 
