@@ -1,0 +1,273 @@
+html {
+  font-size: clamp(0.9rem, calc(0.5rem + 0.6vw), 1.2rem);
+  font-family:
+    "Mulish",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  color: #252b42;
+}
+
+body {
+  background-color: #e6e5e5;
+}
+
+/* ===== cores base ===== */
+:root {
+  --azul: #4a90d9;
+  --azul-escuro: #17436f;
+  --azul-claro: #eaf3fb;
+  --azul-footer: #5b93c5;
+  --verde-claro: #d9f0e6;
+  --cinza-texto: #6b7280;
+  --texto-principal: #252b42;
+}
+
+/* ===== header ===== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5vw 8vw;
+  border-bottom: 1px solid #cccccc;
+}
+
+.logo-circle {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: var(--azul-escuro);
+  padding: 6px 4px 1px 3px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2vw;
+  font-size: 0.9rem;
+}
+
+header nav ul li a {
+  color: var(--texto-principal);
+  font-weight: 500;
+}
+
+header nav ul li a.ativo {
+  color: var(--azul);
+  font-weight: 700;
+}
+
+.header-icones {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-icones .avatar {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: inline-block;
+}
+
+.sino img {
+  width: 27px;
+  height: auto;
+}
+
+/* === banner === */
+main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+.banner {
+  display: flex;
+  padding: 3vw 8vw 0;
+  align-items: center;
+}
+.banner h1 {
+  font-size: 4rem;
+}
+.banner p {
+  font-size: 1rem;
+}
+.banner img {
+  width: 40%;
+}
+
+/* === formulario === */
+
+.form p.caixa {
+  background-color: #d9d9d9;
+  border-radius: 8px;
+  margin: 2vw 8vw;
+  padding: 15px 0 20px 20px;
+}
+.form label.s-radio {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.form input {
+  font-size: 1rem;
+  border-bottom: 3px solid #a0c4e8;
+}
+form .prgt-normal {
+  display: inline-block;
+  width: 35%;
+}
+.retorno-box {
+  background-color: #d9d9d9;
+  border-radius: 8px;
+  margin: 2vw 8vw;
+  padding: 15px 20px 20px 20px;
+  color: #333;
+  box-shadow: none;
+}
+
+.pergunta {
+  margin: 0 0 16px 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #252b42;
+}
+
+.opcoes {
+  display: flex;
+  gap: 40px;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+/* Linha azul embaixo das opções */
+.opcoes::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color:#a0c4e8;
+  border-radius: 1px;
+  width: 35%
+}
+
+.opcao {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #333;
+  user-select: none;
+}
+
+/* Esconde o radio nativo */
+.opcao input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Círculo do radio */
+.radio-custom {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #888;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  flex-shrink: 0;
+  transition: border-color 0.2s;
+}
+
+/* Bolinha quando selecionado */
+.opcao input[type="radio"]:checked + .radio-custom {
+  border-color: #5b9bd5;
+}
+
+.opcao input[type="radio"]:checked + .radio-custom::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: #5b9bd5;
+  border-radius: 50%;
+}
+
+/* Botão enviar */
+.btn-enviar {
+  display: inline-block;
+  margin: 1.5rem 8vw 0;
+  background-color: #5b9bd5;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding: 0.8rem 2.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family: inherit;
+  box-shadow: none;
+}
+
+.btn-enviar:hover {
+  background-color: #4a8bc4;
+}
+
+.btn-enviar:active {
+  background-color: #3d7ab3;
+}
+/* === Footer === */
+
+footer {
+  background-color: #1c4d8d;
+  color: #ffffff;
+  padding: 2rem 8vw;
+  margin-top: 3rem;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.footer-copy p {
+  margin: 0;
+  font-size: 0.75rem;
+  opacity: 0.8;
+  font-weight: 700;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.footer-redes img {
+  width: 20px;
+  height: 20px;
+}

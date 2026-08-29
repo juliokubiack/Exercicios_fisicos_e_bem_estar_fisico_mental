@@ -29,17 +29,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3vw 5vw;
+  padding: 3vw 5vw 3vw 5vw;
   border-bottom: 1px solid #cccccc;
 }
-main{
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 1.5rem;
-}
+
 .logo-circle {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 3.5rem;
   border-radius: 50%;
   background-color: var(--azul);
 }
@@ -56,8 +51,16 @@ header nav ul li a {
 }
 
 header nav ul li a.ativo {
-  color: var(--azul);
+  color: #4988C4;
   font-weight: 700;
+}
+
+  header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vw 5vw;
+  border-bottom: 1px solid #cccccc;
 }
 
 .header-icones {
@@ -66,20 +69,17 @@ header nav ul li a.ativo {
   gap: 1rem;
 }
 
-.header-icones .avatar {
-  width: 1.8rem;
-  height: 1.8rem;
-  border-radius: 50%;
-  background-color: #E6E5E5;
-  display: inline-block;
-}
-
 .sino img {
   width: 27px;
   height: auto;
 }
-header {
-    background-color: #E6E5E5;
+
+.header-icones .avatar {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: inline-block;
 }
 main section.comeco {
     display: flex;

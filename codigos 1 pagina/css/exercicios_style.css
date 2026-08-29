@@ -1,0 +1,307 @@
+
+:root {
+  --azul: #6f8fb0;
+  --texto-principal: #1c1c1c;
+}
+
+html {
+  background-color: #e6e5e5;
+  font-family: "Instrument Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* ===== header ==== */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vw 5vw;
+  border-bottom: 1px solid #cccccc;
+}
+
+.logo-circle {
+  width: 3.5rem;
+  border-radius: 50%;
+  background-color: var(--azul);
+}
+
+header nav ul {
+  display: flex;
+  gap: 2vw;
+  font-size: 0.9rem;
+}
+
+header nav ul li a {
+  color: var(--texto-principal);
+  font-weight: 500;
+}
+
+header nav ul li a.ativo {
+  color: #4988c4;
+  font-weight: 700;
+}
+
+.header-icones {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sino img {
+  width: 27px;
+  height: auto;
+}
+
+.header-icones .avatar {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: inline-block;
+}
+
+/* ==== banner ==== */
+
+.banner {
+  padding: 4vw 3vw;
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  display: block;
+}
+
+.banner h1 {
+  font-size: 2.7vw;
+  position: absolute;
+  top: 35%;
+  left: 14%;
+  color: rgb(0, 0, 0);
+}
+
+.banner span {
+  font-weight: 600;
+}
+
+/* ==== porque ==== */
+
+.porque {
+  display: flex;
+  padding: 4vw;
+  margin-bottom: 2vw;
+}
+
+.porque .texto {
+  width: 55%;
+}
+
+.porque h2 {
+  padding: 1vw 3vw 2vw 1vw;
+  font-size: 2.8vw;
+}
+
+.porque h2 span {
+  -webkit-text-stroke: 2.5px;
+}
+
+.porque p {
+  font-size: 1.1vw;
+}
+
+.porque .img {
+  width: 45%;
+}
+
+/* ==== como começar ==== */
+
+.comecar {
+  width: 90%;
+  margin: 6vw auto 200px auto;
+  padding: 4vw 2vw;
+  background-color: #dbe4ee;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.comecar h2 {
+  font-size: 3vw;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.comecar p {
+  font-size: 1.2vw;
+  color: #333333;
+  line-height: 1.5vw;
+  margin: 2vw 2.5vw;
+}
+
+.comecar ul {
+  width: 90%;
+  list-style: none;
+  margin-left: 4vw;
+  padding: 0;
+  text-align: center;
+}
+
+.comecar ul li {
+  display: inline-block;
+  width: 40%;
+  margin: 2vw 2.5%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #c9d4e0;
+  text-align: center;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.comecar ul li img {
+  border-radius: 12px 12px 0 0;
+}
+
+.comecar ul li p {
+  padding: 1vw;
+  font-size: 1.1vw;
+  line-height: 1.4;
+  color: #393939;
+  margin: 0;
+}
+
+/* ==== categorias ==== */
+
+.categorias {
+  width: 90%;
+  margin: 6vw auto 200px auto;
+  padding: 4vw 2vw;
+  background-color: #dbe4ee;
+  border-radius: 20px;
+  color: #1c1c1c;
+}
+
+.categorias h2 {
+  text-align: center;
+  font-size: 3vw;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.categorias ul {
+  list-style: none;
+  padding: 0;
+  margin:0;
+  
+}
+
+.categorias ul li {
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #46698aab;
+  border-radius: 16px;
+  color: #ffffff;
+}
+
+.cabecalho-categoria {
+  display: flex;
+}
+
+.cabecalho-categoria img {
+  width: 47px;
+  height: 47px;
+  margin-right: 12px;
+}
+
+.cabecalho-categoria h2 {
+  font-size: 2vw;
+  margin: 0;
+  text-align: left;
+}
+
+.conteudo-categoria {
+  display: flex;
+  margin-top: 16px;
+}
+
+.conteudo-categoria img {
+  width: 160px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.conteudo-categoria p {
+  font-size: 0.9vw;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ==== footer ==== */
+
+footer {
+  background-color: #1c4d8d;
+  color: #ffffff;
+  padding: 2rem 5%;
+  margin-top: 3rem;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.logo-circle-footer {
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.logo-circle-footer img {
+  width: 40px;
+  margin-top: 10px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.footer-copy p {
+  margin: 0;
+  font-size: 0.75rem;
+  opacity: 0.8;
+  font-weight: 700;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.footer-redes img {
+  width: 20px;
+  height: 20px;
+}
