@@ -149,8 +149,8 @@ section.beneficios .texto {
 
 .numero {
     margin: 0vw 2vw;
-    width: 170px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     background-color: #ffffff;
     border-radius: 50%;
     display: flex;
@@ -178,9 +178,9 @@ section.beneficios {
   display: flex;
 }
 section.beneficios div.imagem img {
-  max-width: 528px;
+  max-width: 28vw;
   position: relative;
-  bottom: 1.25vw;
+  bottom: 2vw;
 }
 section.beneficios div.direitatexto {
   margin-top: 10vw;
