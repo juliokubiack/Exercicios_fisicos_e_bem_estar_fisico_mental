@@ -294,3 +294,27 @@ A seguir vai estar quais paginas cada integrante fez...
 - **Beatriz Costa:** página login e cadastro
 - **Vinicio Kormann** página formulário
 
+# Atas 12 – Projeto Integrador (Professor Mehran) 
+
+**Data:** 29/08/2026
+**Coordenadora:** Beatriz Gomes
+**Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
+
+### Assunto
+
+Arrumar oque está acontecendo com os commits e dar continuidade com as página em HTML e CSS (index).
+
+### Responsabilidades
+
+- **Julio César da Silva Kubiack:** página em HTML e CSS (index).
+- **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
+- **Isabela Luiza Maciel:** página em HTML e CSS (index).
+- **Melissa:** página em HTML e CSS (index).
+- **Beatriz Costa:** página em HTML e CSS (index).
+- **Vinicio Kormann** Html
+  
+---
+
+### Observação
+
+Sabado Letivo
