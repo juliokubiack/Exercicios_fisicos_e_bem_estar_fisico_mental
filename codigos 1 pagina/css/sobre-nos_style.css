@@ -102,7 +102,6 @@ header nav ul li a.ativo {
   background-color: #d9d9d9;
   display: inline-block;
 }
-
 /* Menu */
 .comandos {
     display: flex;
@@ -264,5 +263,46 @@ img.estudo {
 
 /*===FOOTER===*/
 footer {
-    background-color: rgba(28, 77, 141, 1);
+  background-color: #1C4D8D;
+  color: #ffffff;
+  padding: 2rem 5%;
+  margin-top: 3rem;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.footer-copy p {
+  margin: 0;
+  font-size: 0.75rem;
+  opacity: 0.8;
+  font-weight: 700;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.footer-redes img {
+  width: 20px;
+  height: 20px;
 }
