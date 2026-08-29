@@ -1,0 +1,191 @@
+
+
+/*===PAGINA  PROGRESSO===*/
+
+
+/* ===== Base e Variaveis ===== */
+html {
+  font-size: 16px;
+  font-family: "Mulish", system-ui, -apple-system, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #e8e9eb;
+}
+
+:root {
+  --azul-principal: #1c4d8d;
+  --azul-medio: #4988c4;
+  --azul-claro: #d9e6f2;
+  --azul-fundo-card: #e4eef7;
+  --azul-escuro-footer: #153966;
+  --texto-escuro: #252b42;
+  --texto-cinza: #555555;
+}
+
+/* ===== header ===== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vw 5vw 3vw 5vw;
+  border-bottom: 1px solid #cccccc;
+}
+
+.logo-circle {
+  width: 3.5rem;
+  border-radius: 50%;
+  background-color: var(--azul);
+}
+
+header nav ul {
+  display: flex;
+  gap: 2vw;
+  font-size: 0.9rem;
+}
+
+header nav ul li a {
+  color: var(--texto-principal);
+  font-weight: 500;
+}
+
+header nav ul li a.ativo {
+  color: #4988C4;
+  font-weight: 700;
+}
+
+  header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vw 5vw;
+  border-bottom: 1px solid #cccccc;
+}
+
+.header-icones {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sino img {
+  width: 27px;
+  height: auto;
+}
+
+.header-icones .avatar {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: inline-block;
+}
+
+/* ===== Main e Seções ===== */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* Seção Início */
+section.inicio {
+  margin-bottom: 2.5rem;
+}
+
+.card-jornada-container {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.imagem-castelo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+section.inicio div.medalhas-conquista img{
+  width: 2.5rem;
+}
+
+.card-metas {
+  position: relative;
+  z-index: 2;
+  background-color: #eeeeee;
+  padding: 24px;
+  border-radius: 16px;
+  width: 340px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+canvas {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* ==== footer ==== */
+
+footer {
+  background-color: #1C4D8D;
+  color: #ffffff;
+  padding: 2rem 5%;
+  margin-top: 3rem;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.footer-copy p {
+  margin: 0;
+  font-size: 0.75rem;
+  opacity: 0.8;
+  font-weight: 700;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.footer-redes img {
+  width: 20px;
+  height: 20px;
+}
+
+section.inicio h1{
+  font-size: 1.5vw;
+  padding: 8px 1vw;
+}
+
+section.inicio h1 span{
+  font-weight: 700;
+}
