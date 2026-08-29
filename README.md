@@ -3,7 +3,9 @@
 # Ata 1 – Projeto Integrador (Professor Mehran)
 
 **Data:** 02/06/2026
+
 **Coordenadora:** Beatriz Gomes
+
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
 ### Assunto
@@ -15,10 +17,15 @@ Organização das funções e distribuição das tarefas entre os integrantes do
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** Realizar pesquisas aprofundadas sobre possíveis conteúdos para o site.
+
 - **Beatriz Gomes dos Santos:** Pesquisar temas e conteúdos que poderão ser utilizados no projeto.
+
 - **Beatriz Costa:** Desenvolver a estrutura inicial do site (wireframe), propondo ideias para as páginas.
+
 - **Isabela Luiza Maciel:** Auxiliar na elaboração da estrutura do site e sugerir ideias para as páginas.
+
 - **Melissa:** Buscar vídeos e outras fontes de mídia para utilização no projeto.
+
 - **Todos os integrantes:** Contribuir com sugestões de layout, design e melhorias para o desenvolvimento do site.
 
 ---
@@ -26,7 +33,9 @@ Organização das funções e distribuição das tarefas entre os integrantes do
 # Ata 2 – Projeto Integrador (Professor Mehran)
 
 **Data:** 09/06/2026
+
 **Coordenadora:** Beatriz Gomes
+
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
 ### Assunto
@@ -38,9 +47,13 @@ Discussão sobre o desenvolvimento do Figma e organização das pesquisas.
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** Continuação das pesquisas sobre os conteúdos do site.
+
 - **Beatriz Gomes dos Santos:** Continuação das pesquisas dos conteúdos.
+
 - **Beatriz Costa:** Desenvolvimento do projeto no Figma.
+
 - **Isabela Luiza Maciel:** Organização das páginas, imagens e vídeos.
+
 - **Melissa:** Pesquisa de vídeos e demais mídias.
 
 ---
@@ -48,7 +61,9 @@ Discussão sobre o desenvolvimento do Figma e organização das pesquisas.
 # Ata 3 – Projeto Integrador (Professor Mehran)
 
 **Data:** 16/06/2026
+
 **Coordenadora:** Beatriz Gomes
+
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
 ### Assunto
@@ -60,8 +75,11 @@ Andamento do Figma e elaboração dos textos do site.
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** Continuação das pesquisas.
+
 - **Beatriz Gomes dos Santos:** Produção dos textos e pesquisa de modelos de wireframe.
+
 - **Isabela Luiza Maciel:** Organização das páginas, imagens e vídeos.
+
 - **Melissa:** Pesquisa de vídeos e fontes de mídia.
 
 ### Observações
@@ -73,7 +91,9 @@ Mesmo ausente, **Beatriz Costa** continuou responsável pelo desenvolvimento pri
 # Ata 4 – Projeto Integrador (Professor Mehran)
 
 **Data:** 23/06/2026
+
 **Coordenadora:** Beatriz Gomes
+
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
 ### Assunto
@@ -85,8 +105,11 @@ Desenvolvimento do Figma e início da programação da página **index.html**.
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** Desenvolvimento do Figma e da página **index.html**.
+
 - **Beatriz Gomes dos Santos:** Auxílio no desenvolvimento do Figma.
+
 - **Isabela Luiza Maciel:** Desenvolvimento do Figma.
+
 - **Melissa:** Desenvolvimento do Figma.
 
 ---
@@ -94,7 +117,9 @@ Desenvolvimento do Figma e início da programação da página **index.html**.
 # Ata 5 – Projeto Integrador (Professor Mehran)
 
 **Data:** 30/06/2026
+
 **Coordenadora:** Beatriz Gomes
+
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
 ### Assunto
@@ -106,8 +131,11 @@ Continuação do desenvolvimento do Figma, das páginas do site e organização 
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** Organização e atualização do GitHub.
+
 - **Beatriz Gomes dos Santos:** Desenvolvimento das páginas no Figma.
+
 - **Isabela Luiza Maciel:** Desenvolvimento das páginas no Figma.
+
 - **Melissa:** Desenvolvimento das páginas no Figma.
 
 ---
@@ -115,7 +143,9 @@ Continuação do desenvolvimento do Figma, das páginas do site e organização 
 # Ata 6 – Projeto Integrador (Professor Mehran)
 
 **Data:** 07/07/2026
+
 **Coordenadora:** Beatriz Gomes
+
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
 ### Assunto
@@ -129,9 +159,13 @@ Nesta reunião foi realizada a preparação para a **primeira avaliação parcia
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** Organização do GitHub.
+
 - **Beatriz Gomes dos Santos:** Sugestões e melhorias para o Figma.
+
 - **Beatriz Costa:** Finalização da versão definitiva do Figma.
+
 - **Isabela Luiza Maciel:** Sugestões e melhorias para o Figma.
+
 - **Melissa:** Sugestões e melhorias para o Figma.
 
 ---
@@ -139,7 +173,9 @@ Nesta reunião foi realizada a preparação para a **primeira avaliação parcia
 # Ata 7 – Projeto Integrador (Professor Mehran)
 
 **Data:** 14/07/2026
+
 **Coordenadora:** Beatriz Gomes
+
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
 ### Assunto
@@ -149,14 +185,18 @@ Continuação do projeto e integração de um novo integrante ao grupo.
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** Organização e manutenção do GitHub.
+
 - **Beatriz Gomes dos Santos:** Auxílio nas melhorias do Figma.
+
 - **Beatriz Costa:** Finalização do layout do Figma.
+
 - **Isabela Luiza Maciel:** Sugestões para o Figma.
+
 - **Melissa:** Sugestões para o Figma.
 
 ### Observações
 
-O aluno **Vinicio Kormann** passou a integrar a equipe. Durante a reunião, foram apresentados o andamento do Projeto Integrador, os objetivos do site e as atividades já realizadas. Neste primeiro momento, o novo integrante está se familiarizando com o projeto. Suas responsabilidades serão definidas nas próximas reuniões, conforme o avanço das atividades.
+O aluno **Vinicios Korman** passou a integrar a equipe. Durante a reunião, foram apresentados o andamento do Projeto Integrador, os objetivos do site e as atividades já realizadas. Neste primeiro momento, o novo integrante está se familiarizando com o projeto. Suas responsabilidades serão definidas nas próximas reuniões, conforme o avanço das atividades.
 
 ---
 
@@ -165,7 +205,9 @@ O aluno **Vinicio Kormann** passou a integrar a equipe. Durante a reunião, fora
 ## Fora da sala
 
 **Data:** 15/07/2026
+
 **Coordenadora:** Beatriz Gomes
+
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
 ### Assunto
@@ -175,10 +217,14 @@ Continuação do desenvolvimento do Projeto Integrador.
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** Organização e manutenção do repositório no GitHub, além do desenvolvimento da primeira página em HTML e CSS (index).
+
 - **Beatriz Gomes dos Santos:** Auxílio nas melhorias do protótipo no Figma.
+
 - **Isabela Luiza Maciel:** Sugestões e melhorias para o protótipo no Figma.
+
 - **Melissa:** Sugestões e melhorias para o protótipo no Figma.
-- **Vinicio Kormann** ( se integrando )
+
+- **Vinicios Korman** (se integrando)
 
 ### Observações
 
@@ -191,42 +237,53 @@ Neste dia, os integrantes do grupo se reuniram fora da sala de aula para dar con
 ## Fora da sala
 
 **Data:** 16/07/2026 ao dia 03/08/2026
+
 **Coordenadora:** Beatriz Gomes
+
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
 ### Responsabilidades
 
-- **Julio César  da Silva Kubiack:** desenvolvimento da primeira página em HTML e CSS (index).
+- **Julio César da Silva Kubiack:** desenvolvimento da primeira página em HTML e CSS (index).
 
 ---
 
 # Ata 9 – Projeto Integrador (Professor Mehran)
 
 **Data:** 04/08/2026
+
 **Coordenadora:** Beatriz Gomes
+
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
 ### Assunto
 
-Arrumar oq está acontecendo com os commits e dar continuidade com as página em HTML e CSS (index).
+Arrumar o que está acontecendo com os commits e dar continuidade com as páginas em HTML e CSS (index).
 
-**Ausências:** Beatriz Costa .
+**Ausências:** Beatriz Costa.
 
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** página em HTML e CSS (index).
+
 - **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
+
 - **Isabela Luiza Maciel:** página em HTML e CSS (index).
+
 - **Melissa:** página em HTML e CSS (index).
-- - **Vinicio Kormann** ( se integrando )
+
+- **Vinicios Korman** (se integrando)
 
 ---
+
 
 
 # Ata 9.1 – Projeto Integrador (Professor Mehran)
 
 **Data:** 07/08/2026
+
 **Coordenadora:** Beatriz Gomes
+
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
 ### Assunto
@@ -235,7 +292,7 @@ Aprender e executar banco de dados
 
 ### Observação
 
-esse passo apenas o aluno Julio esta fazendo por conta propria 
+Esse passo apenas o aluno Julio está fazendo por conta própria
 
 ### Responsabilidades
 
@@ -246,75 +303,125 @@ esse passo apenas o aluno Julio esta fazendo por conta propria
 # Ata 10 – Projeto Integrador (Professor Mehran)
 
 **Data:** 11/08/2026
+
 **Coordenadora:** Beatriz Gomes
+
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
 ### Assunto
 
-Arrumar oq está acontecendo com os commits e dar continuidade com as página em HTML e CSS (index).
+Arrumar o que está acontecendo com os commits e dar continuidade com as páginas em HTML e CSS (index).
+
 
 
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** página em HTML e CSS (index).
+
 - **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
+
 - **Isabela Luiza Maciel:** página em HTML e CSS (index).
+
 - **Melissa:** página em HTML e CSS (index).
-- **Vinicio Kormann** Html
+
+- **Vinicios Korman** Html
 
 # Atas 11 – Projeto Integrador (Professor Mehran) (as dos dias 11 e 18 foram apenas continuação de html todos fizeram as mesmas coisas html)
 
 **Data:** 25/08/2026
+
 **Coordenadora:** Beatriz Gomes
+
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
 ### Assunto
 
-Arrumar oque está acontecendo com os commits e dar continuidade com as página em HTML e CSS (index).
+Arrumar o que está acontecendo com os commits e dar continuidade com as páginas em HTML e CSS (index).
 
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** página em HTML e CSS (index).
+
 - **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
+
 - **Isabela Luiza Maciel:** página em HTML e CSS (index).
+
 - **Melissa:** página em HTML e CSS (index).
+
 - **Beatriz Costa:** página em HTML e CSS (index).
-- **Vinicio Kormann** Html
-  
+
+- **Vinicios Korman** Html
+
 ---
 
 ### Observação
 
 A seguir vai estar quais paginas cada integrante fez...
 
-- **Julio César da Silva Kubiack:** página Sobre nós
-- **Beatriz Gomes dos Santos:** página Rotina, progresso
-- **Isabela Luiza Maciel:** página Exercícios
-- **Melissa:** página Início
-- **Beatriz Costa:** página login e cadastro
-- **Vinicio Kormann** página formulário
+- **Julio César da Silva Kubiack:** página Sobre nós 
 
-# Atas 12 – Projeto Integrador (Professor Mehran) 
+- **Beatriz Gomes dos Santos:** página Rotina, progresso
+
+- **Isabela Luiza Maciel:** página Exercícios
+
+- **Melissa:** página Início
+
+- **Beatriz Costa:** página login 
+
+- **Vinicios Korman** página formulário
+
+# Atas 12 – Projeto Integrador (Professor Mehran)
 
 **Data:** 29/08/2026
+
 **Coordenadora:** Beatriz Gomes
+
 **Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
 
 ### Assunto
 
-Arrumar oque está acontecendo com os commits e dar continuidade com as página em HTML e CSS (index).
+Arrumar o que está acontecendo com os commits e dar continuidade com as páginas em HTML e CSS (index).
 
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** página em HTML e CSS (index).
+
 - **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
+
 - **Isabela Luiza Maciel:** página em HTML e CSS (index).
+
 - **Melissa:** página em HTML e CSS (index).
+
 - **Beatriz Costa:** página em HTML e CSS (index).
-- **Vinicio Kormann** Html
-  
+
+- **Vinicios Korman** Html e CSS
+
 ---
 
 ### Observação
 
-Sabado Letivo
+Sábado Letivo
+
+# Atas 12.1 – Projeto Integrador (Professor Mehran)
+
+### Observação
+
+Nesta ata, o secretário do trabalho irá falar sobre o que foi feito até hoje.
+
+Eu, Julio Kubiack, usei IA para arrumar as atas no dia 29/08/2026, com o objetivo de deixar tudo organizado, sem nenhum erro de digitação ou de síntese. Com isso, algumas coisas que foram arrumadas nos dias anteriores podem ter perdido seu principal objetivo, que é mostrar por que cada coisa foi feita.
+
+Com isso, agora irei falar sobre o que foi feito durante essas 12 atas a seguir.
+
+Nas atas, foi dito que a aluna Beatriz Costa fez o Figma e que as alunas auxiliaram ela. Porém, o que realmente aconteceu foi que as alunas Melissa, Beatriz Gomes e Isabela Maciel fizeram todo o Figma. Beatriz Costa também ajudou no Figma, porém sua participação foi mais como auxílio do que como responsável pelo desenvolvimento.
+
+A aluna Beatriz Costa, que esteve presente auxiliando no projeto, também fez, com seu auxílio, a página de login.
+
+A aluna Isabela Maciel esteve presente fazendo o Figma e a página de exercícios.
+
+A aluna Melissa esteve presente na elaboração do Figma e fez a página inicial.
+
+A aluna Beatriz Gomes atuou na formação do Figma e no desenvolvimento das páginas Progresso e Rotina.
+
+O aluno Vinicios Korman, que entrou no grupo no meio do projeto, deu sua opinião sobre o Figma e fez a página Contate-nos.
+
+O aluno Julio Kubiack atuou na parte de ensinar aos alunos um pouco sobre o GitHub, transmitindo seus conhecimentos aos demais integrantes. Também fez a página Sobre Nós, juntou e arrumou as páginas dos outros alunos e auxiliou e ajudou no Figma.
