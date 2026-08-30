@@ -1,4 +1,120 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+/*
+Follow - font-family: "Fredoka", sans-serif;
+Medu - Oswald
+*/
+/* ==========================*/
 
+/* ==== FORMATAÇÃO GERAL === */
+html {
+  font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+  font-family:
+    "Mulish",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  color: #252b42;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Nunito", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+
+}
+body {
+    background-color: #e6e5e5;
+  }
+   /* ===== cores base ===== */
+  :root {
+    --azul: #4a90d9;
+    --azul-escuro: #17436f;
+    --azul-claro: #eaf3fb;
+    --azul-footer: #5b93c5;
+    --verde-claro: #d9f0e6;
+    --cinza-texto: #6b7280;
+    --texto-principal: #252b42;
+  }
+
+
+
+
+  /* ===== header ===== */
+  header {
+
+
+        align-items: center;
+        justify-content: space-between;
+        padding: 3vw 5vw 3vw 5vw;
+        border-bottom: 1px solid #cccccc;
+    }
+.logo-circle {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+  header nav ul {
+    font-size: 0.9rem;
+  }
+
+  header nav ul li a {
+    color: var(--texto-principal);
+    font-weight: 500;
+  }
+
+  header nav ul li a.ativo {
+    color: #4988C4;
+    font-weight: 700;
+  }
+
+  header {
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 5vw;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  .header-icones {
+    align-items: center;
+  }
+
+  .sino img {
+    width: 27px;
+    height: auto;
+  }
+
+  .header-icones .avatar {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: inline-block;
+  }
+
+
+
+
+
+
+
+
+
+
+  
+/*FAZER PARA O CELULAR...*/
+
+/* MEDIA QUERY - DESKTOP */
+@media screen and (min-width: 600px) {
 /* ===== Base e Variaveis ===== */html {
     font-size: 16px;
     font-family: "Mulish", system-ui, -apple-system, sans-serif;
@@ -373,4 +489,4 @@ footer {
 .footer-redes img {
     width: 20px;
     height: 20px;
-}
+}}
