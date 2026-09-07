@@ -122,29 +122,34 @@ header {
 /* MEDIA QUERY - DESKTOP */
 @media screen and (min-width: 600px) {
     /*===GERAL TODOS VÃO TER O MESMO TIPO ===*/
-    html {
-        font-family: Inter, sans-serif;
-        ;
-
-        background-color: rgba(230, 229, 229, 1);
-    }
-
-    html {
+   html {
+        text-align: left;
         font-size: clamp(0.9rem, calc(0.5rem + 0.6vw), 1.2rem);
-        font-family: "Mulish", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        font-family:
+            "Mulish",
+            system-ui,
+            -apple-system,
+            BlinkMacSystemFont,
+            sans-serif;
         color: #252b42;
     }
 
-
-    /*===OS H2 TODOS VÃO TER O MOSMO TIPO DE MODELO OS QUE NAO TIVEREM VAI SER COLOCADO UMA CLASSE NELES === */
-    /*===NO SOBRE-NOS TEM 3===*/
-    h2 {
-        font-size: 5vw;
-        padding: 5vw;
+    body {
+        background-color: #e6e5e5;
     }
 
+    /* ===== cores base ===== */
+    :root {
+        --azul: #4a90d9;
+        --azul-escuro: #17436f;
+        --azul-claro: #eaf3fb;
+        --azul-footer: #5b93c5;
+        --verde-claro: #d9f0e6;
+        --cinza-texto: #6b7280;
+        --texto-principal: #252b42;
+    }
 
-    /* ===== Base e Variaveis ===== */
+    /* ===== header ===== */
     header {
         display: flex;
         align-items: center;
@@ -153,7 +158,11 @@ header {
         border-bottom: 1px solid #cccccc;
     }
 
-    .logo-circle {
+    img.logo-circle {
+        width: 50%;
+    }
+
+    img.logo-circle-fim {
         width: 3.5rem;
         border-radius: 50%;
         background-color: var(--azul);
@@ -190,7 +199,7 @@ header {
     }
 
     .sino img {
-        width: 27px;
+        width: 1.8rem;
         height: auto;
     }
 
@@ -201,7 +210,6 @@ header {
         background-color: #d9d9d9;
         display: inline-block;
     }
-
     /* Menu */
     .comandos {
         display: flex;
