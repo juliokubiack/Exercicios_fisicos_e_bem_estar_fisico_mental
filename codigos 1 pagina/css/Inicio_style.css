@@ -8,19 +8,23 @@ Medu - Oswald
 
 /* ==== FORMATAÇÃO GERAL === */
 html {
-  font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
-  font-family:
-    "Mulish",
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
-  color: #252b42;
-  text-align: center;
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+}
+
+html {
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+    font-family:
+        "Mulish",
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        sans-serif;
+    color: #252b42;
+    text-align: center;
 }
 
 h1 {
-  font-family: "Nunito", sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 h2,
@@ -28,14 +32,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Oswald", sans-serif;
+    font-family: "Oswald", sans-serif;
 
 }
+
 body {
     background-color: #e6e5e5;
-  }
-   /* ===== cores base ===== */
-  :root {
+}
+
+/* ===== cores base ===== */
+:root {
     --azul: #4a90d9;
     --azul-escuro: #17436f;
     --azul-claro: #eaf3fb;
@@ -43,65 +49,65 @@ body {
     --verde-claro: #d9f0e6;
     --cinza-texto: #6b7280;
     --texto-principal: #252b42;
-  }
-
-
-
-
-  /* ===== header ===== */
-  header {
-
-
-        align-items: center;
-        justify-content: space-between;
-        padding: 3vw 5vw 3vw 5vw;
-        border-bottom: 1px solid #cccccc;
-    }
-.logo-circle {
-    width: 20%;
-    display: block;
-    margin: 0 auto;
 }
 
-  header nav ul {
-    font-size: 0.9rem;
-  }
 
-  header nav ul li a {
+
+
+/* ===== header ===== */
+header {
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 5vw 3vw 5vw;
+    border-bottom: 1px solid #cccccc;
+}
+
+img.logo-circle {
+    display: block;
+    text-align: center;
+}
+
+header img {
+    width: 20%;
+}
+
+header nav ul {
+    font-size: 0.9rem;
+}
+
+header nav ul li a {
     color: var(--texto-principal);
     font-weight: 500;
-  }
+}
 
-  header nav ul li a.ativo {
+header nav ul li a.ativo {
     color: #4988C4;
     font-weight: 700;
-  }
+}
 
-  header {
+header {
     align-items: center;
     justify-content: space-between;
     padding: 3vw 5vw;
     border-bottom: 1px solid #cccccc;
-  }
+}
 
-  .header-icones {
+.header-icones {
     align-items: center;
-  }
+}
 
-  .sino img {
+.sino img {
     width: 27px;
     height: auto;
-  }
+}
 
-  .header-icones .avatar {
+.header-icones .avatar {
     width: 1.8rem;
     height: 1.8rem;
     border-radius: 50%;
     background-color: #d9d9d9;
     display: inline-block;
-  }
-
-
+}
 
 
 
