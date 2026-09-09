@@ -98,7 +98,11 @@ header {
 .avatar img {
     width: 10%;
 }
-
+main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
 
 
 
