@@ -103,101 +103,211 @@ header {
 
 
 
+/* ================================= */
+/*        FOODER DO CELULAR         */
+/* ================================= */
+
+@media screen and (max-width: 599px) {
+
+    footer {
+        background-color: #1c4d8d;
+        color: #ffffff;
+    }
+
+
+    .footer-container {
+        max-width: 900px;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 8vw 0 0 0;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+
+    /* LOGO */
+
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logo-circle-fim {
+        width: 30%;
+        height: auto;
+    }
+
+
+    /* LINKS */
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 0.8rem;
+    }
+
+    .footer-links a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 0.85rem;
+    }
+
+
+    /* TEXTOS */
+
+    .footer-copy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 0.5rem;
+    }
+
+    .footer-copy p {
+        margin: 0;
+        font-size: 0.75rem;
+        opacity: 0.8;
+        font-weight: 700;
+        text-align: center;
+    }
+
+
+    /* REDES SOCIAIS */
+
+    .footer-redes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 1rem;
+    }
+
+    .footer-redes img {
+        width: 25px;
+        height: 25px;
+    }
+
+}
+
+.footer-redes img {
+ 
+    width: 40%;
+
+padding: 0 0 1rem 0;
+  
+}
+
+
+
 
 
 /*FAZER PARA O CELULAR...*/
 
 /* MEDIA QUERY - DESKTOP */
 @media screen and (min-width: 600px) {
-html {
-        text-align: left;
-        font-size: clamp(0.9rem, calc(0.5rem + 0.6vw), 1.2rem);
-        font-family:
-            "Mulish",
-            system-ui,
-            -apple-system,
-            BlinkMacSystemFont,
-            sans-serif;
-        color: #252b42;
-    }
+  html {
+    text-align: left;
+    font-size: clamp(0.9rem, calc(0.5rem + 0.6vw), 1.2rem);
+    font-family:
+      "Mulish",
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      sans-serif;
+    color: #252b42;
+  }
 
-    body {
-        background-color: #e6e5e5;
-    }
+  body {
+    background-color: #e6e5e5;
+  }
 
-    /* ===== cores base ===== */
-    :root {
-        --azul: #4a90d9;
-        --azul-escuro: #17436f;
-        --azul-claro: #eaf3fb;
-        --azul-footer: #5b93c5;
-        --verde-claro: #d9f0e6;
-        --cinza-texto: #6b7280;
-        --texto-principal: #252b42;
-    }
+  /* ===== cores base ===== */
+  :root {
+    --azul: #4a90d9;
+    --azul-escuro: #17436f;
+    --azul-claro: #eaf3fb;
+    --azul-footer: #5b93c5;
+    --verde-claro: #d9f0e6;
+    --cinza-texto: #6b7280;
+    --texto-principal: #252b42;
+  }
 
-    /* ===== header ===== */
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 3vw 5vw 3vw 5vw;
-        border-bottom: 1px solid #cccccc;
-    }
 
-    img.logo-circle {
-        width: 50%;
-    }
+  /* ================================= */
+  /*        HEADER DO DESKTOP         */
+  /* ================================= */
 
-    img.logo-circle-fim {
-        width: 3.5rem;
-        border-radius: 50%;
-        background-color: var(--azul);
-    }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 5vw 3vw 5vw;
+    border-bottom: 1px solid #cccccc;
+  }
 
-    header nav ul {
-        display: flex;
-        gap: 2vw;
-        font-size: 0.9rem;
-    }
+  img.logo-circle {
+    width: 50%;
+  }
 
-    header nav ul li a {
-        color: var(--texto-principal);
-        font-weight: 500;
-    }
+  img.logo-circle-fim {
+    width: 3.5rem;
+    border-radius: 50%;
+    background-color: var(--azul);
+  }
 
-    header nav ul li a.ativo {
-        color: #4988C4;
-        font-weight: 700;
-    }
+  header nav ul {
+    display: flex;
+    gap: 2vw;
+    font-size: 0.9rem;
+  }
 
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 3vw 5vw;
-        border-bottom: 1px solid #cccccc;
-    }
+  header nav ul li a {
+    color: var(--texto-principal);
+    font-weight: 500;
+  }
 
-    .header-icones {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-    }
+  header nav ul li a.ativo {
+    color: #4988C4;
+    font-weight: 700;
+  }
 
-    .sino img {
-        width: 1.8rem;
-        height: auto;
-    }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 5vw;
+    border-bottom: 1px solid #cccccc;
+  }
 
-    .header-icones .avatar {
-        width: 1.8rem;
-        height: 1.8rem;
-        border-radius: 50%;
-        background-color: #d9d9d9;
-        display: inline-block;
-    }
-  /* ==== banner ==== */
+  .header-icones {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .sino img {
+    width: 1.8rem;
+    height: auto;
+  }
+
+  .header-icones .avatar {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: inline-block;
+  }
+
+  /* ================================= */
+  /*          BANNER DO DESKTOP           */
+  /* ================================= */
 
   .banner {
     padding: 4vw 3vw;
@@ -221,7 +331,10 @@ html {
     font-weight: 600;
   }
 
-  /* ==== porque ==== */
+
+  /* ================================= */
+  /*        PORQUE   DESKTOP           */
+  /* ================================= */
 
   .porque {
     display: flex;
@@ -250,8 +363,10 @@ html {
     width: 45%;
   }
 
-  /* ==== como começar ==== */
 
+  /* ================================= */
+  /*        COMO COMEÇAR   DESKTOP           */
+  /* ================================= */
   .comecar {
     width: 90%;
     margin: 6vw auto 200px auto;
@@ -306,7 +421,10 @@ html {
     margin: 0;
   }
 
-  /* ==== categorias ==== */
+  /* ================================= */
+  /*        CATEGORIAS   DESKTOP           */
+  /* ================================= */
+
 
   .categorias {
     width: 90%;
@@ -372,7 +490,10 @@ html {
     margin: 0;
   }
 
-  /* ==== footer ==== */
+  /* ================================= */
+  /*        FOOTER   DESKTOP           */
+  /* ================================= */
+
 
   footer {
     background-color: #1c4d8d;
