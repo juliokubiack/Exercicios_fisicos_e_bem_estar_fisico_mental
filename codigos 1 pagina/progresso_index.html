@@ -1,152 +1,162 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Be Well - Progresso</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/progresso_style.css">
-    <link rel="stylesheet" href="css/reset.css">
-      <link rel="shortcut icon" href="img_sobre-nos/image-removebg-preview (1) 7.png" type="image/x-icon">
-  </head>
-  <body>
-    <header>
-      <div class="logo-circle">
-        <img src="img_progresso/logo.png" alt="logo site">
-      </div>
-      <nav>
-        <ul>
-          <li><a href="contate-nos_index.html">Contate-nos</a></li>
-          <li><a href="inicio_index.html">Início</a></li>
-          <li><a href="sobre-nos _index.html">Sobre nós</a></li>
-          <li><a href="rotina_index.html">Rotina</a></li>
-          <li><a href="exercicio_index.html">Exercícios</a></li>
-          <li><a href="progresso_index.html" class="ativo">Progresso</a></li>
 
-        </ul>
-      </nav>
-      <div class="header-icones">
-        <span class="sino"><img src="img_progresso/notifications.svg" alt="sino notificações"></span>
-        <span class="avatar"></span>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Be Well - Progresso</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/progresso_style.css">
+</head>
 
-    <main>
-<section class="inicio">
-    <h1>Acompanhe a <span>sua jornada!</span></h1>
-    <div class="card-jornada-container">
-      <div class="card-metas">
-        <h2>Suas metas para o dia:</h2>
-        <p>Complete para avançar e derrotar chefões!</p>
-
-        <div class="medalhas-conquista">
-          <img src="img_progresso/medalha-um.png" alt="Medalha Bronze">
-          <img src="img_progresso/medalha-dois.png" alt="Medalha Prata">
-          <img src="img_progresso/medalha-tres.png" alt="Medalha Ouro">
-          <span><strong id="contador">0/3</strong> Tarefas concluídas!</span>
-        </div>
-
-        <ul class="lista-tarefas">
-          <li>
-            <input type="checkbox" id="meta1">
-            <label for="meta1">Completar estudo diario</label>
-          </li>
-          <li>
-            <input type="checkbox" id="meta2">
-            <label for="meta2">Resolver ficha de 10 min</label>
-          </li>
-          <li>
-            <input type="checkbox" id="meta3">
-            <label for="meta3">Praticar 15 min de algo</label>
-          </li>
-        </ul>
-      </div>
-      <div class="imagem-castelo">
-        <img src="img_progresso/castelo.png" alt="Caminho para o castelo">
-      </div>
-
+<body>
+  <header>
+    <div class="logo-circle">
+      <img src="Imagens/logo.png" alt="logo site">
     </div>
-  </section>
-        <section class="grafico">
-          <h2>Você está indo muito bem, <span>Nome de usuário!</span></h2>
+    <nav>
+      <ul>
+        <li><a href="#">Contate-nos</a></li>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre nós</a></li>
+        <li><a href="#">Rotina</a></li>
+        <li><a href="#">Exercícios</a></li>
+        <li><a href="#" class="ativo">Progresso</a></li>
+        <li><a href="#">Perfil</a></li>
+      </ul>
+    </nav>
+    <div class="header-icones">
+      <span class="sino"><img src="Imagens/notifications.svg" alt="sino notificações"></span>
+      <span class="avatar"></span>
+    </div>
+  </header>
 
-          <div style="width: 400px;">
-            <canvas id="meuGrafico"></canvas>
+  <main>
+    <section class="inicio">
+      <h1>Acompanhe a <span>sua jornada!</span></h1>
+      <div class="card-jornada-container">
+        <div class="card-metas">
+          <h2>Suas metas para o dia:</h2>
+          <p>Complete para avançar e derrotar chefões!</p>
+
+          <div class="medalhas-conquista">
+            <img src="Imagens/medalha-um.png" id="med-1" class="medalha-img opaca" alt="Medalha Bronze">
+            <img src="Imagens/medalha-dois.png" id="med-2" class="medalha-img opaca" alt="Medalha Prata">
+            <img src="Imagens/medalha-tres.png" id="med-3" class="medalha-img opaca" alt="Medalha Ouro">
+            <span><strong id="contador">0/0</strong> Tarefas concluídas!</span>
           </div>
 
-          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-          
-          <div>
-              <button id="adicionar"><a href="#">Adicionar Meta</a></button>
-              <button id="remover"><a href="#">Remover Meta</a></button>
-          </div>
-        </section>
-        <section class="exercicios">
-          <h2>Prática de exercícios</h2>
-
-          <p>
-            Dicas para desenvolver resistência e bem estar no esporte/atividade física:
-          </p>
-
-          <ul>
-            <li>Sempre se mantenha constante no exercício, por mais leve que seja!</li>
-            <li>Respeite os <span>limites do seu corpo</span>, não use pesos ou realize atividades que exigem demais de você</li>
-            <li>Procure incluir exercícios simples no seu dia a dia!</li>
-            <li> Se você não tem muita experiência com esportes ou exercícios, procure realizar um desses em conjunto com outras pessoas! Isso ajuda a não te sentir sozinho!</li>
+          <ul class="lista-tarefas" id="lista-tarefas">
           </ul>
-
-          <div><img src="img_progresso/boneco.png" alt="imagem boneco"></div>
-        </section>
-        <section class="sono">
-          <div class="semana">
-            <h2>Você reparou no seu sono essa semana?</h2>
-          <h3>Com a correria do dia-a-dia, muitas pessoas acabam deixando seu sono em segunda mão, mas você sabe a importância dele para a sua saúde?</h3>
-          <ul>
-            <li>Melhora a memória e a aprendizagem;</li>
-            <li>Fortalece o sistema imunológico;</li>
-            <li>Reduz a chance de doenças crônicas;</li>
-          </ul>
+          <p id="sem-meta-msg" class="texto-sem-meta">Sem metas cadastradas</p>
         </div>
-
-          <div class="regular">
-            <h2>Algumas sugestões para te ajudar a regular seu sono</h2>
-          <ul>
-            <li>Desligue as telas no mínimo <span>1 hora antes </span>de dormir</li>
-            <li>Crie um ritual do sono, para preparar seu corpo para o descanso</li>
-            <li>Deixe luzes apagadas ou baixas</li>
-            <li>Realize leituras</li>
-          </ul>
+        <div class="imagem-castelo">
+          <img src="Imagens/castelo.png" alt="Caminho para o castelo">
         </div>
-        </section>
-    </main>
+      </div>
+    </section>
+
+    <section class="grafico">
+      <h2>Você está indo muito bem, <span>Nome de usuário!</span></h2>
+
+      <div class="canvas-wrapper">
+        <canvas id="meuGrafico"></canvas>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+      <div class="botoes-metas">
+        <button id="adicionar" type="button" onclick="abrirModal()">Adicionar Meta</button>
+        <button id="remover" type="button" onclick="removerMeta()">Remover Meta</button>
+      </div>
+    </section>
+
+    <section class="exercicios">
+      <div class="exercicios-texto">
+        <h2>Prática de exercícios</h2>
+        <p>Dicas para desenvolver resistência e bem estar no esporte/atividade física:</p>
+
+        <ul class="exercicios-lista">
+          <li>Sempre se mantenha constante no exercício, por mais leve que seja!</li>
+          <li>Respeite os <span>limites do seu corpo</span>, não use pesos ou realize atividades que exigem demais de
+            você</li>
+          <li>Procure incluir exercícios simples no seu dia a dia!</li>
+          <li>Se você não tem muita experiência com esportes ou exercícios, procure realizar um desses em conjunto com
+            outras pessoas! Isso ajuda a não te sentir sozinho!</li>
+        </ul>
+      </div>
+
+      <div class="exercicios-img">
+        <img src="Imagens/boneco.png" alt="imagem boneco">
+      </div>
+    </section>
+
+    <section class="sono">
+      <div class="semana">
+        <h2>Você reparou no seu sono essa semana?</h2>
+        <h3>Com a correria do dia-a-dia, muitas pessoas acabam deixando seu sono em segunda mão, mas você sabe a
+          importância dele para a sua saúde?</h3>
+        <ul>
+          <li>Melhora a memória e a aprendizagem;</li>
+          <li>Fortalece o sistema imunológico;</li>
+          <li>Reduz a chance de doenças crônicas;</li>
+        </ul>
+      </div>
+
+      <div class="regular">
+        <h2>Algumas sugestões para te ajudar a regular seu sono</h2>
+        <ul>
+          <li>Desligue as telas no mínimo <span>1 hora antes </span>de dormir</li>
+          <li>Crie um ritual do sono, para preparar seu corpo para o descanso</li>
+          <li>Deixe luzes apagadas ou baixas</li>
+          <li>Realize leituras</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <div id="modal-meta" class="modal-fundo">
+    <div class="modal-conteudo">
+      <h3>Nova Meta</h3>
+      <p>Digite a meta que deseja adicionar (Máximo 3):</p>
+      <input type="text" id="input-meta-texto" placeholder="Ex: Beber 2L de água">
+      <div class="modal-acoes">
+        <button type="button" class="btn-cancelar" onclick="fecharModal()">Cancelar</button>
+        <button type="button" class="btn-salvar" onclick="salvarMeta()">Salvar</button>
+      </div>
+    </div>
+  </div>
+
   <footer>
     <div class="footer-container">
       <div class="footer-logo">
-
-        <img src="img_progresso/logo-escuro.png" class="logo-circle-fim" alt="logo site">
-
+        <div class="logo-circle">
+          <img src="Imagens/logo-escuro.png" alt="logo site">
+        </div>
       </div>
       <div class="footer-links">
-        <a href="contate-nos_index.html" class="ativo">Contate-nos</a></li>
-        <a href="inicio_index.html">Início</a>
-        <a href="sobre-nos _index.html">Sobre nós</a>
-        <a href="rotina_index.html">Rotina</a>
-        <a href="exercicio_index.html">Exercícios</a>
-        <a href="progresso_index.html">Progresso</a>
+        <a href="#">Contate-nos</a>
+        <a href="#">Início</a>
+        <a href="#">Sobre nós</a>
+        <a href="#">Progresso</a>
       </div>
       <div class="footer-copy">
         <p>Transforme sua rotina!</p>
         <p>Cuidar de você é o primeiro passo para uma vida leve.</p>
       </div>
       <div class="footer-redes">
-        <a href="#"><img src="img_progresso/facebook.svg" alt="Facebook"></a>
-        <a href="#"><img src="img_progresso/tiktok.svg" alt="TikTok"></a>
-        <a href="#"><img src="img_progresso/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="Imagens/facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="Imagens/tiktok.svg" alt="TikTok"></a>
+        <a href="#"><img src="Imagens/instagram.svg" alt="Instagram"></a>
       </div>
     </div>
   </footer>
-      <script src="java.script/script.js"></script>
-  </body>
+
+  <script src="java.script/script.js"></script>
+</body>
+
 </html>

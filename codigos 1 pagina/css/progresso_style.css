@@ -1,322 +1,113 @@
-/* === IMPORTAÇÃO DE FONTES */
-
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
-/*
-Fontes Disponíveis:
-// Sugiro usar esta 
-font-family: "Urbanist", sans-serif; 
-font-family: "Fredoka", sans-serif;
-font-family: "Epilogue", sans-serif;
-font-family: "Nunito", sans-serif;
-font-family: "Oswald", sans-serif;
-*/
-/* ==========================*/
-
-/* ==== FORMATAÇÃO GERAL === */
+/* ===== Base e Variáveis ===== */
 html {
-    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
-}
-
-html {
-    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
-    font-family:
-        "Mulish",
-        system-ui,
-        -apple-system,
-        BlinkMacSystemFont,
-        sans-serif;
-    color: #252b42;
-    text-align: center;
-}
-
-h1 {
-    font-family: "Nunito", sans-serif;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Oswald", sans-serif;
-
+  font-size: 16px;
+  font-family: "Mulish", system-ui, -apple-system, sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #e6e5e5;
+  background-color: #e8e9eb;
+  margin: 0;
+  padding: 0;
+  color: #252b42;
 }
 
-/* ===== cores base ===== */
 :root {
-    --azul: #4a90d9;
-    --azul-escuro: #17436f;
-    --azul-claro: #eaf3fb;
-    --azul-footer: #5b93c5;
-    --verde-claro: #d9f0e6;
-    --cinza-texto: #6b7280;
-    --texto-principal: #252b42;
+  --azul-principal: #1c4d8d;
+  --azul-medio: #4988c4;
+  --azul-claro: #d9e6f2;
+  --azul-fundo-card: #e4eef7;
+  --azul-escuro-footer: #153966;
+  --texto-escuro: #252b42;
+  --texto-cinza: #555555;
 }
 
+/* ===== HEADER ===== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vw 5vw;
+  border-bottom: 1px solid #cccccc;
+  background-color: #e8e9eb;
+}
 
-
-/* ================================= */
-/*        HEADER DO CELULAR         */
-/* ================================= */
-
-
-
-header img {
-    width: 25%;
+.logo-circle {
+  width: 3.5rem;
+  border-radius: 50%;
 }
 
 header nav ul {
-    font-size: 1rem;
-    padding: 5px 0 5px 0;
+  display: flex;
+  gap: 2vw;
+  font-size: 0.9rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 header nav ul li a {
-    color: var(--texto-principal);
-    font-weight: 600;
+  color: var(--texto-escuro);
+  font-weight: 500;
+  text-decoration: none;
 }
 
 header nav ul li a.ativo {
-    color: #4988C4;
-    font-weight: 800;
-
+  color: #4988C4;
+  font-weight: 700;
 }
 
-header {
-    padding: 3vw 5vw;
-    border-bottom: 1px solid #cccccc;
+.header-icones {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
-
 
 .sino img {
-    width: 10%;
+  width: 27px;
+  height: auto;
 }
 
-.avatar img {
-    width: 10%;
+.header-icones .avatar {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: inline-block;
 }
 
-
-/* ================================= */
-/*        FOODER DO CELULAR         */
-/* ================================= */
-
-@media screen and (max-width: 599px) {
-
-    footer {
-        background-color: #1c4d8d;
-        color: #ffffff;
-    }
-
-
-    .footer-container {
-        max-width: 900px;
-        margin: 0 auto;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 8vw 0 0 0;
-        gap: 1.5rem;
-        text-align: center;
-    }
-
-
-    /* LOGO */
-
-    .footer-logo {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .logo-circle-fim {
-        width: 30%;
-        height: auto;
-    }
-
-
-    /* LINKS */
-
-    .footer-links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        gap: 0.8rem;
-    }
-
-    .footer-links a {
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 0.85rem;
-    }
-
-
-    /* TEXTOS */
-
-    .footer-copy {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        gap: 0.5rem;
-    }
-
-    .footer-copy p {
-        margin: 0;
-        font-size: 0.75rem;
-        opacity: 0.8;
-        font-weight: 700;
-        text-align: center;
-    }
-
-
-    /* REDES SOCIAIS */
-
-    .footer-redes {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        gap: 1rem;
-    }
-
-    .footer-redes img {
-        width: 25px;
-        height: 25px;
-    }
-
-}
-
-.footer-redes img {
- 
-    width: 40%;
-
-padding: 0 0 1rem 0;
-  
-}
-
-
-  
-/*FAZER PARA O CELULAR...*/
-
-/* MEDIA QUERY - DESKTOP */
-@media screen and (min-width: 600px) {
-/* ===== Base e Variaveis ===== */
-html {
-        text-align: left;
-        font-size: clamp(0.9rem, calc(0.5rem + 0.6vw), 1.2rem);
-        font-family:
-            "Mulish",
-            system-ui,
-            -apple-system,
-            BlinkMacSystemFont,
-            sans-serif;
-        color: #252b42;
-    }
-
-    body {
-        background-color: #e6e5e5;
-    }
-
-    /* ===== cores base ===== */
-    :root {
-        --azul: #4a90d9;
-        --azul-escuro: #17436f;
-        --azul-claro: #eaf3fb;
-        --azul-footer: #5b93c5;
-        --verde-claro: #d9f0e6;
-        --cinza-texto: #6b7280;
-        --texto-principal: #252b42;
-    }
-
-    /* ===== header ===== */
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 3vw 5vw 3vw 5vw;
-        border-bottom: 1px solid #cccccc;
-    }
-
-    img.logo-circle {
-        width: 50%;
-    }
-
-    img.logo-circle-fim {
-        width: 3.5rem;
-        border-radius: 50%;
-        background-color: var(--azul);
-    }
-
-    header nav ul {
-        display: flex;
-        gap: 2vw;
-        font-size: 0.9rem;
-    }
-
-    header nav ul li a {
-        color: var(--texto-principal);
-        font-weight: 500;
-    }
-
-    header nav ul li a.ativo {
-        color: #4988C4;
-        font-weight: 700;
-    }
-
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 3vw 5vw;
-        border-bottom: 1px solid #cccccc;
-    }
-
-    .header-icones {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-    }
-
-    .sino img {
-        width: 1.8rem;
-        height: auto;
-    }
-
-    .header-icones .avatar {
-        width: 1.8rem;
-        height: 1.8rem;
-        border-radius: 50%;
-        background-color: #d9d9d9;
-        display: inline-block;
-    }
-/* ===== Main e Seções ===== */
+/* ===== MAIN E ESTRUTURA GERAL ===== */
 main {
   max-width: 900px;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 2rem 1rem;
 }
 
-/* Seção Início */
+/* ===== SEÇÃO 1: HERO / BANNER COM CARD DE METAS ===== */
 section.inicio {
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+section.inicio h1 {
+  font-size: 1.8rem;
+  color: black;
+}
+
+section.inicio h1 span {
+  color: black;
+  font-weight: 750;
 }
 
 .card-jornada-container {
   position: relative;
   width: 100%;
-  min-height: 400px;
+  min-height: 580px;
   border-radius: 16px;
   overflow: hidden;
   display: flex;
   align-items: center;
-  padding: 30px;
+  padding: 40px;
+  box-sizing: border-box;
 }
 
 .imagem-castelo img {
@@ -326,35 +117,374 @@ section.inicio {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center top;
   z-index: 1;
-}
-
-section.inicio div.medalhas-conquista img{
-  width: 2.5rem;
 }
 
 .card-metas {
   position: relative;
   z-index: 2;
-  background-color: #eeeeee;
-  padding: 24px;
+  background-color: #ebebeb;
+  padding: 20px 24px;
   border-radius: 16px;
-  width: 340px;
+  width: 320px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-canvas {
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
+.card-metas h2 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 700;
 }
 
-/* ==== footer ==== */
+.card-metas p {
+  font-size: 0.8rem;
+  color: var(--texto-cinza);
+  margin: 0 0 1rem 0;
+}
 
+.medalhas-conquista {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.medalha-img {
+  width: 2rem;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+.medalha-img.opaca {
+  opacity: 0.25;
+}
+
+.medalhas-conquista span {
+  font-size: 0.75rem;
+  color: var(--texto-cinza);
+  margin-left: auto;
+  font-weight: 600;
+}
+
+.lista-tarefas {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-tarefas li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.lista-tarefas input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #bbb;
+  border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.lista-tarefas input[type="checkbox"]:hover {
+  border-color: var(--azul-principal);
+}
+
+.lista-tarefas input[type="checkbox"]:checked {
+  background-color: var(--azul-principal);
+  border-color: var(--azul-principal);
+}
+
+.lista-tarefas input[type="checkbox"]:checked::before {
+  content: '';
+  width: 4px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  margin-bottom: 2px;
+}
+
+.lista-tarefas label {
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: var(--texto-escuro);
+}
+
+.lista-tarefas input[type="checkbox"]:checked + label {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.texto-sem-meta {
+  color: #888888;
+  font-style: italic;
+  font-size: 0.85rem;
+  text-align: center;
+  margin: 1rem 0 0.5rem 0;
+}
+
+/* ===== SEÇÃO 2: GRÁFICO SEMANAL E BOTÕES ===== */
+section.grafico {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+section.grafico h2 {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+section.grafico h2 span {
+  color: black;
+  font-weight: 700;
+}
+
+.canvas-wrapper {
+  width: 100%;
+  max-width: 550px;
+  height: 260px;
+  margin-bottom: 2rem;
+}
+
+.botoes-metas {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.botoes-metas button {
+  background-color: #ebebeb;
+  color: var(--azul-principal);
+  border: 1px solid var(--azul-medio);
+  padding: 0.6rem 1.6rem;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.botoes-metas button:hover {
+  background-color: var(--azul-medio);
+  color: #ebebeb;
+}
+
+/* ===== SEÇÃO 3: PRÁTICA DE EXERCÍCIOS ===== */
+section.exercicios {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 3.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #d0d0d0;
+}
+
+.exercicios-texto {
+  flex: 1;
+  padding: 2vw 0 0 0;
+}
+
+.exercicios-texto h2 {
+  font-size: 1.4rem;
+  color: black;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+.exercicios-texto p {
+  font-size: 0.9rem;
+  color: var(--texto-cinza);
+  margin: 0 0 1.2rem 0;
+}
+
+.exercicios-lista {
+  padding-left: 1.2rem;
+  margin: 0;
+  color: var(--texto-cinza);
+  font-size: 0.88rem;
+  line-height: 1.6;
+  list-style-type: disc;
+}
+
+.exercicios-lista li {
+  margin-bottom: 0.8rem;
+}
+
+.exercicios-lista li span {
+  font-weight: 700;
+  color: var(--texto-escuro);
+}
+
+.exercicios-img {
+  flex-shrink: 0;
+}
+
+.exercicios-img img {
+  width: 15rem;
+  height: auto;
+  display: block;
+}
+
+/* ===== SEÇÃO 4: DICAS DE SONO ===== */
+section.sono {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.semana {
+  background-color: #C8D4E1;
+  padding: 1.8rem;
+  border-radius: 12px;
+}
+
+.semana h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 750;
+}
+
+.semana h3 {
+  margin-top: 1vw;
+  font-size: 0.88rem;
+  font-weight: 400;
+  color: black;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.semana ul {
+  padding-left: 1.2rem;
+  margin: 0;
+  font-size: 0.85rem;
+  color: black;
+  line-height: 1.6;
+}
+
+.regular {
+  background-color: #7DA2C5;
+  color: #ffffff;
+  padding: 1.8rem;
+  border-radius: 12px;
+}
+
+.regular h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: 750;
+}
+
+.regular ul {
+  padding-left: 1.2rem;
+  margin: 1vw;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.regular ul li span {
+  font-weight: 800;
+}
+
+/* ===== MODAL ESTILIZADO ===== */
+.modal-fundo {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-fundo.ativo {
+  display: flex;
+}
+
+.modal-conteudo {
+  background-color: #ffffff;
+  padding: 1.8rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 360px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-conteudo h3 {
+  margin-top: 0;
+  color: var(--azul-principal);
+}
+
+.modal-conteudo p {
+  font-size: 0.85rem;
+  color: var(--texto-cinza);
+}
+
+.modal-conteudo input {
+  width: 100%;
+  padding: 0.7rem;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.modal-acoes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.modal-acoes button {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-cancelar {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.btn-salvar {
+  background-color: var(--azul-medio);
+  color: #ffffff;
+}
+
+/* ===== FOOTER ===== */
 footer {
   background-color: #1C4D8D;
   color: #ffffff;
   padding: 2rem 5%;
-  margin-top: 3rem;
+  margin-top: 3.5rem;
 }
 
 .footer-container {
@@ -395,12 +525,16 @@ footer {
   height: 20px;
 }
 
-section.inicio h1{
-  font-size: 1.5vw;
-  padding: 8px 1vw;
-}
-
-section.inicio h1 span{
-  font-weight: 700;
-}
+/* Responsividade Básica */
+@media (max-width: 650px) {
+  section.exercicios {
+    flex-direction: column;
+    text-align: center;
+  }
+  .card-jornada-container {
+    padding: 20px;
+  }
+  .card-metas {
+    width: 100%;
+  }
 }
