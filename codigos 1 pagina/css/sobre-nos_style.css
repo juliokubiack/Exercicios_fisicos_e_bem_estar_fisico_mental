@@ -1,4 +1,4 @@
-/* === IMPORTAÇÃO DE FONTES */
+/* === IMPORTAÇÃO DE FONTES sobre */
 
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 /*
@@ -194,24 +194,25 @@ header {
 }
 
 .footer-redes img {
- 
+
     width: 40%;
 
-padding: 0 0 1rem 0;
-  
+    padding: 0 0 1rem 0;
+
 }
 
 
 
 
 
-  
+
 /*FAZER PARA O CELULAR...*/
 
 /* MEDIA QUERY - DESKTOP */
 @media screen and (min-width: 600px) {
+
     /*===GERAL TODOS VÃO TER O MESMO TIPO ===*/
-   html {
+    html {
         text-align: left;
         font-size: clamp(0.9rem, calc(0.5rem + 0.6vw), 1.2rem);
         font-family:
@@ -221,15 +222,39 @@ padding: 0 0 1rem 0;
             BlinkMacSystemFont,
             sans-serif;
         color: #252b42;
+      .sino img {
+        width: 1.8rem;
+        height: auto;
     }
+
+    .header-icones .avatar {
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 50%;
+        background-color: #d9d9d9;
+        display: inline-block;
+    }  }
 
     body {
         background-color: #e6e5e5;
     }
+    /*  ====================       */
+    /*      CORES BASE DO DESKTOP  */
+    /*  ====================       */
 
-    /* ===== cores base ===== */
     :root {
-        --azul: #4a90d9;
+      .sino img {
+        width: 1.8rem;
+        height: auto;
+    }
+
+    .header-icones .avatar {
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 50%;
+        background-color: #d9d9d9;
+        display: inline-block;
+    }      --azul: #4a90d9;
         --azul-escuro: #17436f;
         --azul-claro: #eaf3fb;
         --azul-footer: #5b93c5;
@@ -237,8 +262,21 @@ padding: 0 0 1rem 0;
         --cinza-texto: #6b7280;
         --texto-principal: #252b42;
     }
+    /*  ==================== */
+    /*   HEAEDER DO DESKTOP  */
+    /*  ==================== */
+    .sino img {
+        width: 1.8rem;
+        height: auto;
+    }
 
-    /* ===== header ===== */
+    .header-icones .avatar {
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 50%;
+        background-color: #d9d9d9;
+        display: inline-block;
+    }
     header {
         display: flex;
         align-items: center;
@@ -299,7 +337,10 @@ padding: 0 0 1rem 0;
         background-color: #d9d9d9;
         display: inline-block;
     }
-    /* Menu */
+    /*  ==================== */
+    /*      MENU DO DESKTOP  */
+    /*  ==================== */
+
     .comandos {
         display: flex;
         align-items: center;
@@ -312,7 +353,11 @@ padding: 0 0 1rem 0;
         font-weight: bold;
     }
 
-    /*===BODY===*/
+    /*  ==================== */
+    /*      BODY DO DESKTOP  */
+    /*  ==================== */
+
+
     .frasedaimagem img {
         padding: 1vw 15vw 5vw 5vw;
     }
@@ -348,8 +393,10 @@ padding: 0 0 1rem 0;
         padding: 1vw 2vw 5vw 1vw;
     }
 
+    /*         ================================  */
+    /*        FOTO SOBRE NÓS  DO DESKTOP         */
+    /*         ================================  */
 
-    /*===FOTO SOBRE NÓS===*/
 
 
 
@@ -388,8 +435,10 @@ padding: 0 0 1rem 0;
         font-size: 25px;
     }
 
+    /*         =================================            */
+    /*        ETAPAS DO DESENVOLVIMENTO  DO DESKTOP         */
+    /*         =================================            */
 
-    /*===Etapas do desenvolvimento===*/
 
     div.formação {
         padding: 1vw 10vw 1vw 1vw;
@@ -404,7 +453,10 @@ padding: 0 0 1rem 0;
         font-size: 40px;
     }
 
-    /*===borda e sua ligaduras===*/
+    /*         =================================        */
+    /*        BORDA E SUA LINGADURAS DO DESKTOP         */
+    /*         =================================        */
+
 
 
     div.liga {
@@ -446,7 +498,10 @@ padding: 0 0 1rem 0;
 
     }
 
-    /*===Cadastro===*/
+    /* ================================= */
+    /*        CADASTRO DO DESKTOP         */
+    /* ================================= */
+
     .entrar {
         margin: 0;
         padding: 0;
@@ -460,7 +515,9 @@ padding: 0 0 1rem 0;
 
 
 
-    /*===FOOTER===*/
+    /* ================================= */
+    /*        FOODER DO DESKTOP         */
+    /* ================================= */
     footer {
         background-color: #1C4D8D;
         color: #ffffff;
