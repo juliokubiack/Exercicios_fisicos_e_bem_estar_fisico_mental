@@ -425,3 +425,34 @@ A aluna Beatriz Gomes atuou na formação do Figma e no desenvolvimento das pág
 O aluno Vinicios Korman, que entrou no grupo no meio do projeto, deu sua opinião sobre o Figma e fez a página Contate-nos.
 
 O aluno Julio Kubiack atuou na parte de ensinar aos alunos um pouco sobre o GitHub, transmitindo seus conhecimentos aos demais integrantes. Também fez a página Sobre Nós, juntou e arrumou as páginas dos outros alunos e auxiliou e ajudou no Figma.
+
+# Atas 13 – Projeto Integrador (Professor Mehran)
+
+**Data:** 29/08/2026
+
+**Coordenadora:** Beatriz Gomes
+
+**Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
+
+### Assunto
+
+ultimos passos do CSS...
+### Responsabilidades
+
+- **Julio César da Silva Kubiack:** página em HTML e CSS (index).
+
+- **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
+
+- **Isabela Luiza Maciel:** página em HTML e CSS (index).
+
+- **Melissa:** página em HTML e CSS (index).
+
+- **Beatriz Costa:** página em HTML e CSS (index).
+
+- **Vinicios Korman** Html e CSS
+
+---
+
+### Observação
+
+Aula do Kennedy
