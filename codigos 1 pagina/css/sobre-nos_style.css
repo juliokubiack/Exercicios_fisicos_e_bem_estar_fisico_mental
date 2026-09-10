@@ -98,115 +98,46 @@ header {
 .avatar img {
     width: 10%;
 }
-
-
-/* ================================= */
-/*        FOODER DO CELULAR         */
-/* ================================= */
-
-@media screen and (max-width: 599px) {
-
-    footer {
-        background-color: #1c4d8d;
-        color: #ffffff;
-    }
-
-
-    .footer-container {
-        max-width: 900px;
-        margin: 0 auto;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 8vw 0 0 0;
-        gap: 1.5rem;
-        text-align: center;
-    }
-
-
-    /* LOGO */
-
-    .footer-logo {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .logo-circle-fim {
-        width: 30%;
-        height: auto;
-    }
-
-
-    /* LINKS */
-
-    .footer-links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        gap: 0.8rem;
-    }
-
-    .footer-links a {
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 0.85rem;
-    }
-
-
-    /* TEXTOS */
-
-    .footer-copy {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        gap: 0.5rem;
-    }
-
-    .footer-copy p {
-        margin: 0;
-        font-size: 0.75rem;
-        opacity: 0.8;
-        font-weight: 700;
-        text-align: center;
-    }
-
-
-    /* REDES SOCIAIS */
-
-    .footer-redes {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        gap: 1rem;
-    }
-
-    .footer-redes img {
-        width: 25px;
-        height: 25px;
-    }
-
+div.frasedaimagem img{
+   display: none;
 }
-
-.footer-redes img {
-
-    width: 40%;
-
-    padding: 0 0 1rem 0;
-
+div.frese{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 800;
 }
-
-
-
-
-
-
-/*FAZER PARA O CELULAR...*/
+section.missao h2{
+     padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+div.nossamissao{
+    padding: 10px 17px;
+    font-size: 20px;
+    font-weight: 600;
+}
+div.tres{
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    margin:10px;
+}
+div.mais{
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    margin:10px;
+}
+div.dividir h2{
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 800;
+}
+div.dividir p.Acreditamos{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 /* MEDIA QUERY - DESKTOP */
 @media screen and (min-width: 600px) {
@@ -221,348 +152,9 @@ header {
             -apple-system,
             BlinkMacSystemFont,
             sans-serif;
-        color: #252b42;
+        color: #252b42;}
       .sino img {
         width: 1.8rem;
         height: auto;
-    }
-
-    .header-icones .avatar {
-        width: 1.8rem;
-        height: 1.8rem;
-        border-radius: 50%;
-        background-color: #d9d9d9;
-        display: inline-block;
-    }  }
-
-    body {
-        background-color: #e6e5e5;
-    }
-    /*  ====================       */
-    /*      CORES BASE DO DESKTOP  */
-    /*  ====================       */
-
-    :root {
-      .sino img {
-        width: 1.8rem;
-        height: auto;
-    }
-
-    .header-icones .avatar {
-        width: 1.8rem;
-        height: 1.8rem;
-        border-radius: 50%;
-        background-color: #d9d9d9;
-        display: inline-block;
-    }      --azul: #4a90d9;
-        --azul-escuro: #17436f;
-        --azul-claro: #eaf3fb;
-        --azul-footer: #5b93c5;
-        --verde-claro: #d9f0e6;
-        --cinza-texto: #6b7280;
-        --texto-principal: #252b42;
-    }
-    /*  ==================== */
-    /*   HEAEDER DO DESKTOP  */
-    /*  ==================== */
-    .sino img {
-        width: 1.8rem;
-        height: auto;
-    }
-
-    .header-icones .avatar {
-        width: 1.8rem;
-        height: 1.8rem;
-        border-radius: 50%;
-        background-color: #d9d9d9;
-        display: inline-block;
-    }
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 3vw 5vw 3vw 5vw;
-        border-bottom: 1px solid #cccccc;
-    }
-
-    img.logo-circle {
-        width: 50%;
-    }
-
-    img.logo-circle-fim {
-        width: 3.5rem;
-        border-radius: 50%;
-        background-color: var(--azul);
-    }
-
-    header nav ul {
-        display: flex;
-        gap: 2vw;
-        font-size: 0.9rem;
-    }
-
-    header nav ul li a {
-        color: var(--texto-principal);
-        font-weight: 500;
-    }
-
-    header nav ul li a.ativo {
-        color: #4988C4;
-        font-weight: 700;
-    }
-
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 3vw 5vw;
-        border-bottom: 1px solid #cccccc;
-    }
-
-    .header-icones {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-    }
-
-    .sino img {
-        width: 1.8rem;
-        height: auto;
-    }
-
-    .header-icones .avatar {
-        width: 1.8rem;
-        height: 1.8rem;
-        border-radius: 50%;
-        background-color: #d9d9d9;
-        display: inline-block;
-    }
-    /*  ==================== */
-    /*      MENU DO DESKTOP  */
-    /*  ==================== */
-
-    .comandos {
-        display: flex;
-        align-items: center;
-        gap: 110px;
-    }
-
-
-    .comandos .inicial a {
-        color: rgb(73, 136, 196);
-        font-weight: bold;
-    }
-
-    /*  ==================== */
-    /*      BODY DO DESKTOP  */
-    /*  ==================== */
-
-
-    .frasedaimagem img {
-        padding: 1vw 15vw 5vw 5vw;
-    }
-
-    .frasedaimagem {
-        position: relative;
-        /* Isso cria o "limite" para o texto não sair da imagem */
-        display: inline-block;
-        width: 100%;/
-    }
-
-
-    .frese {
-        position: absolute;
-        top: 32%;
-        left: 13%;
-        color: white;
-        font-size: 59px;
-        padding: 1vw 30vw 1vw 1vw;
-    }
-
-    div.nossamissao {
-        display: flex;
-    }
-
-    div.nossamissao img {
-        width: 85%;
-        padding: 1vw 2vw 5vw 1vw;
-    }
-
-    div.nossamissao p {
-        font-size: 35px;
-        padding: 1vw 2vw 5vw 1vw;
-    }
-
-    /*         ================================  */
-    /*        FOTO SOBRE NÓS  DO DESKTOP         */
-    /*         ================================  */
-
-
-
-
-    section.nos div.tres div.mais {
-        display: flex;
-        gap: 60px;
-        display: inline-block;
-    }
-
-    section.nos div.tres {
-        display: flex;
-        gap: 20px;
-        width: 50%;
-        padding: 1vw 1vw 1vw 1vw;
-
-    }
-
-    section.nos div.mais {
-        display: flex;
-        gap: 20px;
-        width: 50%;
-        padding: 1vw 1vw 1vw 1vw;
-    }
-
-    .nos {
-        display: flex;
-    }
-
-    section.nos h2 {
-        padding: 2vw 1vw 2vw 25vw;
-        font-weight: 800;
-    }
-
-    section.nos p {
-        padding: 2vw 1vw 2vw 25vw;
-        font-size: 25px;
-    }
-
-    /*         =================================            */
-    /*        ETAPAS DO DESENVOLVIMENTO  DO DESKTOP         */
-    /*         =================================            */
-
-
-    div.formação {
-        padding: 1vw 10vw 1vw 1vw;
-    }
-
-    section.etapa span {
-        font-weight: 200;
-
-    }
-
-    section.etapa h2 {
-        font-size: 40px;
-    }
-
-    /*         =================================        */
-    /*        BORDA E SUA LINGADURAS DO DESKTOP         */
-    /*         =================================        */
-
-
-
-    div.liga {
-        display: flex;
-        padding: 1vw 1vw 1vw 2vw;
-        gap: 40vw;
-        font-size: 15px;
-    }
-
-    div.liga p.escolhemos {
-        background-color: bisque;
-        border-radius: 20px;
-        font-size: 15px;
-        padding: 1vw 10vw 2vw 4vw;
-    }
-
-    div.liga p.proposta {
-        background-color: bisque;
-        border-radius: 20px;
-        font-size: 15px;
-        padding: 1vw 10vw 2vw 4vw;
-    }
-
-    sec section.etapa div.imagem {
-        display: flex;
-        padding: 1vw 1vw 1vw 2vw;
-        gap: 40vw;
-        font-size: 15px;
-    }
-
-    img.aprendiz {
-        width: 30%;
-        justify-content: space-between;
-        display: flex;
-    }
-
-    img.estudo {
-        width: 30%;
-
-    }
-
-    /* ================================= */
-    /*        CADASTRO DO DESKTOP         */
-    /* ================================= */
-
-    .entrar {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    .entrar {
-        font-family: "Montserrat", sans-serif;
-        background-color: black;
-    }
-
-
-
-    /* ================================= */
-    /*        FOODER DO DESKTOP         */
-    /* ================================= */
-    footer {
-        background-color: #1C4D8D;
-        color: #ffffff;
-        padding: 2rem 5%;
-        margin-top: 3rem;
-    }
-
-    .footer-container {
-        max-width: 900px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
-
-    .footer-links {
-        display: flex;
-        gap: 1rem;
-    }
-
-    .footer-links a {
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 0.85rem;
-    }
-
-    .footer-copy p {
-        margin: 0;
-        font-size: 0.75rem;
-        opacity: 0.8;
-        font-weight: 700;
-    }
-
-    .footer-redes {
-        display: flex;
-        gap: 0.8rem;
-    }
-
-    .footer-redes img {
-        width: 20px;
-        height: 20px;
-    }
-            span.avatar img{
-        width: 30px;
     }
 }
