@@ -99,17 +99,257 @@ header {
     width: 10%;
 }
 
+.comeco {
+    padding: 10px;
+}
+
+main section.comeco {
+
+    background-color: #E6E5E5;
+
+}
+
+section.comeco img {
+    width: fit-content;
+    margin-top: 2vw;
+}
+
+section.comeco h2 {
+    font-size: 2.5rem;
+    padding: 0 0 5px 0;
+}
+
+section.comeco h2 span {
+    font-weight: 800;
+}
+
+section.comeco p {
+    padding: 2vw 0vw 8vw 0;
+    font-size: 1.2rem;
+}
+
+section.comeco div.texto {
+    margin-right: 3vw;
+}
 
 
 
+section.diferenciais h3 {
+    font-size: 2rem;
+    padding: 6vw;
+}
 
-  
-/*FAZER PARA O CELULAR...*/
+section.diferenciais h3 span {
+    font-weight: 600;
+}
+
+section.diferenciais ul li img {
+    max-width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+section.diferenciais ul li {
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 1vw 0vw 0vw 4vw;
+}
+
+section.diferenciais ul {
+    position: relative;
+    bottom: 5vw;
+}
+
+section.diferenciais h4 {
+    font-weight: 700;
+    padding-bottom: 3vw;
+}
+
+.item {
+    display: flex;
+    padding: 3vw 2vw 0vw 4vw;
+    position: relative;
+    bottom: 3.7vw;
+}
+
+section.beneficios .texto {
+    max-width: 200px;
+    font-size: 1.1rem;
+}
+
+section.beneficios h2 {
+    font-weight: 500;
+    font-size: 1.8rem;
+
+}
+
+
+
+.numero {
+    margin: 0vw 2vw;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    position: relative;
+    padding: 11.5px;
+
+}
+
+section.beneficios div.imagem img {
+    display: none;
+}
+
+section.beneficios div.direitatexto {
+    margin-top: 10vw;
+    font-size: 1.1rem;
+}
+
+.recurso {
+    padding: 30px 0 0 0;
+}
+
+
+section.recursos img {
+    max-width: 50vw;
+    max-height: 50vw;
+    border-radius: 2vw;
+}
+
+
+
+section.recursos ul li a {
+    text-align: center;
+    margin-left: 6.67vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    background-color: #4988c4;
+    color: white;
+    padding: 0.5vw 2vw 0.5vw 2vw;
+    display: inline-block;
+    border-radius: 4vw
+}
+
+section.recursos {
+    padding-bottom: 3vw;
+}
+
+
+/* ================================= */
+/*        FOODER DO CELULAR         */
+/* ================================= */
+
+@media screen and (max-width: 599px) {
+
+    footer {
+        background-color: #1c4d8d;
+        color: #ffffff;
+    }
+
+
+    .footer-container {
+        max-width: 900px;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 8vw 0 0 0;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+
+    /* LOGO */
+
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logo-circle-fim {
+        width: 30%;
+        height: auto;
+    }
+
+
+    /* LINKS */
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 0.8rem;
+    }
+
+    .footer-links a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 0.85rem;
+    }
+
+
+    /* TEXTOS */
+
+    .footer-copy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 0.5rem;
+    }
+
+    .footer-copy p {
+        margin: 0;
+        font-size: 0.75rem;
+        opacity: 0.8;
+        font-weight: 700;
+        text-align: center;
+    }
+
+
+    /* REDES SOCIAIS */
+
+    .footer-redes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 1rem;
+    }
+
+    .footer-redes img {
+        width: 25px;
+        height: 25px;
+    }
+
+}
+
+.footer-redes img {
+
+    width: 40%;
+
+    padding: 0 0 1rem 0;
+
+}
+
+.footer-redes img {
+    width: 20px;
+    height: 60px;
+}
+
 
 /* MEDIA QUERY - DESKTOP */
 @media screen and (min-width: 600px) {
-/*===SEGUNDA PAGINA INICIO ===*/
-html {
+
+    /*===SEGUNDA PAGINA INICIO ===*/
+    html {
         text-align: left;
         font-size: clamp(0.9rem, calc(0.5rem + 0.6vw), 1.2rem);
         font-family:
@@ -119,6 +359,7 @@ html {
             BlinkMacSystemFont,
             sans-serif;
         color: #252b42;
+        text-align: left;
     }
 
     body {
@@ -197,218 +438,254 @@ html {
         background-color: #d9d9d9;
         display: inline-block;
     }
-main section.comeco {
-    display: flex;
-    background-color: #E6E5E5;
-}
-section.comeco img {
-    width: fit-content;
-    margin-top: 2vw;
-}
-section.comeco h2 {
-    font-size: 2.5rem;
-    padding: 5vw 0 0 5vw;
-}
-section.comeco h2 span {
-    font-weight: 800;
-}
-section.comeco p {
-    padding: 5vw 0vw 0vw 5vw;
-    font-size: 1.4rem;
-}
-section.comeco div.texto {
-    margin-right: 3vw;
-}
-section.diferenciais h3 {
-    text-align: center;
-    font-size: 2rem;
-    padding: 6vw
-}
-section.diferenciais h3 span {
-    font-weight: 600;
-}
-section.diferenciais ul li img {
-    max-width: 50%;
-}
 
-section.diferenciais ul li {
-    font-weight: 600;
-    font-size: 1.2rem;
-}
-section.diferenciais ul li {
+    main section.comeco {
+        display: flex;
+        background-color: #E6E5E5;
+    }
 
-    padding: 1vw 0vw 0vw 4vw;
-}
-section.diferenciais ul {
-    display: flex;
-    position: relative;
-    bottom: 5vw;
-    left: 8vw;
-}
-section.diferenciais  h4 {
-    font-weight: 700;
-    padding-bottom: 3vw;
-}
-section.diferenciais p {
-    max-width: 250px;
-}
-.item {
-    display: flex;
-    padding: 3vw 2vw 0vw 4vw;
-    position: relative;
-    bottom: 3.7vw;
-}
-section.beneficios .texto {
-    max-width: 200px;
-    font-size: 1.1rem;
-}
+    section.comeco img {
+        width: fit-content;
+        margin-top: 2vw;
+    }
 
-.numero {
-    margin: 0vw 2vw;
-    width: 50px;
-    height: 50px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.1rem;
-    position: relative;
+    section.comeco h2 {
+        font-size: 2.5rem;
+        padding: 5vw 0 0 5vw;
+    }
 
-}
-section.beneficios h2 {
-    font-weight: 700;
-    font-size: 3rem;
-    padding: 1vw 0vw 1vw 10vw;
-    position: relative;
-    bottom: 1vw;
-}
-section.beneficios {
-    background: linear-gradient(#9bb8df 0%,
-        #C9D4FF 100%);
+    section.comeco h2 span {
+        font-weight: 800;
+    }
+
+    section.comeco p {
+        padding: 5vw 0vw 0vw 5vw;
+        font-size: 1.4rem;
+    }
+
+    section.comeco div.texto {
+        margin-right: 3vw;
+    }
+
+    section.diferenciais h3 {
+        text-align: center;
+        font-size: 2rem;
+        padding: 6vw
+    }
+
+    section.diferenciais h3 span {
+        font-weight: 600;
+    }
+
+    section.diferenciais ul li img {
+        max-width: 50%;
+        padding: 0 0px 0 0;
+    }
+
+    section.diferenciais ul li {
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+
+    section.diferenciais ul li {
+
+        padding: 1vw 0vw 0vw 4vw;
+    }
+
+    section.diferenciais ul {
+        display: flex;
+        position: relative;
+        bottom: 5vw;
+        left: 1vw;
+    }
+
+    section.diferenciais h4 {
+        font-weight: 700;
+        padding-bottom: 3vw;
+    }
+
+    section.diferenciais p {
+        max-width: 250px;
+    }
+
+    .item {
+        display: flex;
+        padding: 3vw 2vw 0vw 4vw;
+        position: relative;
+        bottom: 3.7vw;
+    }
+
+    section.beneficios .texto {
+        max-width: 200px;
+        font-size: 1.1rem;
+    }
+
+    .numero {
+        margin: 0vw 2vw;
+        width: 50px;
+        height: 50px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.1rem;
+        position: relative;
+
+    }
+
+    section.beneficios h2 {
+        font-weight: 700;
+        font-size: 3rem;
+        padding: 1vw 0vw 1vw 10vw;
+        position: relative;
+        bottom: 1vw;
+    }
+
+    section.beneficios {
+        background: linear-gradient(#9bb8df 0%,
+                #C9D4FF 100%);
         border-radius: 6%;
-        padding-bottom: 1vw;;
+        padding-bottom: 1vw;
+        ;
         max-height: 40vw;
         padding-left: 10vw;
-}
-section.beneficios {
-  display: flex;
-}
-section.beneficios div.imagem img {
-  max-width: 28vw;
-  position: relative;
-  bottom: 2vw;
-}
-section.beneficios div.direitatexto {
-  margin-top: 10vw;
-  font-size: 1.1rem;
-}
-section.beneficios div.direitatexto h5 {
-  font-size: 2rem;
-}
-section.beneficios div.direitatexto p {
-    max-width: 180px;
-}
-section.recursos ul {
-    display: flex;
-    justify-content: space-evenly
-}
-section.recursos img{
-    max-width: 20vw;
-    max-height: 20vw;
-    border-radius: 2vw;
-}
-section.recursos h3 {
-    text-align: center;
-    font-size: 1.4rem;
-    font-weight: 600;
-    text-decoration: underline;
-    padding: 2vw 0vw 5vw 0vw;
-}
+    }
 
-section.recursos ul li h4 {
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin: 2vw 0vw 2vw 0vw;
-    text-align: center;
-}
-section.recursos ul li p {
-    max-width: 20vw;
-    padding-left: 3vw;
-}
-section.recursos ul li a {
-    text-align: center;
-    margin-left: 6.67vw;
-    margin-top: 1vw;
-    margin-bottom: 2vw;
-    background-color: #4988c4;
-    color: white;
-    padding: 0.5vw 2vw 0.5vw 2vw;
-    display: inline-block;
-    border-radius: 4vw
-}
-section.recursos {
-    padding-bottom: 3vw;
-}
-footer {
-    background-color: #1c4d8d;
-    color: #ffffff;
-    padding: 2rem 5%;
-    margin-top: 3rem;
-  }
+    section.beneficios {
+        display: flex;
+    }
 
-  .footer-container {
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
+    section.beneficios div.imagem img {
+        max-width: 28vw;
+        position: relative;
+        bottom: 2vw;
+    }
 
-  .logo-circle-footer {
-    width: 60px;
-    height: 60px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    text-align: center;
-  }
+    section.beneficios div.direitatexto {
+        margin-top: 10vw;
+        font-size: 1.1rem;
+    }
 
-  .logo-circle-footer img {
-    width: 40px;
-    margin-top: 10px;
-  }
+    section.beneficios div.direitatexto h5 {
+        font-size: 2rem;
+    }
 
-  .footer-links {
-    display: flex;
-    gap: 1rem;
-  }
+    section.beneficios div.direitatexto p {
+        max-width: 180px;
+    }
 
-  .footer-links a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 0.85rem;
-  }
+    section.recursos ul {
+        display: flex;
+        justify-content: space-evenly
+    }
 
-  .footer-copy p {
-    margin: 0;
-    font-size: 0.75rem;
-    opacity: 0.8;
-    font-weight: 700;
-  }
+    section.recursos img {
+        max-width: 20vw;
+        max-height: 20vw;
+        border-radius: 2vw;
+    }
 
-  .footer-redes {
-    display: flex;
-    gap: 0.8rem;
-  }
+    section.recursos h3 {
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-decoration: underline;
+        padding: 2vw 0vw 5vw 0vw;
+    }
 
-  .footer-redes img {
-    width: 20px;
-    height: 20px;
-  }
-  footer div.logo-circle img {
-    max-width: 40px;
-  }
+    section.recursos ul li h4 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin: 2vw 0vw 2vw 0vw;
+        text-align: center;
+    }
+
+    section.recursos ul li p {
+        max-width: 20vw;
+        padding-left: 3vw;
+    }
+
+    section.recursos ul li a {
+        text-align: center;
+        margin-left: 6.67vw;
+        margin-top: 1vw;
+        margin-bottom: 2vw;
+        background-color: #4988c4;
+        color: white;
+        padding: 0.5vw 2vw 0.5vw 2vw;
+        display: inline-block;
+        border-radius: 4vw
+    }
+
+    section.recursos {
+        padding-bottom: 3vw;
+    }
+
+    footer {
+        background-color: #1c4d8d;
+        color: #ffffff;
+        padding: 2rem 5%;
+        margin-top: 3rem;
+    }
+
+    .footer-container {
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .logo-circle-footer {
+        width: 60px;
+        height: 60px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .logo-circle-footer img {
+        width: 40px;
+        margin-top: 10px;
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .footer-links a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 0.85rem;
+    }
+
+    .footer-copy p {
+        margin: 0;
+        font-size: 0.75rem;
+        opacity: 0.8;
+        font-weight: 700;
+    }
+
+    .footer-redes {
+        display: flex;
+        gap: 0.8rem;
+    }
+
+    .footer-redes img {
+        width: 20px;
+        height: 20px;
+    }
+
+    footer div.logo-circle img {
+        max-width: 40px;
+    }
+
+    section.beneficios div.imagem img {
+        display: block;
+    }
 
 }
