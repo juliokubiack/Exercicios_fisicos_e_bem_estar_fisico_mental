@@ -544,13 +544,20 @@ footer {
     flex-direction: column;
     text-align: center;
   }
+
+  section.exercicios div.exercicios-img img{
+    padding: 0 0 0 8vw;
+  }
+
   .card-jornada-container {
     padding: 20px;
   }
   .card-metas {
     width: 100%;
   }
-          span.avatar img{
-        width: 30px;
-    }
+  
+  span.avatar img{
+    width: 30px;
+  }
+
 }
