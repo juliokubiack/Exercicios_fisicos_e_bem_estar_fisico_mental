@@ -497,6 +497,19 @@ footer {
   gap: 1rem;
 }
 
+.footer-container .logo-circle {
+  width: 120px;
+  height: auto;
+  border-radius: 0%;
+}
+
+.footer-container .logo-circle img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 .footer-links {
   display: flex;
   gap: 1rem;

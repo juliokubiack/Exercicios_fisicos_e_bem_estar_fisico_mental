@@ -1,9 +1,9 @@
 const imgBronze = new Image();
-imgBronze.src = "Imagens/medalha-um.png";
+imgBronze.src = "img_progresso/medalha-um.png";
 const imgPrata = new Image();
-imgPrata.src = "Imagens/medalha-dois.png";
+imgPrata.src = "img_progresso/medalha-dois.png";
 const imgOuro = new Image();
-imgOuro.src = "Imagens/medalha-tres.png";
+imgOuro.src = "img_progresso/medalha-tres.png";
 
 const pluginMedalhasComImagens = {
   id: "pluginMedalhasComImagens",
