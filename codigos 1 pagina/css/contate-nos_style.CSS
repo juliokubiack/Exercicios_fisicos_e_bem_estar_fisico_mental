@@ -1,21 +1,23 @@
-/* === IMPORTAÇÃO DE FONTES */
+/* =========================================================
+   IMPORTAÇÃO DE FONTES
+========================================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 /*
-Fontes Disponíveis:
-// Sugiro usar esta 
-font-family: "Urbanist", sans-serif; 
+Fontes disponíveis:
+
+font-family: "Urbanist", sans-serif;
 font-family: "Fredoka", sans-serif;
 font-family: "Epilogue", sans-serif;
 font-family: "Nunito", sans-serif;
 font-family: "Oswald", sans-serif;
 */
-/* ==========================*/
 
-/* ==== FORMATAÇÃO GERAL === */
-html {
-    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
-}
+
+/* =========================================================
+   FORMATAÇÃO GERAL
+========================================================= */
 
 html {
     font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
@@ -29,24 +31,15 @@ html {
     text-align: center;
 }
 
-h1 {
-    font-family: "Nunito", sans-serif;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Oswald", sans-serif;
-
-}
-
 body {
     background-color: #e6e5e5;
 }
 
-/* ===== cores base ===== */
+
+/* =========================================================
+   CORES BASE
+========================================================= */
+
 :root {
     --azul: #4a90d9;
     --azul-escuro: #17436f;
@@ -58,12 +51,31 @@ body {
 }
 
 
+/* =========================================================
+   TÍTULOS
+========================================================= */
 
-/* ================================= */
-/*        HEADER DO CELULAR         */
-/* ================================= */
+h1 {
+    font-family: "Nunito", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Oswald", sans-serif;
+}
 
 
+/* =========================================================
+   HEADER - CELULAR
+========================================================= */
+
+header {
+    padding: 3vw 5vw;
+    border-bottom: 1px solid #cccccc;
+}
 
 header img {
     width: 25%;
@@ -71,7 +83,7 @@ header img {
 
 header nav ul {
     font-size: 1rem;
-    padding: 5px 0 5px 0;
+    padding: 5px 0;
 }
 
 header nav ul li a {
@@ -82,14 +94,7 @@ header nav ul li a {
 header nav ul li a.ativo {
     color: #4988C4;
     font-weight: 800;
-
 }
-
-header {
-    padding: 3vw 5vw;
-    border-bottom: 1px solid #cccccc;
-}
-
 
 .sino img {
     width: 10%;
@@ -100,34 +105,36 @@ header {
 }
 
 
-/* ================================= */
-/*          BANNER DO CELULAR           */
-/* ================================= */
-
+/* =========================================================
+   BANNER - CELULAR
+========================================================= */
 
 .banner {
-
-    padding: 5vw 10vw 5vw 10vw;
-
+    padding: 5vw 10vw;
 }
 
 .banner h1 {
     font-size: 2rem;
-    padding: 0vw 0vw 5vw 0vw;
+    padding: 0 0 5vw 0;
 }
 
 .banner p {
     font-size: 1rem;
-    padding: 0vw 0vw 5vw 0vw;
+    padding: 0 0 5vw 0;
 }
 
 .banner img {
     width: 40%;
 }
 
-/* ================================= */
-/*        FORMULÁRIO CELULAR         */
-/* ================================= */
+
+/* =========================================================
+   FORMULÁRIO - CELULAR
+========================================================= */
+
+.form {
+    padding: 0 0 2rem 0;
+}
 
 .form p.caixa {
     background-color: #d9d9d9;
@@ -162,12 +169,13 @@ header {
 }
 
 .opcoes {
-    padding: 10px 0 10px;
+    display: flex;
     flex-direction: column;
+    padding: 10px 0 12px;
     gap: 15px;
     position: relative;
-    padding-bottom: 12px;
 }
+
 
 /* Linha azul embaixo das opções */
 
@@ -177,10 +185,13 @@ header {
     bottom: 0;
     left: 0;
     height: 3px;
+    width: 100%;
     background-color: #a0c4e8;
     border-radius: 1px;
-    width: 100%;
 }
+
+
+/* Opção */
 
 .opcao {
     display: flex;
@@ -192,6 +203,7 @@ header {
     user-select: none;
 }
 
+
 /* Esconde o radio nativo */
 
 .opcao input[type="radio"] {
@@ -200,6 +212,7 @@ header {
     width: 0;
     height: 0;
 }
+
 
 /* Círculo do radio */
 
@@ -214,13 +227,14 @@ header {
     transition: border-color 0.2s;
 }
 
+
 /* Bolinha quando selecionado */
 
-.opcao input[type="radio"]:checked+.radio-custom {
+.opcao input[type="radio"]:checked + .radio-custom {
     border-color: #5b9bd5;
 }
 
-.opcao input[type="radio"]:checked+.radio-custom::after {
+.opcao input[type="radio"]:checked + .radio-custom::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -232,7 +246,9 @@ header {
     border-radius: 50%;
 }
 
+
 /* Botão enviar */
+
 .btn-enviar {
     display: inline-block;
     margin: 1.5rem 8vw 0;
@@ -240,7 +256,7 @@ header {
     color: #ffffff;
     border: none;
     border-radius: 12px;
-    padding: 5vw 2vw 5vw 2vw;
+    padding: 5vw 2vw;
     font-size: 1.3rem;
     font-weight: 700;
     cursor: pointer;
@@ -257,13 +273,6 @@ header {
     background-color: #3d7ab3;
 }
 
-.form {
-    padding: 0 0 2rem 0;
-}
-
-/* ================================= */
-/*        FOODER DO CELULAR         */
-/* ================================= */
 
 @media screen and (max-width: 599px) {
 
@@ -354,57 +363,36 @@ header {
 
 }
 
-.footer-redes img {
- 
-    width: 40%;
 
-padding: 0 0 1rem 0;
-  
-}
-    .footer-redes img {
-        width: 20px;
-        height: 60px;
-    }
+/* =========================================================
+   DESKTOP
+========================================================= */
 
-
-
-
-
-/* MEDIA QUERY - DESKTOP */
 @media screen and (min-width: 600px) {
+
+    /* =====================================================
+       CONFIGURAÇÃO GERAL
+    ===================================================== */
+
     html {
         text-align: left;
         font-size: clamp(0.9rem, calc(0.5rem + 0.6vw), 1.2rem);
-        font-family:
-            "Mulish",
-            system-ui,
-            -apple-system,
-            BlinkMacSystemFont,
-            sans-serif;
-        color: #252b42;
     }
 
     body {
         background-color: #e6e5e5;
     }
 
-    /* ===== cores base ===== */
-    :root {
-        --azul: #4a90d9;
-        --azul-escuro: #17436f;
-        --azul-claro: #eaf3fb;
-        --azul-footer: #5b93c5;
-        --verde-claro: #d9f0e6;
-        --cinza-texto: #6b7280;
-        --texto-principal: #252b42;
-    }
 
-    /* ===== header ===== */
+    /* =====================================================
+       HEADER - DESKTOP
+    ===================================================== */
+
     header {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 3vw 5vw 3vw 5vw;
+        padding: 3vw 5vw;
         border-bottom: 1px solid #cccccc;
     }
 
@@ -434,14 +422,6 @@ padding: 0 0 1rem 0;
         font-weight: 700;
     }
 
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 3vw 5vw;
-        border-bottom: 1px solid #cccccc;
-    }
-
     .header-icones {
         display: flex;
         align-items: center;
@@ -461,17 +441,26 @@ padding: 0 0 1rem 0;
         display: inline-block;
     }
 
-    /* === banner === */
+
+    /* =====================================================
+       MAIN
+    ===================================================== */
+
     main {
         max-width: 1300px;
         margin: 0 auto;
         padding: 1.5rem;
     }
 
+
+    /* =====================================================
+       BANNER - DESKTOP
+    ===================================================== */
+
     .banner {
         display: flex;
-        padding: 3vw 8vw 0;
         align-items: center;
+        padding: 3vw 8vw 0;
     }
 
     .banner h1 {
@@ -486,7 +475,10 @@ padding: 0 0 1rem 0;
         width: 40%;
     }
 
-    /* === formulario === */
+
+    /* =====================================================
+       FORMULÁRIO - DESKTOP
+    ===================================================== */
 
     .form p.caixa {
         background-color: #d9d9d9;
@@ -529,22 +521,24 @@ padding: 0 0 1rem 0;
 
     .opcoes {
         display: flex;
+        flex-direction: row;
         gap: 40px;
         position: relative;
         padding-bottom: 12px;
     }
 
+
     /* Linha azul embaixo das opções */
+
     .opcoes::after {
         content: "";
         position: absolute;
         bottom: 0;
         left: 0;
-        right: 0;
         height: 3px;
+        width: 35%;
         background-color: #a0c4e8;
         border-radius: 1px;
-        width: 35%
     }
 
     .opcao {
@@ -557,7 +551,9 @@ padding: 0 0 1rem 0;
         user-select: none;
     }
 
+
     /* Esconde o radio nativo */
+
     .opcao input[type="radio"] {
         position: absolute;
         opacity: 0;
@@ -565,7 +561,9 @@ padding: 0 0 1rem 0;
         height: 0;
     }
 
+
     /* Círculo do radio */
+
     .radio-custom {
         width: 18px;
         height: 18px;
@@ -577,12 +575,14 @@ padding: 0 0 1rem 0;
         transition: border-color 0.2s;
     }
 
+
     /* Bolinha quando selecionado */
-    .opcao input[type="radio"]:checked+.radio-custom {
+
+    .opcao input[type="radio"]:checked + .radio-custom {
         border-color: #5b9bd5;
     }
 
-    .opcao input[type="radio"]:checked+.radio-custom::after {
+    .opcao input[type="radio"]:checked + .radio-custom::after {
         content: "";
         position: absolute;
         top: 50%;
@@ -594,7 +594,9 @@ padding: 0 0 1rem 0;
         border-radius: 50%;
     }
 
+
     /* Botão enviar */
+
     .btn-enviar {
         display: inline-block;
         margin: 1.5rem 8vw 0;
@@ -619,7 +621,10 @@ padding: 0 0 1rem 0;
         background-color: #3d7ab3;
     }
 
-    /* === Footer === */
+
+    /* =====================================================
+       FOOTER - DESKTOP
+    ===================================================== */
 
     footer {
         background-color: #1c4d8d;
@@ -659,10 +664,14 @@ padding: 0 0 1rem 0;
     .footer-redes {
         display: flex;
         gap: 0.8rem;
+        padding: 0;
     }
 
     .footer-redes img {
         width: 20px;
-        height: 60px;
+        height: 40px;
+    }
+    span.avatar img{
+        width: 30px;
     }
 }

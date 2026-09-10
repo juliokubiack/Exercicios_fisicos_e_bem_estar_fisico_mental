@@ -537,4 +537,7 @@ footer {
   .card-metas {
     width: 100%;
   }
+          span.avatar img{
+        width: 30px;
+    }
 }

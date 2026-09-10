@@ -359,7 +359,6 @@ section.recursos {
             BlinkMacSystemFont,
             sans-serif;
         color: #252b42;
-        text-align: left;
     }
 
     body {
@@ -677,7 +676,7 @@ section.recursos {
 
     .footer-redes img {
         width: 20px;
-        height: 20px;
+        height: 40px;
     }
 
     footer div.logo-circle img {
@@ -688,4 +687,7 @@ section.recursos {
         display: block;
     }
 
+        span.avatar img{
+        width: 30px;
+    }
 }

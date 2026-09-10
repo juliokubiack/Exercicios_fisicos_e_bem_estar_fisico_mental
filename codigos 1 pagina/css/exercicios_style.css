@@ -556,4 +556,7 @@ padding: 0 0 1rem 0;
     width: 20px;
     height: 20px;
   }
+          span.avatar img{
+        width: 30px;
+    }
 }
