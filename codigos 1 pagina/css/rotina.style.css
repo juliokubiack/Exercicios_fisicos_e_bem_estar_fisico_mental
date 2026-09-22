@@ -363,7 +363,7 @@ section.alimentacao {
 
 /* Footer */
 footer {
-  background-color: #153966;
+  background-color: var(--azul-principal);
   color: #ffffff;
   padding: 2rem 5%;
   margin-top: 3.5rem;
