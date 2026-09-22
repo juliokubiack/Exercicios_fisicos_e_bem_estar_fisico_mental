@@ -84,7 +84,7 @@ header nav ul li a.ativo {
 main {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1.5rem;
 }
 
 section.inicio {
@@ -347,7 +347,6 @@ section.exercicios {
   display: block;
 }
 
-/* ===== SEÇÃO 4: DICAS DE SONO ===== */
 section.sono {
   margin-top: 3rem;
   flex-direction: column;
@@ -413,7 +412,6 @@ section.sono {
   font-weight: 800;
 }
 
-/* ===== MODAL ESTILIZADO ===== */
 .modal-fundo {
   display: none;
   position: fixed;
