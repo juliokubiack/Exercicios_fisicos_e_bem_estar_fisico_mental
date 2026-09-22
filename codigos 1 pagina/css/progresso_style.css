@@ -1,4 +1,4 @@
-/* BASE E VARIÁVEIS (Globais)*/
+/* BASE E VARIÁVEIS (Globais) */
 :root {
   --azul-principal: #1c4d8d;
   --azul-medio: #4988c4;
@@ -18,9 +18,10 @@ html {
 
 body {
   background-color: #e8e9eb;
+  margin: 0;
 }
 
-/*ESTILOS BASE: MOBILE FIRST (< 600px)*/
+/* === ESTILOS BASE: MOBILE FIRST (< 600px) === */
 
 header {
   padding: 1.5rem 5%;
@@ -119,6 +120,7 @@ section.inicio h1 span {
   left: 0;
   width: 100%;
   height: 100%;
+  object-fit: cover;
   object-position: center top;
   z-index: 1;
 }
@@ -289,19 +291,19 @@ section.grafico h2 span {
   color: #ebebeb;
 }
 
-/* ===== SEÇÃO 3: PRÁTICA DE EXERCÍCIOS ===== */
+/* ===== SEÇÃO: PRÁTICA DE EXERCÍCIOS ===== */
 section.exercicios {
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 2rem;
   margin-top: 3.5rem;
   padding-top: 2rem;
   border-top: 1px solid #d0d0d0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
 .exercicios-texto {
   flex: 1;
-  padding: 2vw 0 0 0;
 }
 
 .exercicios-texto h2 {
@@ -347,8 +349,10 @@ section.exercicios {
   display: block;
 }
 
+/* ===== SEÇÃO: SONO ===== */
 section.sono {
   margin-top: 3rem;
+  display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
@@ -357,6 +361,7 @@ section.sono {
   background-color: #C8D4E1;
   padding: 1.8rem;
   border-radius: 12px;
+  flex: 1;
 }
 
 .semana h2 {
@@ -368,7 +373,7 @@ section.sono {
 }
 
 .semana h3 {
-  margin-top: 1vw;
+  margin-top: 0.5rem;
   font-size: 0.88rem;
   font-weight: 400;
   color: black;
@@ -390,8 +395,8 @@ section.sono {
   color: #ffffff;
   padding: 1.8rem;
   border-radius: 12px;
-  margin-top: 1rem;
   text-align: center;
+  flex: 1;
 }
 
 .regular h2 {
@@ -403,15 +408,17 @@ section.sono {
 
 .regular ul {
   padding-left: 1.2rem;
-  margin: 1vw;
+  margin: 0;
   font-size: 0.85rem;
   line-height: 1.6;
+  text-align: left;
 }
 
 .regular ul li span {
   font-weight: 800;
 }
 
+/* MODAL */
 .modal-fundo {
   display: none;
   position: fixed;
@@ -482,7 +489,7 @@ section.sono {
   color: #ffffff;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
   background-color: var(--azul-principal);
   color: #ffffff;
@@ -533,95 +540,66 @@ footer {
   height: 24px;
 }
 
-/* MEDIA QUERY - DESKTOP */
+/* === MEDIA QUERY - DESKTOP (>= 600px) === */
 @media screen and (min-width: 600px) {
 
-/* ===== HEADER ===== */
   header {
-    display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    padding: 3vw 5vw;
-    border-bottom: 1px solid #cccccc;
+    padding: 1.2rem 5%;
     text-align: left;
   }
 
   header div.logo-circle img {
     width: 3.5rem;
-    border-radius: 50%;
     margin: 0;
   }
 
   header nav ul {
-    display: flex;
     flex-direction: row;
-    gap: 2vw;
+    gap: 2rem;
     font-size: 0.9rem;
   }
 
   header nav ul li a {
-    color: var(--texto-principal);
+    color: var(--texto-escuro);
     font-weight: 500;
   }
 
   header nav ul li a.ativo {
-    color: #4988C4;
+    color: var(--azul-medio);
     font-weight: 700;
   }
 
-  .header-icones {
-    display: flex;
+  .sino img {
+    width: 27px;
+  }
+
+  .avatar img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  section.exercicios {
+    flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    justify-content: space-between;
   }
 
-  .sino img {
-    width: 27px;
-    height: auto;
+  .exercicios-texto h2,
+  .exercicios-texto p {
+    text-align: left;
   }
 
-  .header-icones .avatar {
-    width: 1.8rem;
-    height: 1.8rem;
-    border-radius: 50%;
-    background-color: #d9d9d9;
-    display: inline-block;
+  section.sono {
+    flex-direction: row;
   }
 
-  .sino img {
-    width: 27px;
-    height: auto;
-  }
-
-  .header-icones .avatar {
-    width: 1.8rem;
-    height: 1.8rem;
-    border-radius: 50%;
-    background-color: #d9d9d9;
-    display: inline-block;
-  }
-
-.sino img {
-  width: 27px;
-  height: auto;
-}
-
-.header-icones .avatar {
-  width: 1.8rem;
-  height: 1.8rem;
-  border-radius: 50%;
-  background-color: #d9d9d9;
-  display: inline-block;
-}
-
-
-   .footer-container {
+  .footer-container {
     flex-direction: row;
     justify-content: space-between;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 1.5rem
   }
 
   .footer-redes img {
