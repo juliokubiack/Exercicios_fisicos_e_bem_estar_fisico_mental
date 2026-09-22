@@ -3,64 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Be Well - Sobre Nós</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/sobre-nos_style.css" />
-
     <link
       rel="shortcut icon"
       href="img_sobre-nos/cerebro-pensnte-pequeno.png"
       type="image/x-icon"
     />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/sobre-nos_style.css" />
+    <link rel="stylesheet" href="css/TODOS_style.css" />
+    <script type="module" src="java.script/avatar.js"></script>
+    <script type="module" src="java.script/menu_todos.js"></script>
   </head>
 
   <body>
-    <!-- ================= HEADER ================= -->
-
     <header>
       <div class="logo-circle">
         <img src="img_rotina/logo.png" alt="logo site" />
       </div>
       <nav>
         <ul>
-          <li><a href="contate-nos_index.html">Contate-nos</a></li>
           <li><a href="index.html">Início</a></li>
-          <li><a href="sobre-nos_index.html" class="ativo">Sobre nós</a></li>
           <li><a href="rotina_index.html">Rotina</a></li>
           <li><a href="exercicio_index.html">Exercícios</a></li>
           <li><a href="progresso_index.html">Progresso</a></li>
+          <li><a href="sobre-nos_index.html" class="ativo">Sobre nós</a></li>
+          <li><a href="contate-nos_index.html">Contate-nos</a></li>
           <li class="item-perfil"><a href="perfil_index.html">Perfil</a></li>
-          <li class="item-editar-perfil" style="display: none;"><a href="editar-perfil.html">Editar perfil</a></li>
+          <li class="item-editar-perfil" style="display: none">
+            <a href="editar-perfil.html">Editar perfil</a>
+          </li>
+          <li class="item-fechar"><a href="#" id="fecharMenu">Fechar </a></li>
         </ul>
       </nav>
+      <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">
+        <span class="icone-abrir">☰</span>
+        <span class="icone-fechar"></span>
+      </button>
       <div class="header-icones">
-        <span class="sino"
-          ><img src="img_rotina/notifications.svg" alt="sino notificações"
-        /></span>
-        <span class="avatar"
-          ><a href="perfil_index.html"
-            ><span id="avatarConteudo" class="avatar-icone">
-              <img
-                src="img_sobre-nos/icone-de-perfil-de-avatar-padrao-imagem-de-usuario-de-midia-social-icone-de-avatar-cinza-silhueta-de-perfil-em-branco-ilustracao-vetorial_561158-3485.avif"
-                alt="usuario anonimo" /></span></a
-        ></span>
+         <span class="avatar"
+      ><a href="perfil_index.html"
+        ><span id="avatarConteudo" class="avatar-icone">
+          <img
+            src="img_sobre-nos/icone-de-perfil-de-avatar-padrao-imagem-de-usuario-de-midia-social-icone-de-avatar-cinza-silhueta-de-perfil-em-branco-ilustracao-vetorial_561158-3485.avif"
+            alt="usuario anonimo"
+          /></span></a
+    ></span>
       </div>
     </header>
 
-    <!-- ================= CONTEÚDO ================= -->
-
     <main class="sobre-nos">
-      <!-- ================= INTRODUÇÃO ================= -->
+
 
       <section class="introducao">
         <div class="imagem-introducao">
@@ -73,8 +73,62 @@
           </h1>
         </div>
       </section>
+      <section class="etapas">
+        <h2>Etapas do <strong>desenvolvimento</strong></h2>
 
-      <!-- ================= NOSSA MISSÃO ================= -->
+        <div class="linha-etapas">
+
+
+          <div class="etapa etapa-1">
+            <div class="caixa-etapa">
+              <p>
+                Proposta de criação de um site relacionado ao bem-estar físico e
+                mental e como incentivar pessoas com hábitos a se cuidarem
+                melhor.
+              </p>
+            </div>
+          </div>
+
+
+
+          <div class="etapa etapa-2">
+            <div class="caixa-etapa">
+              <p>
+                Escolhemos os elementos e tudo o que o site poderia ter, desde a
+                paleta de cores até cada texto e conteúdo, fizemos pesquisas e
+                buscamos referências.
+              </p>
+            </div>
+          </div>
+
+
+
+          <div class="etapa etapa-3">
+            <div class="caixa-etapa">
+              <p>
+                Pensamos em como poderíamos criar um diferencial no nosso site.
+                Então, surgiu a ideia de obtenção de recompensas virtuais com a
+                prática de bem-estar físico e mental.
+              </p>
+            </div>
+          </div>
+
+
+
+          <div class="etapa etapa-4">
+            <div class="caixa-etapa">
+              <p>
+                Tomada de prática em relação à programação e todos os recursos
+                interativos que imaginamos que o site possa ter.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        
+      </section>
 
       <section class="missao">
         <div class="texto-missao">
@@ -96,7 +150,6 @@
         </div>
       </section>
 
-      <!-- ================= NÓS ================= -->
 
       <section class="nos">
         <div class="equipe">
@@ -162,68 +215,13 @@
           </p>
         </div>
       </section>
-      <section class="etapas">
-        <h2>Etapas do <strong>desenvolvimento</strong></h2>
-
-        <div class="linha-etapas">
-          <!-- ETAPA 1 -->
-
-          <div class="etapa etapa-1">
-            <div class="caixa-etapa">
-              <p>
-                Proposta de criação de um site relacionado ao bem-estar físico e
-                mental e como incentivar pessoas com hábitos a se cuidarem
-                melhor.
-              </p>
-            </div>
-          </div>
-
-          <!-- ETAPA 2 -->
-
-          <div class="etapa etapa-2">
-            <div class="caixa-etapa">
-              <p>
-                Escolhemos os elementos e tudo o que o site poderia ter, desde a
-                paleta de cores até cada texto e conteúdo, fizemos pesquisas e
-                buscamos referências.
-              </p>
-            </div>
-          </div>
-
-          <!-- ETAPA 3 -->
-
-          <div class="etapa etapa-3">
-            <div class="caixa-etapa">
-              <p>
-                Pensamos em como poderíamos criar um diferencial no nosso site.
-                Então, surgiu a ideia de obtenção de recompensas virtuais com a
-                prática de bem-estar físico e mental.
-              </p>
-            </div>
-          </div>
-
-          <!-- ETAPA 4 -->
-
-          <div class="etapa etapa-4">
-            <div class="caixa-etapa">
-              <p>
-                Tomada de prática em relação à programação e todos os recursos
-                interativos que imaginamos que o site possa ter.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- FRASE FINAL -->
-
-        <div class="frase-final">
+<div class="frase-final">
           <h2>
             Tudo isso foi pensado para que
             <br />
             <strong>você</strong> pudesse ter uma saúde melhor!
           </h2>
         </div>
-      </section>
     </main>
     <footer>
       <div class="footer-container">
@@ -248,11 +246,11 @@
         <div class="footer-redes">
           <a href="#"><img src="img_rotina/facebook.svg" alt="Facebook" /></a>
           <a href="#"><img src="img_rotina/tiktok.svg" alt="TikTok" /></a>
-          <a href="https://www.instagram.com/bewellpi?stkn=OXQ2NzZvcjE4N3Y4"><img src="img_rotina/instagram.svg" alt="Instagram" /></a>
+          <a href="https://www.instagram.com/bewellpi?stkn=OXQ2NzZvcjE4N3Y4"
+            ><img src="img_rotina/instagram.svg" alt="Instagram"
+          /></a>
         </div>
       </div>
     </footer>
-    <link rel="stylesheet" href="css/TODOS_style.css" />
-    <script type="module" src="java.script/avatar.js"></script>
   </body>
 </html>
