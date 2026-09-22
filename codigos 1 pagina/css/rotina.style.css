@@ -479,7 +479,6 @@ footer {
     font-size: 2rem;
   }
 
-  /* Usando Flexbox para substituir o Grid nas listas de cards */
   .grid-dias {
     flex-direction: row;
     flex-wrap: wrap;
