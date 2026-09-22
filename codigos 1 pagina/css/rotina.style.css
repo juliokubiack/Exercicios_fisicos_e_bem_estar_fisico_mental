@@ -444,6 +444,7 @@ footer {
 
   header nav.aberto {
     transform: translateX(0);
+    text-align: center;
   }
 
   header nav ul {
