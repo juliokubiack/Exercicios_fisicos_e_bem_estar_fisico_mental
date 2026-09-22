@@ -31,9 +31,6 @@ body {
     --texto-cinza: #555555;
 }
 
-/* ===================================
-   HEADER — BASE (celular, sem @media)
-   =================================== */
 
 header {
     padding: 3vw 5vw;
@@ -263,9 +260,6 @@ header nav ul li a.ativo {
     font-weight: 800;
 }
 
-/* ===================================
-   CELULAR (até 599px)
-   =================================== */
 
 @media screen and (max-width: 599px) {
 
