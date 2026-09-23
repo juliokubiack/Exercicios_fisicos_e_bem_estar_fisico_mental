@@ -331,7 +331,7 @@ section.exercicios {
 
 .exercicios-lista li span {
   font-weight: 700;
-  color: var(--texto-escuro);
+  color: #1f1f1f;
 }
 
 .exercicios-img {
@@ -718,6 +718,7 @@ footer {
     .menu-btn {
         display: none;
     }
+
   section.exercicios {
     flex-direction: row;
     align-items: center;
@@ -727,6 +728,10 @@ footer {
   .exercicios-texto h2,
   .exercicios-texto p {
     text-align: left;
+  }
+
+  .exercicios-lista{
+      text-align: left;
   }
 
   section.sono {
