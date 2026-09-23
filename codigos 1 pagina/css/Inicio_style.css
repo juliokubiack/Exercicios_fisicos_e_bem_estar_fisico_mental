@@ -1,69 +1,35 @@
-/* === IMPORTAÇÃO DE FONTES */
-
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
-/*
-Fontes Disponíveis:
-// Sugiro usar esta 
-font-family: "Urbanist", sans-serif; 
-font-family: "Fredoka", sans-serif;
-font-family: "Epilogue", sans-serif;
-font-family: "Nunito", sans-serif;
-font-family: "Oswald", sans-serif;
-*/
-/* ==========================*/
-
-/* ==== FORMATAÇÃO GERAL === */
-html {
-    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
-    font-family:
-        "Mulish",
-        system-ui,
-        -apple-system,
-        BlinkMacSystemFont,
-        sans-serif;
-    color: #252b42;
+    font-size: 16px;
+    font-family: "Mulish", system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
     text-align: center;
 }
 
-h1 {
-    font-family: "Nunito", sans-serif;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Oswald", sans-serif;
-
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
 }
 
 body {
-    background-color: #e6e5e5;
+    background-color: #e8e9eb;
 }
 
-/* ===== cores base ===== */
 :root {
-    --azul: #4a90d9;
-    --azul-escuro: #17436f;
-    --azul-claro: #eaf3fb;
-    --azul-footer: #5b93c5;
-    --verde-claro: #d9f0e6;
-    --cinza-texto: #6b7280;
-    --texto-principal: #252b42;
+    --azul-principal: #1c4d8d;
+    --azul-medio: #4988c4;
+    --azul-claro: #d9e6f2;
+    --azul-fundo-card: #e4eef7;
+    --azul-escuro-footer: #153966;
+    --texto-escuro: #252b42;
+    --texto-cinza: #555555;
 }
-
-
-
-/* ================================= */
-/*        HEADER DO CELULAR         */
-/* ================================= */
-
-
 
 
 header {
@@ -71,10 +37,11 @@ header {
     border-bottom: 1px solid #cccccc;
 }
 
-    header div.logo-circle img {
-        width: 20%;
+header .logo-circle {
+    justify-self: start;
+    text-align: left;
+}
 
-    }
 
 header nav ul {
     font-size: 1rem;
@@ -89,18 +56,27 @@ header nav ul li a {
 header nav ul li a.ativo {
     color: #4988C4;
     font-weight: 800;
-
-}
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1.5rem;
 }
 
 .sino img {
     width: 10%;
 }
 
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Botão hambúrguer: só existe no celular */
+.menu-btn {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+}
 
 main section.comeco {
 
@@ -138,21 +114,21 @@ section.comeco div.texto {
 section.diferenciais h3 {
     font-size: 1.5rem;
     padding: 6vw;
-    
+
 }
 
 section.diferenciais h3 span {
     font-weight: 600;
-    
+
 }
 
 section.diferenciais ul li img {
-    
+
     display: block;
     margin: 0 auto;
-     width: 56%;            
-  height: auto;
- max-width: 15vw;
+    width: 56%;
+    height: auto;
+    max-width: 15vw;
     max-height: 15vw;
 }
 
@@ -166,22 +142,24 @@ section.diferenciais ul li {
 section.diferenciais ul {
     position: relative;
     bottom: 5vw;
-     display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Força 2 colunas iguais */
-  gap: 10vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Força 2 colunas iguais */
+    gap: 10vw;
 }
 
 section.diferenciais h4 {
     font-weight: 700;
     padding-bottom: 3vw;
 }
+
 section.beneficios {
-      background: linear-gradient(#9bb8df 0%,
-                #C9D4FF 100%);
-        border-radius: 6%;
-        margin-top: 10vw;
-        
-    
+    background: linear-gradient(#9bb8df 0%,
+            #C9D4FF 100%);
+    border-radius: 6%;
+    margin-top: 10vw;
+
+
 }
 
 .item {
@@ -189,7 +167,7 @@ section.beneficios {
     padding: 7vw 2vw 0vw 4vw;
     position: relative;
     bottom: 3.7vw;
-    
+
 }
 
 section.beneficios .texto {
@@ -229,6 +207,7 @@ section.beneficios div.direitatexto {
     margin-bottom: 8vw;
     padding: 0vw 0vw 0vw 3vw;
 }
+
 section.beneficios div.direitatexto p {
     font-size: 0.8rem;
     margin: 3vw 1vw 0vw 1vw;
@@ -236,6 +215,7 @@ section.beneficios div.direitatexto p {
     max-width: 80%;
 
 }
+
 .recursos {
     padding: 15px 0 0 0;
     text-align: center;
@@ -260,9 +240,11 @@ section.recursos ul li a {
     display: inline-block;
     border-radius: 4vw
 }
+
 section.recursos ul li {
     margin-top: 15vw;
 }
+
 section.recursos ul li {
     display: flex;
 }
@@ -270,18 +252,113 @@ section.recursos ul li {
 section.recursos {
     padding-bottom: 3vw;
 }
+
 section.recursos p {
     font-size: 0.8rem;
     margin: 0vw 2vw 0vw 2vw;
 }
+
 section.recursos h3 {
     font-size: 1.5rem;
 }
 
+@media screen and (max-width: 599px) {
 
-/* ================================= */
-/*        FOODER DO CELULAR         */
-/* ================================= */
+    .menu-btn {
+        display: block;
+        transition: transform 0.2s ease;
+    }
+
+    .menu-btn:active {
+        transform: scale(0.9);
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    header .logo-circle {
+        justify-self: start;
+    }
+
+    header div.logo-circle img {
+        width: 35%;
+        border-radius: 50%;
+    }
+
+    header nav {
+        justify-self: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 80%;
+        max-width: 320px;
+        background: var(--azul-escuro-footer);
+        padding: 30px 24px;
+        z-index: 150;
+        transform: translateX(100%);
+        transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+        overflow-y: auto;
+        box-shadow: -8px 0 24px rgba(0, 0, 0, 0.25);
+    }
+
+    header nav.aberto {
+        transform: translateX(0);
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        font-size: 1.05rem;
+        padding: 10px 0;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding: 14px 4px;
+        color: #ffffff;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        transition: color 0.2s ease, padding-left 0.2s ease;
+    }
+
+    header nav ul li a:hover,
+    header nav ul li a:focus {
+        color: var(--azul-medio);
+        padding-left: 10px;
+    }
+
+    header nav ul li a.ativo {
+        color: var(--azul-medio);
+        font-weight: 800;
+    }
+
+    header nav .item-fechar a {
+        color: rgba(255, 255, 255, 0.7);
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        border-bottom: none;
+    }
+
+    header .header-icones {
+        justify-self: end;
+        text-align: end;
+    }
+
+    header .header-icones img {
+        border-radius: 50%;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.06);
+    }
+}
+
 
 @media screen and (max-width: 599px) {
 
@@ -386,85 +463,92 @@ section.recursos h3 {
 }
 
 
-/* MEDIA QUERY - DESKTOP */
 @media screen and (min-width: 600px) {
 
-    /*===SEGUNDA PAGINA INICIO ===*/
-    html {
-        text-align: left;
-        font-size: clamp(0.9rem, calc(0.5rem + 0.6vw), 1.2rem);
-        font-family:
-            "Mulish",
-            system-ui,
-            -apple-system,
-            BlinkMacSystemFont,
-            sans-serif;
-        color: #252b42;
-    }
-
-    body {
-        background-color: #e6e5e5;
-    }
-
-    /* ===== cores base ===== */
-    :root {
-        --azul: #4a90d9;
-        --azul-escuro: #17436f;
-        --azul-claro: #eaf3fb;
-        --azul-footer: #5b93c5;
-        --verde-claro: #d9f0e6;
-        --cinza-texto: #6b7280;
-        --texto-principal: #252b42;
-    }
-
-    /* ===== header ===== */
     header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 3vw 5vw 3vw 5vw;
-  border-bottom: 1px solid #cccccc;
-}
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.4rem 5vw;
+        border-bottom: 1px solid #e3e3e3;
+    }
 
- header div.logo-circle img{
-  width: 3.5rem;
-  border-radius: 50%;
-}
+    header nav .item-fechar {
+        display: none;
+    }
 
-header nav ul {
-  display: flex;
-  gap: 2vw;
-  font-size: 0.9rem;
-}
+    header div.logo-circle img {
+        width: 3.5rem;
+        border-radius: 50%;
+        box-shadow: 0 0 0 3px var(--azul-claro);
+    }
 
-header nav ul li a {
-  color: var(--texto-principal);
-  font-weight: 500;
-}
+    header nav ul {
+        display: flex;
+        gap: 2.2vw;
+        font-size: 0.9rem;
+    }
 
-header nav ul li a.ativo {
-  color: #4988C4;
-  font-weight: 700;
-}
+    header nav ul li a {
+        position: relative;
+        color: var(--texto-escuro);
+        font-weight: 500;
+        padding: 6px 2px;
+        transition: color 0.2s ease;
+    }
 
-.header-icones {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
+    header nav ul li a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: var(--azul-medio);
+        transition: width 0.25s ease;
+    }
 
-.sino img {
-  width: 27px;
-  height: auto;
-}
+    header nav ul li a:hover {
+        color: var(--azul-medio);
+    }
 
-.header-icones .avatar {
-  width: 1.8rem;
-  height: 1.8rem;
-  border-radius: 50%;
-  background-color: #d9d9d9;
-  display: inline-block;
-}
+    header nav ul li a:hover::after {
+        width: 100%;
+    }
+
+    header nav ul li a.ativo {
+        color: #4988c4;
+        font-weight: 700;
+    }
+
+    header nav ul li a.ativo::after {
+        width: 100%;
+    }
+
+    .header-icones {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+    }
+
+    .header-icones img {
+        width: 2.7rem;
+        height: 2.7rem;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 0 0 2px var(--azul-claro);
+        transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+
+    .header-icones img:hover {
+        box-shadow: 0 0 0 2px var(--azul-medio);
+        transform: scale(1.05);
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
     main section.comeco {
         display: flex;
         background-color: #E6E5E5;
@@ -495,8 +579,9 @@ header nav ul li a.ativo {
     section.comeco div.texto {
         margin-right: 3vw;
     }
+
     section.diferenciais {
-        padding: 0vw 0vw 0vw 0vw ;
+        padding: 0vw 0vw 0vw 0vw;
         margin-bottom: 0vw;
         margin-top: 0vw;
     }
@@ -528,22 +613,26 @@ header nav ul li a.ativo {
         bottom: 5vw;
         left: 1vw;
         align-items: center;
-         grid-template-columns: repeat(4, 1fr); 
-    gap: 30px;
-        
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+
     }
-    section.diferenciais ul li.relogio h4{
+
+    section.diferenciais ul li.relogio h4 {
         position: relative;
         bottom: 15px;
     }
+
     section.diferenciais ul li.relogio img {
         position: relative;
         bottom: 15px;
     }
-     section.diferenciais ul li.relogio p {
+
+    section.diferenciais ul li.relogio p {
         position: relative;
         bottom: 15px;
-     }
+    }
+
     section.diferenciais h4 {
         font-weight: 700;
         padding-bottom: 3vw;
@@ -553,7 +642,7 @@ header nav ul li a.ativo {
         max-width: 250px;
     }
 
-    
+
     .item {
         display: flex;
         padding: 3vw 0vw 0vw 0vw;
@@ -582,9 +671,10 @@ header nav ul li a.ativo {
         position: relative;
 
     }
+
     section.beneficios div.imagem img {
-    display: block;
-}
+        display: block;
+    }
 
     section.beneficios h2 {
         font-weight: 700;
@@ -622,44 +712,51 @@ header nav ul li a.ativo {
         margin-top: 10vw;
         font-size: 1.1rem;
     }
+
     section.beneficios div.direitatexto p {
         max-width: fit-content;
         margin: 0vw;
         padding: 0vw;
         font-size: 1rem;
-         max-width: 180px;
+        max-width: 180px;
     }
 
     section.beneficios div.direitatexto h5 {
         font-size: 2rem;
     }
- section.beneficios div.direitatexto {
-    margin-right: 1vw;
- }
+
+    section.beneficios div.direitatexto {
+        margin-right: 1vw;
+    }
+
     section.recursos ul {
         display: flex;
         gap: 1vw;
         justify-content: space-evenly
-        
     }
-    section.recursos ul li a { text-align: center;
-         margin-right: 6.67vw; 
-         margin-top: 1vw; 
-         margin-bottom: 2vw;
-          background-color: #4988c4; 
-          color: white; 
-          padding: 0.5vw 2vw 0.5vw 2vw; 
-          display: inline-block;
-           border-radius: 4vw }
+
+    section.recursos ul li a {
+        text-align: center;
+        margin-right: 6.67vw;
+        margin-top: 1vw;
+        margin-bottom: 2vw;
+        background-color: #4988c4;
+        color: white;
+        padding: 0.5vw 2vw 0.5vw 2vw;
+        display: inline-block;
+        border-radius: 4vw
+    }
 
     section.recursos img {
         max-width: 18vw;
         max-height: 18vw;
         border-radius: 2vw;
     }
+
     section.recursos ul li {
         display: block;
     }
+
     section.recursos h3 {
         text-align: center;
         font-size: 1.4rem;
@@ -679,7 +776,8 @@ header nav ul li a.ativo {
         max-width: 20vw;
         margin: 0vw;
     }
-    section.recursos ul li{
+
+    section.recursos ul li {
         padding-top: 2vw;
         margin-top: 2vw;
     }
@@ -695,6 +793,7 @@ header nav ul li a.ativo {
         display: inline-block;
         border-radius: 4vw
     }
+
     section.recursos ul li.homem a {
         margin: 1vw;
     }
@@ -702,65 +801,67 @@ header nav ul li a.ativo {
     section.recursos {
         padding-bottom: 3vw;
     }
+
     section.recursos h3 {
         padding: 0vw;
         margin: 0vw;
     }
-footer {
-  background-color: #1C4D8D;
-  color: #ffffff;
-  padding: 2rem 5%;
-  margin-top: 3.5rem;
-}
 
-.footer-container {
-  max-width: 900px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
+    footer {
+        background-color: #1C4D8D;
+        color: #ffffff;
+        padding: 2rem 5%;
+        margin-top: 3.5rem;
+    }
 
-.footer-container .logo-circle {
-  width: 120px;
-  height: auto;
-  border-radius: 0%;
-}
+    .footer-container {
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
 
-.footer-container .logo-circle img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
+    .footer-container .logo-circle {
+        width: 120px;
+        height: auto;
+        border-radius: 0%;
+    }
+
+    .footer-container .logo-circle img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
 
 
-.footer-links {
-  display: flex;
-  gap: 1rem;
-}
+    .footer-links {
+        display: flex;
+        gap: 1rem;
+    }
 
-.footer-links a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 0.85rem;
-}
+    .footer-links a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 0.85rem;
+    }
 
-.footer-copy p {
-  margin: 0;
-  font-size: 0.75rem;
-  opacity: 0.8;
-  font-weight: 700;
-}
+    .footer-copy p {
+        margin: 0;
+        font-size: 0.75rem;
+        opacity: 0.8;
+        font-weight: 700;
+    }
 
-.footer-redes {
-  display: flex;
-  gap: 0.8rem;
-}
+    .footer-redes {
+        display: flex;
+        gap: 0.8rem;
+    }
 
-.footer-redes img {
-  width: 20px;
+    .footer-redes img {
+        width: 20px;
 
-}
+    }
 }
