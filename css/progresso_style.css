@@ -738,6 +738,11 @@ footer {
     flex-direction: row;
   }
 
+  section.sono div.regular ul{
+    text-align: center;
+    margin-top: 1rem;
+  }
+
   .footer-container {
     flex-direction: row;
     justify-content: space-between;
