@@ -167,6 +167,7 @@ section.beneficios {
     padding: 7vw 2vw 0vw 4vw;
     position: relative;
     bottom: 3.7vw;
+    left: 5vw;
 
 }
 
@@ -206,6 +207,7 @@ section.beneficios div.direitatexto {
     margin-top: 5vw;
     margin-bottom: 8vw;
     padding: 0vw 0vw 0vw 3vw;
+    
 }
 
 section.beneficios div.direitatexto p {
