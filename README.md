@@ -511,3 +511,55 @@ Correção do envio do formulário de Contate-nos (Supabase) e implementação d
 O formulário de Contate-nos está funcionando corretamente e salvando as mensagens na tabela `contatos_db`. A recuperação de senha também foi testada com sucesso. Pendências que seguem em aberto: replicar os ajustes de header, avatar e menu nas demais páginas do site; decidir sobre a criação de uma página de Política de Privacidade; revisar o sistema de metas da página Progresso. tudo isso foi feito com a ideias minha, porem com o auxilio da ia "claude" mostrando e ensinando como fazia cada passo do codigo.
 
 **Fora da sala**
+
+# Ata 13.3 – Projeto Integrador (Professor Mehran)
+
+**Data:** 22/09/2026
+
+**Coordenadora:** Beatriz Gomes
+
+**Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
+
+### Assunto
+
+Implementação do menu hambúrguer responsivo no cabeçalho do site, ajuste do layout do header para desktop e correção do bug de atualização do avatar do usuário logado. E paginas sendo finalizadas
+
+### Responsabilidades
+
+***Julio Kubiack***: implementação do menu , ajustes de header (mobile e desktop) e correção do avatar do usuário.
+
+- **Beatriz Gomes dos Santos:** arrumando sua propria pragina
+
+- **Isabela Luiza Maciel:** arrumando sua propria pragina
+
+- **Melissa:** arrumando sua propria pragina
+
+- **Beatriz Costa:** arrumando sua propria pragina
+
+- **Vinicios Korman** arrumando sua propria pragina
+
+# Ata 13.3 – Projeto Integrador (Professor Mehran)
+
+**Data:** 23/09/2026
+
+**Coordenadora:** Beatriz Gomes
+
+**Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
+
+### Assunto
+
+SITE NO ARRRRR
+
+### Responsabilidades
+
+***Julio Kubiack***: SITE NO AR
+
+- **Beatriz Gomes dos Santos:** SITE NO AR
+
+- **Isabela Luiza Maciel:** SITE NO AR
+
+- **Melissa:** SITE NO AR
+
+- **Beatriz Costa:** SITE NO AR
+
+- **Vinicios Korman** SITE NO AR
