@@ -170,22 +170,11 @@ header nav ul li a.ativo {
 .equipe {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     gap: 10px;
 }
-
-.pessoa {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.pessoa img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+.equipe img {
+    border-radius: 2vw;
 }
 
 .texto-nos {
@@ -198,50 +187,41 @@ header nav ul li a.ativo {
 
 .etapas {
     width: 100%;
-}
+    padding: 20px;
+    box-sizing: border-box;
 
-.etapas>h2 {
-    color: #252b42;
-    font-size: 1.6rem;
-    font-weight: 400;
-    margin-bottom: 2rem;
-}
-
-.etapas>h2 strong {
-    font-weight: 800;
-}
-
-.linha-etapas {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
 }
 
 .etapa {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.caixa-etapa {
-    width: 100%;
-    max-width: 300px;
-    min-height: 150px;
-    padding: 1.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 90%;
     background-color: #1c4d8d;
-    border-radius: 8px;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.caixa-etapa p {
-    color: #ffffff;
-    font-size: 0.75rem;
-    line-height: 1.35;
-    text-align: center;
+.etapa p {
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
 }
+
+.cerebro {
+    width: 90px;
+    height: auto;
+}
+
+.etapas::before,
+.etapas::after {
+    display: none;
+}
+
 
 .frase-final {
     text-align: center;
@@ -549,7 +529,137 @@ header nav ul li a.ativo {
     .texto-missao h2 {
         font-size: 2rem;
     }
+    .etapas h2 {
+        font-size: 1.5rem;
+    }
+.etapas {
+        position: relative;
+        width: 850px;
+        height: 800px;
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+    }
 
+    .etapa {
+        position: absolute;
+        margin: 0;
+        padding: 22px;
+        box-sizing: border-box;
+    }
+
+    .etapa p {
+        font-size: 18px;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+
+    /* PRIMEIRA CAIXA */
+
+    .etapa-1 {
+        width: 193px;
+        height: 216px;
+
+        top: 40px;
+        left: 49px;
+    }
+
+
+    /* SEGUNDA CAIXA */
+
+    .etapa-2 {
+        width: 280px;
+        height: 150px;
+
+        top: 55px;
+        left: 549px;
+    }
+
+
+    /* TERCEIRA CAIXA */
+
+    .etapa-3 {
+        width: 336px;
+        height: 158px;
+
+        top: 350px;
+        left: 93px;
+    }
+
+
+    /* QUARTA CAIXA */
+
+    .etapa-4 {
+        width: 174px;
+        height: 250px;
+
+        top: 486px;
+        left: 514px;
+    }
+
+
+    /* CÉREBRO DE CIMA */
+
+    .cerebro-1 {
+        position: absolute;
+
+        width: 125px;
+
+        top: 225px;
+        left: 541px;
+    }
+
+
+    /* CÉREBRO DE BAIXO */
+
+    .cerebro-2 {
+        position: absolute;
+
+        width: 140px;
+
+        top: 644px;
+        left: 168px;
+    }
+
+
+    /* LINHA DE CIMA */
+
+    .etapas::before {
+        content: "";
+
+        display: block;
+        position: absolute;
+
+        width: 308px;
+        height: 1px;
+
+        top: 119px;
+        left: 241px;
+
+        background-color: #777;
+    }
+
+
+    /* LINHA DE BAIXO */
+
+    .etapas::after {
+        content: "";
+
+        display: block;
+        position: absolute;
+
+        width: 231px;
+        height: 103px;
+
+        top: 523px;
+        left: 196px;
+
+        border-left: 1px solid #777;
+        border-bottom: 1px solid #777;
+
+        border-radius: 0 0 0 100px;
+    }
     .imagem-missao {
         width: 80%;
     }
