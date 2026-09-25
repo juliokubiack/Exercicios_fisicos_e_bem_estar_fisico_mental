@@ -33,39 +33,40 @@ body {
 
 
 header {
-    padding: 3vw 5vw;
-    border-bottom: 1px solid #cccccc;
+  padding: 3vw 5vw;
+  border-bottom: 1px solid #cccccc;
+  font-size: 16px;
 }
 
 header .logo-circle {
-    justify-self: start;
-    text-align: left;
+  justify-self: start;
+  text-align: left;
 }
 
 
 header nav ul {
-    font-size: 1rem;
-    padding: 5px 0 5px 0;
+  font-size: 1rem;
+  padding: 5px 0 5px 0;
 }
 
 header nav ul li a {
-    color: var(--texto-principal);
-    font-weight: 600;
+  color: var(--texto-principal);
+  font-weight: 600;
 }
 
 header nav ul li a.ativo {
-    color: #4988C4;
-    font-weight: 800;
+  color: #4988C4;
+  font-weight: 800;
 }
 
 .sino img {
-    width: 10%;
+  width: 10%;
 }
 
 .avatar img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Botão hambúrguer: só existe no celular */
@@ -435,7 +436,7 @@ main {
 @media screen and (min-width: 600px) {
   html {
     text-align: left;
-    font-size: clamp(0.9rem, calc(0.5rem + 0.6vw), 1.2rem);
+    font-size: 16px;
     font-family:
       "Mulish",
       system-ui,
