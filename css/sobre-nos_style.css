@@ -1,202 +1,771 @@
-<!doctype html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Be Well - Sobre Nós</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="shortcut icon"
-      href="img_sobre-nos/cerebro-pensnte-pequeno.png"
-      type="image/x-icon"
-    />
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/sobre-nos_style.css" />
-    <link rel="stylesheet" href="css/TODOS_style.css" />
-    <script type="module" src="java.script/avatar.js"></script>
-    <script type="module" src="java.script/menu_todos.js"></script>
-  </head>
+html {
+    font-size: 16px;
+    font-family: "Mulish", system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+    text-align: center;
+}
 
-  <body>
-    <header>
-      <div class="logo-circle">
-        <img src="img_rotina/logo.png" alt="logo site" />
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Início</a></li>
-          <li><a href="rotina_index.html">Rotina</a></li>
-          <li><a href="exercicio_index.html">Exercícios</a></li>
-          <li><a href="progresso_index.html">Progresso</a></li>
-          <li><a href="sobre-nos_index.html" class="ativo">Sobre nós</a></li>
-          <li><a href="contate-nos_index.html">Contate-nos</a></li>
-          <li class="item-perfil"><a href="perfil_index.html">Perfil</a></li>
-          <li class="item-editar-perfil" style="display: none">
-            <a href="editar-perfil.html">Editar perfil</a>
-          </li>
-          <li class="item-fechar"><a href="#" id="fecharMenu">Fechar </a></li>
-        </ul>
-      </nav>
-      <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">
-        <span class="icone-abrir">☰</span>
-        <span class="icone-fechar"></span>
-      </button>
-      <div class="header-icones">
-         <span class="avatar"
-      ><a href="perfil_index.html"
-        ><span id="avatarConteudo" class="avatar-icone">
-          <img
-            src="img_sobre-nos/icone-de-perfil-de-avatar-padrao-imagem-de-usuario-de-midia-social-icone-de-avatar-cinza-silhueta-de-perfil-em-branco-ilustracao-vetorial_561158-3485.avif"
-            alt="usuario anonimo"
-          /></span></a
-    ></span>
-      </div>
-    </header>
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
 
-    <main class="sobre-nos">
+body {
+    background-color: #e8e9eb;
+}
+
+:root {
+    --azul-principal: #1c4d8d;
+    --azul-medio: #4988c4;
+    --azul-claro: #d9e6f2;
+    --azul-fundo-card: #e4eef7;
+    --azul-escuro-footer: #153966;
+    --texto-escuro: #252b42;
+    --texto-cinza: #555555;
+}
 
 
-      <section class="introducao">
-        <div class="imagem-introducao">
-          <img src="img_sobre-nos/monte-pedras.png" alt="Pedras empilhadas" />
+header {
+    padding: 3vw 5vw;
+    border-bottom: 1px solid #cccccc;
+}
 
-          <h1>
-            Conheça a história por trás
-            <br />
-            do nosso projeto!
-          </h1>
-        </div>
-      </section>
-      <section class="etapas">
-        <h2>Etapas do <strong>desenvolvimento</strong></h2>
+header .logo-circle {
+    justify-self: start;
+    text-align: left;
+}
 
 
+header nav ul {
+    font-size: 1rem;
+    padding: 5px 0 5px 0;
+}
 
-    <div class="etapa etapa-1">
-        <p>
-            Proposta de criação de um site relacionado ao bem estar físico e mental
-            e como incentivar pessoas como nós a se cuidarem melhor
-        </p>
-    </div>
+header nav ul li a {
+    color: var(--texto-principal);
+    font-weight: 600;
+}
 
-    <div class="etapa etapa-2">
-        <p>
-            Escolhemos os elementos e tudo o que o site poderia ter, desde a paleta
-            de cores até cada texto e conteúdo, fizemos pesquisas e buscamos referências
-        </p>
-    </div>
+header nav ul li a.ativo {
+    color: #4988C4;
+    font-weight: 800;
+}
 
-    <img class="cerebro cerebro-1" src="img_sobre-nos/cerebro-pensnte-pequeno.png" alt="Cérebro">
+.sino img {
+    width: 10%;
+}
 
-    <div class="etapa etapa-3">
-        <p>
-            Pensamos em como poderíamos criar um diferencial no nosso site.
-            E então, surgiu a ideia da obtenção de recompensas virtuais com a prática
-            de bem estar físico e mental
-        </p>
-    </div>
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-    <div class="etapa etapa-4">
-        <p>
-            Tomada de prática em relação a programação e todos os recursos interativos
-            que imaginamos que o site possa ter
-        </p>
-    </div>
+/* Botão hambúrguer: só existe no celular */
+.menu-btn {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+}
 
-    <img class="cerebro cerebro-2" src="img_sobre-nos/cerebro-no-computador.png" alt="Cérebro">
+.sobre-nos {
+    width: 100%;
+    padding: 1.5rem 5%;
+}
+
+.introducao {
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.imagem-introducao {
+    position: relative;
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.imagem-introducao img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.imagem-introducao::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(23, 67, 111, 0.20);
+}
+
+.imagem-introducao h1 {
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    left: 25px;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.missao {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.texto-missao {
+    width: 100%;
+}
+
+.texto-missao h2,
+.texto-nos h2 {
+    color: #252b42;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+.texto-missao p,
+.texto-nos p {
+    color: #252b42;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.imagem-missao {
+    width: 100%;
+}
+
+.imagem-missao img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+}
+
+.nos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.equipe {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.equipe img {
+    border-radius: 2vw;
+}
+
+.texto-nos {
+    width: 100%;
+}
+
+.texto-nos p+p {
+    margin-top: 1.3rem;
+}
+
+.etapas {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.etapa {
+    width: 90%;
+    background-color: #1c4d8d;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.etapa p {
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.cerebro {
+    width: 90px;
+    height: auto;
+}
+
+.etapas::before,
+.etapas::after {
+    display: none;
+}
 
 
+.frase-final {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
 
-        
-      </section>
+.frase-final h2 {
+    color: #252b42;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
 
-      <section class="missao">
-        <div class="texto-missao">
-          <h2>Nossa missão</h2>
-
-          <p>
-            Nossa missão é promover o bem-estar físico e mental por meio de
-            informações confiáveis, orientação de qualidade e incentivo a
-            hábitos saudáveis. Buscamos ajudar cada pessoa a desenvolver uma
-            vida mais equilibrada, fortalecendo tanto o corpo quanto a mente.
-          </p>
-        </div>
-
-        <div class="imagem-missao">
-          <img
-            src="img_sobre-nos/escritorio.png"
-            alt="Pessoas trabalhando juntas"
-          />
-        </div>
-      </section>
+.frase-final strong {
+    font-weight: 800;
+}
 
 
-      <section class="nos">
-        <div class="equipe">
-         <img src="img_sobre-nos/FotoEquipe.jpg" alt="FotoEquipe">
-        </div>
+@media screen and (max-width: 599px) {
 
-        <div class="texto-nos">
-          <h2>Nós</h2>
+    .menu-btn {
+        display: block;
+        transition: transform 0.2s ease;
+    }
 
-          <p>
-            Acreditamos que cuidar da saúde vai muito além do corpo: envolve
-            também o equilíbrio da mente e o bem-estar no dia a dia. Nosso
-            objetivo é oferecer um espaço com conteúdos e orientações que
-            incentivem hábitos saudáveis, promovendo mais qualidade de vida e
-            ajudando as pessoas a fazerem escolhas que contribuam para uma vida
-            mais saudável.
-          </p>
+    .menu-btn:active {
+        transform: scale(0.9);
+    }
 
-          <p>
-            Somos uma equipe formada por seis estudantes do Instituto Federal
-            Catarinense, unidos pelo objetivo de desenvolver um projeto que
-            incentive o cuidado com a saúde física e mental.
-          </p>
-        </div>
-      </section>
-<div class="frase-final">
-          <h2>
-            Tudo isso foi pensado para que
-            <br />
-            <strong>você</strong> pudesse ter uma saúde melhor!
-          </h2>
-        </div>
-    </main>
-    <footer>
-      <div class="footer-container">
-        <div class="footer-logo">
-          <div class="logo-circle">
-            <img src="img_rotina/logo-escuro.png" alt="logo site" />
-          </div>
-        </div>
-        <div class="footer-links">
-          <a href="#">Contate-nos</a>
-          <a href="#">Início</a>
-          <a href="#">Sobre nós</a>
-          <a href="#">Rotina</a>
-          <a href="#">Exercícios</a>
-          <a href="#">Progresso</a>
-          <a href="#">Perfil</a>
-        </div>
-        <div class="footer-copy">
-          <p>Transforme sua rotina!</p>
-          <p>Cuidar de você é o primeiro passo para uma vida leve.</p>
-        </div>
-        <div class="footer-redes">
-          <a href="#"><img src="img_rotina/facebook.svg" alt="Facebook" /></a>
-          <a href="#"><img src="img_rotina/tiktok.svg" alt="TikTok" /></a>
-          <a href="https://www.instagram.com/bewellpi?stkn=OXQ2NzZvcjE4N3Y4"
-            ><img src="img_rotina/instagram.svg" alt="Instagram"
-          /></a>
-        </div>
-      </div>
-    </footer>
-  </body>
-</html>
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    header .logo-circle {
+        justify-self: start;
+    }
+
+    header div.logo-circle img {
+        width: 35%;
+        border-radius: 50%;
+    }
+
+    header nav {
+        justify-self: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 80%;
+        max-width: 320px;
+        background: var(--azul-escuro-footer);
+        padding: 30px 24px;
+        z-index: 150;
+        transform: translateX(100%);
+        transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+        overflow-y: auto;
+        box-shadow: -8px 0 24px rgba(0, 0, 0, 0.25);
+    }
+
+    header nav.aberto {
+        transform: translateX(0);
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        font-size: 1.05rem;
+        padding: 10px 0;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding: 14px 4px;
+        color: #ffffff;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        transition: color 0.2s ease, padding-left 0.2s ease;
+    }
+
+    header nav ul li a:hover,
+    header nav ul li a:focus {
+        color: var(--azul-medio);
+        padding-left: 10px;
+    }
+
+    header nav ul li a.ativo {
+        color: var(--azul-medio);
+        font-weight: 800;
+    }
+
+    header nav .item-fechar a {
+        color: rgba(255, 255, 255, 0.7);
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        border-bottom: none;
+    }
+
+    header .header-icones {
+        justify-self: end;
+        text-align: end;
+    }
+
+    header .header-icones img {
+        border-radius: 50%;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.06);
+    }
+
+    footer {
+        background-color: var(--azul-escuro-footer);
+        color: #ffffff;
+    }
+
+    .footer-container {
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10vw 0 6vw;
+        gap: 1.75rem;
+        text-align: center;
+    }
+
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logo-circle-fim {
+        width: 30%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .footer-links a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 0.85rem;
+        opacity: 0.9;
+        transition: opacity 0.2s ease;
+    }
+
+    .footer-links a:hover {
+        opacity: 1;
+        text-decoration: underline;
+    }
+
+    .footer-copy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .footer-copy p {
+        margin: 0;
+        font-size: 0.75rem;
+        opacity: 0.75;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .footer-redes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem;
+    }
+
+    .footer-redes img {
+        width: 24px;
+        height: 24px;
+        opacity: 0.9;
+        transition: opacity 0.2s ease, transform 0.2s ease;
+    }
+
+    .footer-redes img:hover {
+        opacity: 1;
+        transform: translateY(-2px);
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.4rem 5vw;
+        border-bottom: 1px solid #e3e3e3;
+    }
+
+    header nav .item-fechar {
+        display: none;
+    }
+
+    header div.logo-circle img {
+        width: 3.5rem;
+        border-radius: 50%;
+        box-shadow: 0 0 0 3px var(--azul-claro);
+    }
+
+    header nav ul {
+        display: flex;
+        gap: 2.2vw;
+        font-size: 0.9rem;
+    }
+
+    header nav ul li a {
+        position: relative;
+        color: var(--texto-escuro);
+        font-weight: 500;
+        padding: 6px 2px;
+        transition: color 0.2s ease;
+    }
+
+    header nav ul li a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: var(--azul-medio);
+        transition: width 0.25s ease;
+    }
+
+    header nav ul li a:hover {
+        color: var(--azul-medio);
+    }
+
+    header nav ul li a:hover::after {
+        width: 100%;
+    }
+
+    header nav ul li a.ativo {
+        color: #4988c4;
+        font-weight: 700;
+    }
+
+    header nav ul li a.ativo::after {
+        width: 100%;
+    }
+
+    .header-icones {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+    }
+
+    .header-icones img {
+        width: 2.7rem;
+        height: 2.7rem;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 0 0 2px var(--azul-claro);
+        transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+
+    .header-icones img:hover {
+        box-shadow: 0 0 0 2px var(--azul-medio);
+        transform: scale(1.05);
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .imagem-introducao {
+        height: 300px;
+    }
+
+    .imagem-introducao h1 {
+        font-size: 2.5rem;
+    }
+
+    .missao {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2.5rem;
+    }
+
+    .texto-missao {
+        width: 60%;
+    }
+
+    .texto-missao h2 {
+        font-size: 2rem;
+    }
+    .etapas h2 {
+        font-size: 1.5rem;
+    }
+.etapas {
+        position: relative;
+        width: 850px;
+        height: 800px;
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+    }
+
+    .etapa {
+        position: absolute;
+        margin: 0;
+        padding: 22px;
+        box-sizing: border-box;
+    }
+
+    .etapa p {
+        font-size: 18px;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+
+    /* PRIMEIRA CAIXA */
+
+    .etapa-1 {
+        width: 193px;
+        height: 216px;
+
+        top: 40px;
+        left: 49px;
+    }
+
+
+    /* SEGUNDA CAIXA */
+
+    .etapa-2 {
+        width: 280px;
+        height: 150px;
+
+        top: 55px;
+        left: 549px;
+    }
+
+
+    /* TERCEIRA CAIXA */
+
+    .etapa-3 {
+        width: 336px;
+        height: 158px;
+
+        top: 350px;
+        left: 93px;
+    }
+
+
+    /* QUARTA CAIXA */
+
+    .etapa-4 {
+        width: 174px;
+        height: 250px;
+
+        top: 486px;
+        left: 514px;
+    }
+
+
+    /* CÉREBRO DE CIMA */
+
+    .cerebro-1 {
+        position: absolute;
+
+        width: 125px;
+
+        top: 225px;
+        left: 541px;
+    }
+
+
+    /* CÉREBRO DE BAIXO */
+
+    .cerebro-2 {
+        position: absolute;
+
+        width: 140px;
+
+        top: 644px;
+        left: 168px;
+    }
+
+
+    /* LINHA DE CIMA */
+
+    .etapas::before {
+        content: "";
+
+        display: block;
+        position: absolute;
+
+        width: 308px;
+        height: 1px;
+
+        top: 119px;
+        left: 241px;
+
+        background-color: #777;
+    }
+
+
+    /* LINHA DE BAIXO */
+
+    .etapas::after {
+        content: "";
+
+        display: block;
+        position: absolute;
+
+        width: 231px;
+        height: 103px;
+
+        top: 523px;
+        left: 196px;
+
+        border-left: 1px solid #777;
+        border-bottom: 1px solid #777;
+
+        border-radius: 0 0 0 100px;
+    }
+    .imagem-missao {
+        width: 80%;
+    }
+
+    .nos {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 2.5rem;
+    }
+
+    .equipe {
+        width: 48%;
+        gap: 10px;
+        border-radius: 50px;
+    }
+
+    .texto-nos {
+        width: 30%;
+    }
+
+    .texto-nos h2 {
+        font-size: 2rem;
+    }
+
+    .linha-etapas {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 0 6vw;
+
+    }
+
+    .frase-final {
+        margin-top: 4rem;
+    }
+
+    .frase-final h2 {
+        font-size: 1.8rem;
+    }
+
+    footer {
+        background-color: var(--azul-escuro-footer);
+        color: #ffffff;
+        padding: 2.5rem 5%;
+        margin-top: 3.5rem;
+    }
+
+    .footer-container {
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .footer-container .logo-circle {
+        width: 110px;
+        height: auto;
+        border-radius: 0%;
+    }
+
+    .footer-container .logo-circle img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .footer-links a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 0.85rem;
+        opacity: 0.9;
+        transition: opacity 0.2s ease;
+    }
+
+    .footer-links a:hover {
+        opacity: 1;
+        text-decoration: underline;
+    }
+
+    .footer-copy p {
+        margin: 0;
+        font-size: 0.75rem;
+        opacity: 0.75;
+        font-weight: 700;
+    }
+
+    .footer-redes {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .footer-redes img {
+        width: 20px;
+        height: 20px;
+        opacity: 0.9;
+        transition: opacity 0.2s ease, transform 0.2s ease;
+    }
+
+    .footer-redes img:hover {
+        opacity: 1;
+        transform: translateY(-2px);
+    }
+}
