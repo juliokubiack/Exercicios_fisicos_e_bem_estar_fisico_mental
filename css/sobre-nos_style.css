@@ -167,14 +167,10 @@ header nav ul li a.ativo {
     margin-bottom: 3.5rem;
 }
 
-.equipe {
+section.nos div.equipe img{
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-}
-.equipe img {
-    border-radius: 2vw;
+    border-radius: 40px;
+
 }
 
 .texto-nos {
