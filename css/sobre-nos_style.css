@@ -78,164 +78,191 @@ header nav ul li a.ativo {
     cursor: pointer;
 }
 
-.sobre-nos {
-    width: 100%;
-    padding: 1.5rem 5%;
-}
+main section.comeco {
 
-.introducao {
-    width: 100%;
-    margin-bottom: 2.5rem;
-}
-
-.imagem-introducao {
-    position: relative;
-    width: 100%;
-    height: 190px;
-    overflow: hidden;
-    border-radius: 12px;
-}
-
-.imagem-introducao img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-.imagem-introducao::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(23, 67, 111, 0.20);
-}
-
-.imagem-introducao h1 {
-    position: absolute;
-    z-index: 2;
-    top: 30px;
-    left: 25px;
-    color: white;
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 1.2;
-}
-
-.missao {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    margin-bottom: 3.5rem;
-}
-
-.texto-missao {
-    width: 100%;
-}
-
-.texto-missao h2,
-.texto-nos h2 {
-    color: #252b42;
-    font-size: 1.6rem;
-    font-weight: 600;
-    margin-bottom: 0.8rem;
-}
-
-.texto-missao p,
-.texto-nos p {
-    color: #252b42;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    text-align: left;
-}
-
-.imagem-missao {
-    width: 100%;
-}
-
-.imagem-missao img {
-    width: 100%;
-    height: 210px;
-    object-fit: cover;
-    display: block;
-    border-radius: 12px;
-}
-
-.nos {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    margin-bottom: 3.5rem;
-}
-
-section.nos div.equipe img{
-    width: 100%;
-    border-radius: 40px;
+    background-color: #E6E5E5;
 
 }
 
-.texto-nos {
-    width: 100%;
+section.comeco img {
+    width: fit-content;
+    margin-top: 2vw;
+    border-radius: 5vw;
+    max-width: 90vw;
 }
 
-.texto-nos p+p {
-    margin-top: 1.3rem;
+section.comeco h2 {
+    font-size: 1.8rem;
+    padding: 0 0 5px 0;
 }
 
-.etapas {
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-}
-
-.etapa {
-    width: 90%;
-    background-color: #1c4d8d;
-    color: white;
-    border-radius: 12px;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.etapa p {
-    margin: 0;
-    font-family: "Mulish", sans-serif;
-    font-size: 15px;
-    line-height: 1.3;
-}
-
-.cerebro {
-    width: 90px;
-    height: auto;
-}
-
-.etapas::before,
-.etapas::after {
-    display: none;
-}
-
-
-.frase-final {
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-}
-
-.frase-final h2 {
-    color: #252b42;
-    font-size: 1.4rem;
-    font-weight: 400;
-    line-height: 1.2;
-}
-
-.frase-final strong {
+section.comeco h2 span {
     font-weight: 800;
 }
 
+section.comeco p {
+    padding: 2vw 0vw 8vw 0;
+    font-size: 0.8rem;
+}
+
+section.comeco div.texto {
+    margin-right: 3vw;
+}
+
+
+
+section.diferenciais h3 {
+    font-size: 1.5rem;
+    padding: 6vw;
+
+}
+
+section.diferenciais h3 span {
+    font-weight: 600;
+
+}
+
+section.diferenciais ul li img {
+
+    display: block;
+    margin: 0 auto;
+    width: 56%;
+    height: auto;
+    max-width: 15vw;
+    max-height: 15vw;
+}
+
+section.diferenciais ul li {
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 1vw 0vw 0vw 4vw;
+}
+
+
+section.diferenciais ul {
+    position: relative;
+    bottom: 5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Força 2 colunas iguais */
+    gap: 10vw;
+}
+
+section.diferenciais h4 {
+    font-weight: 700;
+    padding-bottom: 3vw;
+}
+
+section.beneficios {
+    background: linear-gradient(#9bb8df 0%,
+            #C9D4FF 100%);
+    border-radius: 6%;
+    margin-top: 10vw;
+
+
+}
+
+.item {
+    display: flex;
+    padding: 7vw 2vw 0vw 4vw;
+    position: relative;
+    bottom: 3.7vw;
+    left: 5vw;
+
+}
+
+section.beneficios .texto {
+    max-width: 200px;
+    font-size: 0.8rem
+}
+
+section.beneficios h2 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: 0vw 0vw 0vw 3vw;
+
+}
+
+
+
+.numero {
+    margin: 0vw 2vw;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    position: relative;
+    padding: 5px;
+
+}
+
+section.beneficios div.imagem img {
+    display: none;
+}
+
+section.beneficios div.direitatexto {
+    margin-top: 5vw;
+    margin-bottom: 8vw;
+    padding: 0vw 0vw 0vw 3vw;
+    
+}
+
+section.beneficios div.direitatexto p {
+    font-size: 0.8rem;
+    margin: 3vw 1vw 0vw 1vw;
+    padding: 0vw 0vw 2vw 17vw;
+    max-width: 80%;
+
+}
+
+.recursos {
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+
+
+section.recursos img {
+    max-width: 40vw;
+    max-height: 40vw;
+    border-radius: 2vw;
+}
+
+
+
+section.recursos ul li a {
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    background-color: #4988c4;
+    color: white;
+    padding: 0.5vw 2vw 0.5vw 2vw;
+    display: inline-block;
+    border-radius: 4vw
+}
+
+section.recursos ul li {
+    margin-top: 15vw;
+}
+
+section.recursos ul li {
+    display: flex;
+}
+
+section.recursos {
+    padding-bottom: 3vw;
+}
+
+section.recursos p {
+    font-size: 0.8rem;
+    margin: 0vw 2vw 0vw 2vw;
+}
+
+section.recursos h3 {
+    font-size: 1.5rem;
+}
 
 @media screen and (max-width: 599px) {
 
@@ -332,23 +359,32 @@ section.nos div.equipe img{
         border-radius: 50%;
         box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.06);
     }
+}
+
+
+@media screen and (max-width: 599px) {
 
     footer {
-        background-color: var(--azul-escuro-footer);
+        background-color: #1c4d8d;
         color: #ffffff;
     }
+
 
     .footer-container {
         max-width: 900px;
         margin: 0 auto;
+
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 10vw 0 6vw;
-        gap: 1.75rem;
+        padding: 8vw 0 0 0;
+        gap: 1.5rem;
         text-align: center;
     }
+
+
+    /* LOGO */
 
     .footer-logo {
         display: flex;
@@ -359,63 +395,75 @@ section.nos div.equipe img{
     .logo-circle-fim {
         width: 30%;
         height: auto;
-        border-radius: 50%;
     }
+
+
+    /* LINKS */
 
     .footer-links {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1rem;
+
+        gap: 0.8rem;
     }
 
     .footer-links a {
         color: #ffffff;
         text-decoration: none;
         font-size: 0.85rem;
-        opacity: 0.9;
-        transition: opacity 0.2s ease;
     }
 
-    .footer-links a:hover {
-        opacity: 1;
-        text-decoration: underline;
-    }
+
+    /* TEXTOS */
 
     .footer-copy {
         display: flex;
         flex-direction: column;
         align-items: center;
+
         gap: 0.5rem;
     }
 
     .footer-copy p {
         margin: 0;
         font-size: 0.75rem;
-        opacity: 0.75;
+        opacity: 0.8;
         font-weight: 700;
         text-align: center;
     }
+
+
+    /* REDES SOCIAIS */
 
     .footer-redes {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 1.25rem;
+
+        gap: 1rem;
     }
 
     .footer-redes img {
-        width: 24px;
-        height: 24px;
-        opacity: 0.9;
-        transition: opacity 0.2s ease, transform 0.2s ease;
+        width: 25px;
+        height: 25px;
     }
 
-    .footer-redes img:hover {
-        opacity: 1;
-        transform: translateY(-2px);
-    }
 }
+
+.footer-redes img {
+
+    width: 40%;
+
+    padding: 0 0 1rem 0;
+
+}
+
+.footer-redes img {
+    width: 20px;
+    height: 60px;
+}
+
 
 @media screen and (min-width: 600px) {
 
@@ -424,7 +472,7 @@ section.nos div.equipe img{
         align-items: center;
         justify-content: space-between;
         padding: 1.4rem 5vw;
-        border-bottom: 1px solid #e3e3e3;
+        border-bottom: 1px solid #e3e3e3;   
     }
 
     header nav .item-fechar {
@@ -503,201 +551,271 @@ section.nos div.equipe img{
         display: none;
     }
 
-    .imagem-introducao {
-        height: 300px;
+    main section.comeco {
+        display: flex;
+        background-color: #E6E5E5;
     }
 
-    .imagem-introducao h1 {
+    section.comeco img {
+        width: fit-content;
+        margin-top: 2vw;
+        max-width: 60%;
+        padding: 0vw;
+        margin-left: 5vw;
+    }
+
+    section.comeco h2 {
         font-size: 2.5rem;
+        padding: 2vw 0 0 5vw;
     }
 
-    .missao {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        gap: 2.5rem;
+    section.comeco h2 span {
+        font-weight: 800;
     }
 
-    .texto-missao {
-        width: 60%;
+    section.comeco p {
+        padding: 2vw 0vw 0vw 5vw;
+        font-size: 1rem;
     }
 
-    .texto-missao h2 {
+    section.comeco div.texto {
+        margin-right: 3vw;
+    }
+
+    section.diferenciais {
+        padding: 0vw 0vw 0vw 0vw;
+        margin-bottom: 0vw;
+        margin-top: 0vw;
+    }
+
+    section.diferenciais h3 {
+        text-align: center;
         font-size: 2rem;
-    }
-    .etapas h2 {
-        font-size: 1.5rem;
-    }
-.etapas {
-        position: relative;
-        width: 850px;
-        height: 800px;
-        margin: 0 auto;
-        padding: 0;
-        display: block;
+        padding: 6vw
     }
 
-    .etapa {
-        position: absolute;
-        margin: 0;
-        padding: 22px;
-        box-sizing: border-box;
+    section.diferenciais h3 span {
+        font-weight: 600;
     }
 
-    .etapa p {
-        font-size: 18px;
-        line-height: 1.2;
-        margin: 0;
-    }
-
-
-    /* PRIMEIRA CAIXA */
-
-    .etapa-1 {
-        width: 193px;
-        height: 216px;
-
-        top: 40px;
-        left: 49px;
-    }
-
-
-    /* SEGUNDA CAIXA */
-
-    .etapa-2 {
-        width: 280px;
-        height: 150px;
-
-        top: 55px;
-        left: 549px;
-    }
-
-
-    /* TERCEIRA CAIXA */
-
-    .etapa-3 {
-        width: 336px;
-        height: 158px;
-
-        top: 350px;
-        left: 93px;
-    }
-
-
-    /* QUARTA CAIXA */
-
-    .etapa-4 {
-        width: 174px;
-        height: 250px;
-
-        top: 486px;
-        left: 514px;
-    }
-
-
-    /* CÉREBRO DE CIMA */
-
-    .cerebro-1 {
-        position: absolute;
-
-        width: 125px;
-
-        top: 225px;
-        left: 541px;
-    }
-
-
-    /* CÉREBRO DE BAIXO */
-
-    .cerebro-2 {
-        position: absolute;
-
-        width: 140px;
-
-        top: 644px;
-        left: 168px;
-    }
-
-
-    /* LINHA DE CIMA */
-
-    .etapas::before {
-        content: "";
-
-        display: block;
-        position: absolute;
-
-        width: 308px;
-        height: 1px;
-
-        top: 119px;
-        left: 241px;
-
-        background-color: #777;
-    }
-
-
-    /* LINHA DE BAIXO */
-
-    .etapas::after {
-        content: "";
-
-        display: block;
-        position: absolute;
-
-        width: 231px;
-        height: 103px;
-
-        top: 523px;
-        left: 196px;
-
-        border-left: 1px solid #777;
-        border-bottom: 1px solid #777;
-
-        border-radius: 0 0 0 100px;
-    }
-    .imagem-missao {
+    section.diferenciais ul li img {
         width: 80%;
+        padding: 0vw 5vw 0vw 0vw
     }
 
-    .nos {
-        flex-direction: row;
-        align-items: flex-start;
-        gap: 2.5rem;
+    section.diferenciais ul li {
+        font-weight: 600;
+        font-size: 1.2rem;
+        padding: 1vw 0vw 0vw 0vw;
     }
 
-    .equipe {
-        width: 48%;
-        gap: 10px;
-        border-radius: 50px;
+    section.diferenciais ul {
+        display: flex;
+        position: relative;
+        bottom: 5vw;
+        left: 1vw;
+        align-items: center;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+
     }
 
-    .texto-nos {
-        width: 30%;
+    section.diferenciais ul li.relogio h4 {
+        position: relative;
+        bottom: 15px;
     }
 
-    .texto-nos h2 {
+    section.diferenciais ul li.relogio img {
+        position: relative;
+        bottom: 15px;
+    }
+
+    section.diferenciais ul li.relogio p {
+        position: relative;
+        bottom: 15px;
+    }
+
+    section.diferenciais h4 {
+        font-weight: 700;
+        padding-bottom: 3vw;
+    }
+
+    section.diferenciais p {
+        max-width: 250px;
+    }
+
+
+    .item {
+        display: flex;
+        padding: 3vw 0vw 0vw 0vw;
+        position: relative;
+        bottom: 3.7vw;
+        left: 2vw;
+        max-height: 6vw;
+        margin-top: 2vw;
+    }
+
+    section.beneficios .texto {
+        max-width: 200px;
+        font-size: 1.1rem;
+    }
+
+    .numero {
+        margin: 0vw 2vw;
+        width: 50px;
+        height: 50px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.1rem;
+        position: relative;
+
+    }
+
+    section.beneficios div.imagem img {
+        display: block;
+    }
+
+    section.beneficios h2 {
+        font-weight: 700;
+        font-size: 2.5rem;
+        padding: 1vw 0vw 1vw 2vw;
+        position: relative;
+        bottom: 1vw;
+        left: 2vw;
+    }
+
+    section.beneficios {
+        background: linear-gradient(#9bb8df 0%,
+                #C9D4FF 100%);
+        border-radius: 6%;
+        padding-bottom: 1vw;
+        ;
+        max-height: 40vw;
+
+    }
+
+    section.beneficios {
+        display: flex;
+        margin-top: 0vw;
+    }
+
+    section.beneficios div.imagem img {
+        max-width: 26vw;
+        position: relative;
+        top: 1vw;
+        margin: 0vw;
+        padding: 0vw;
+    }
+
+    section.beneficios div.direitatexto {
+        margin-top: 10vw;
+        font-size: 1.1rem;
+    }
+
+    section.beneficios div.direitatexto p {
+        max-width: fit-content;
+        margin: 0vw;
+        margin-top: 1vw;
+        padding: 0vw;
+        font-size: 1rem;
+        max-width: 180px;
+        text-align: left;
+    }
+
+    section.beneficios div.direitatexto h5 {
         font-size: 2rem;
+        text-align: left;
     }
 
-    .linha-etapas {
-        grid-template-columns: 1fr 1fr;
-        padding: 0 0 6vw;
-
+    section.beneficios div.direitatexto {
+        margin-right: 1vw;
     }
 
-    .frase-final {
-        margin-top: 4rem;
+    section.recursos ul {
+        display: flex;
+        gap: 1vw;
+        justify-content: space-evenly
     }
 
-    .frase-final h2 {
-        font-size: 1.8rem;
+    section.recursos ul li a {
+        text-align: center;
+        margin-right: 6.67vw;
+        margin-top: 1vw;
+        margin-bottom: 2vw;
+        background-color: #4988c4;
+        color: white;
+        padding: 0.5vw 2vw 0.5vw 2vw;
+        display: inline-block;
+        border-radius: 4vw
+    }
+
+    section.recursos img {
+        max-width: 18vw;
+        max-height: 18vw;
+        border-radius: 2vw;
+    }
+
+    section.recursos ul li {
+        display: block;
+    }
+
+    section.recursos h3 {
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-decoration: underline;
+        padding: 2vw 0vw 5vw 0vw;
+    }
+
+    section.recursos ul li h4 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin: 2vw 0vw 2vw 0vw;
+        text-align: center;
+    }
+
+    section.recursos ul li p {
+        max-width: 20vw;
+        margin: 0vw;
+    }
+
+    section.recursos ul li {
+        padding-top: 2vw;
+        margin-top: 2vw;
+    }
+
+    section.recursos ul li a {
+        text-align: center;
+        margin-left: 6.67vw;
+        margin-top: 1vw;
+        margin-bottom: 2vw;
+        background-color: #4988c4;
+        color: white;
+        padding: 0.5vw 2vw 0.5vw 2vw;
+        display: inline-block;
+        border-radius: 4vw
+    }
+
+    section.recursos ul li.homem a {
+        margin: 1vw;
+    }
+
+    section.recursos {
+        padding-bottom: 3vw;
+    }
+
+    section.recursos h3 {
+        padding: 0vw;
+        margin: 0vw;
     }
 
     footer {
-        background-color: var(--azul-escuro-footer);
+        background-color: #1C4D8D;
         color: #ffffff;
-        padding: 2.5rem 5%;
+        padding: 2rem 5%;
         margin-top: 3.5rem;
     }
 
@@ -712,7 +830,7 @@ section.nos div.equipe img{
     }
 
     .footer-container .logo-circle {
-        width: 110px;
+        width: 120px;
         height: auto;
         border-radius: 0%;
     }
@@ -723,45 +841,32 @@ section.nos div.equipe img{
         display: block;
     }
 
+
     .footer-links {
         display: flex;
-        gap: 1.5rem;
+        gap: 1rem;
     }
 
     .footer-links a {
         color: #ffffff;
         text-decoration: none;
         font-size: 0.85rem;
-        opacity: 0.9;
-        transition: opacity 0.2s ease;
-    }
-
-    .footer-links a:hover {
-        opacity: 1;
-        text-decoration: underline;
     }
 
     .footer-copy p {
         margin: 0;
         font-size: 0.75rem;
-        opacity: 0.75;
+        opacity: 0.8;
         font-weight: 700;
     }
 
     .footer-redes {
         display: flex;
-        gap: 1rem;
+        gap: 0.8rem;
     }
 
     .footer-redes img {
         width: 20px;
-        height: 20px;
-        opacity: 0.9;
-        transition: opacity 0.2s ease, transform 0.2s ease;
-    }
 
-    .footer-redes img:hover {
-        opacity: 1;
-        transform: translateY(-2px);
     }
 }
