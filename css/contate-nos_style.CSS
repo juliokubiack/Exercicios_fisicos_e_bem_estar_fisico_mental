@@ -8,7 +8,7 @@ html {
     font-size: 16px;
     font-family: "Mulish", system-ui, -apple-system, sans-serif;
     scroll-behavior: smooth;
-    text-align: center;
+    text-align: left;
 }
 
 main {
@@ -293,6 +293,9 @@ footer {
     .menu-btn {
         display: block;
         transition: transform 0.2s ease;
+    }
+    html{   
+        text-align: center;
     }
 
     .menu-btn:active {
