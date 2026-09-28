@@ -183,8 +183,6 @@ section.beneficios h2 {
 
 }
 
-
-
 .numero {
     margin: 0vw 2vw;
     width: 40px;
@@ -471,7 +469,7 @@ section.recursos h3 {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 1.4rem 5vw;
+        padding: 1.4rem 5vw 1.2vw 5vw;
         border-bottom: 1px solid #e3e3e3;
     }
 
@@ -489,6 +487,7 @@ section.recursos h3 {
         display: flex;
         gap: 2.2vw;
         font-size: 0.9rem;
+        padding: 2px 0 0 0;
     }
 
     header nav ul li a {
