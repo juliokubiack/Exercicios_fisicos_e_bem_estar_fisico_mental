@@ -199,6 +199,8 @@ section.nos div.equipe img{
     border-radius: 12px;
     padding: 20px;
     box-sizing: border-box;
+    margin: 2vw 0vw 0vw 4vw;
+    
 }
 
 .etapa p {
@@ -208,10 +210,17 @@ section.nos div.equipe img{
     line-height: 1.3;
 }
 
-.cerebro {
-    width: 90px;
-    height: auto;
-}
+ .cerebro-1 {
+        display: none;
+    }
+
+
+    /* CÉREBRO DE BAIXO */
+
+    .cerebro-2 {
+       display: none;
+    }
+
 
 .etapas::before,
 .etapas::after {
@@ -599,6 +608,7 @@ section.nos div.equipe img{
     /* CÉREBRO DE CIMA */
 
     .cerebro-1 {
+        display: block;
         position: absolute;
 
         width: 125px;
@@ -611,6 +621,7 @@ section.nos div.equipe img{
     /* CÉREBRO DE BAIXO */
 
     .cerebro-2 {
+        display: block;
         position: absolute;
 
         width: 140px;
