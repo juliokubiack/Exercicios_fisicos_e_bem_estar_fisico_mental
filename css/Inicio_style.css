@@ -87,7 +87,7 @@ main section.comeco {
 section.comeco img {
     width: fit-content;
     margin-top: 2vw;
-    border-radius: 5vw;
+    border-radius: 2vw;
     max-width: 90vw;
 }
 
@@ -597,8 +597,8 @@ section.recursos h3 {
     }
 
     section.diferenciais ul li img {
-        width: 80%;
-        padding: 0vw 5vw 0vw 0vw
+        width: 110%;
+        padding: 0vw 5vw 0vw 4vw
     }
 
     section.diferenciais ul li {
@@ -620,7 +620,7 @@ section.recursos h3 {
 
     section.diferenciais ul li.relogio h4 {
         position: relative;
-        bottom: 15px;
+        bottom: 10px;
     }
 
     section.diferenciais ul li.relogio img {
@@ -630,7 +630,21 @@ section.recursos h3 {
 
     section.diferenciais ul li.relogio p {
         position: relative;
+        bottom: 10px;
+    }
+    section.diferenciais ul li.andar h4 {
+        position: relative;
+        bottom: 10px;
+    }
+
+    section.diferenciais ul li.andar img {
+        position: relative;
         bottom: 15px;
+    }
+
+    section.diferenciais ul li.andar p {
+        position: relative;
+        bottom: 10px;
     }
 
     section.diferenciais h4 {
