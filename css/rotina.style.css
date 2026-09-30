@@ -400,7 +400,7 @@ footer {
 }
 
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 700px) {
 
   .menu-btn {
     display: block;
