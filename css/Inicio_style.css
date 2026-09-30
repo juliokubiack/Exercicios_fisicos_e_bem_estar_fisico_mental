@@ -87,7 +87,7 @@ main section.comeco {
 section.comeco img {
     width: fit-content;
     margin-top: 2vw;
-    border-radius: 2vw;
+    border-radius: 5vw;
     max-width: 90vw;
 }
 
@@ -260,6 +260,56 @@ section.recursos p {
 
 section.recursos h3 {
     font-size: 1.5rem;
+}
+
+footer {
+  background-color: var(--azul-principal);
+  color: #ffffff;
+  padding: 2rem 5%;
+  margin-top: 3.5rem;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-container .logo-circle img {
+  width: 120px;
+  height: auto;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.footer-copy p {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.footer-redes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-redes img {
+  width: 24px;
+  height: 24px;
 }
 
 @media screen and (max-width: 599px) {
@@ -443,22 +493,10 @@ section.recursos h3 {
     }
 
     .footer-redes img {
-        width: 25px;
-        height: 25px;
+        width: 24px;
+        height: 24px;
     }
 
-}
-
-.footer-redes img {
-
-    width: 40%;
-
-    padding: 0 0 1rem 0;
-
-}
-
-.footer-redes img {
-    width: 20px;
 }
 
 
@@ -597,8 +635,8 @@ section.recursos h3 {
     }
 
     section.diferenciais ul li img {
-        width: 110%;
-        padding: 0vw 5vw 0vw 4vw
+        width: 80%;
+        padding: 0vw 5vw 0vw 0vw
     }
 
     section.diferenciais ul li {
@@ -620,7 +658,7 @@ section.recursos h3 {
 
     section.diferenciais ul li.relogio h4 {
         position: relative;
-        bottom: 10px;
+        bottom: 15px;
     }
 
     section.diferenciais ul li.relogio img {
@@ -630,21 +668,7 @@ section.recursos h3 {
 
     section.diferenciais ul li.relogio p {
         position: relative;
-        bottom: 10px;
-    }
-    section.diferenciais ul li.andar h4 {
-        position: relative;
-        bottom: 10px;
-    }
-
-    section.diferenciais ul li.andar img {
-        position: relative;
         bottom: 15px;
-    }
-
-    section.diferenciais ul li.andar p {
-        position: relative;
-        bottom: 10px;
     }
 
     section.diferenciais h4 {
@@ -696,7 +720,7 @@ section.recursos h3 {
         padding: 1vw 0vw 1vw 2vw;
         position: relative;
         bottom: 1vw;
-        left: 4vw;
+        left: 2vw;
     }
 
     section.beneficios {
@@ -824,61 +848,17 @@ section.recursos h3 {
         margin: 0vw;
     }
 
-    footer {
-        background-color: #1C4D8D;
-        color: #ffffff;
-        padding: 2rem 5%;
-        margin-top: 3.5rem;
-    }
-
-    .footer-container {
-        max-width: 900px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
-
-    .footer-container .logo-circle {
-        width: 120px;
-        height: auto;
-        border-radius: 0%;
-    }
-
-    .footer-container .logo-circle img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-
-    .footer-links {
-        display: flex;
-        gap: 1rem;
-    }
-
-    .footer-links a {
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 0.85rem;
-    }
-
-    .footer-copy p {
-        margin: 0;
-        font-size: 0.75rem;
-        opacity: 0.8;
-        font-weight: 700;
-    }
-
-    .footer-redes {
-        display: flex;
-        gap: 0.8rem;
-    }
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
 
     .footer-redes img {
         width: 20px;
-
+        height: 20px;
     }
+
 }
