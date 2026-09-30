@@ -245,6 +245,56 @@ section.nos div.equipe img{
     font-weight: 800;
 }
 
+footer {
+  background-color: var(--azul-principal);
+  color: #ffffff;
+  padding: 2rem 5%;
+  margin-top: 3.5rem;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-container .logo-circle img {
+  width: 120px;
+  height: auto;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.footer-copy p {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.footer-redes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-redes img {
+  width: 24px;
+  height: 24px;
+}
+
 
 @media screen and (max-width: 599px) {
 
@@ -340,89 +390,6 @@ section.nos div.equipe img{
     header .header-icones img {
         border-radius: 50%;
         box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.06);
-    }
-
-    footer {
-        background-color: var(--azul-principal);
-        color: #ffffff;
-    }
-
-    .footer-container {
-        max-width: 900px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 10vw 0 6vw;
-        gap: 1.75rem;
-        text-align: center;
-    }
-
-    .footer-logo {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .logo-circle-fim {
-        width: 30%;
-        height: auto;
-        border-radius: 50%;
-    }
-
-    .footer-links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-    }
-
-    .footer-links a {
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 0.85rem;
-        opacity: 0.9;
-        transition: opacity 0.2s ease;
-    }
-
-    .footer-links a:hover {
-        opacity: 1;
-        text-decoration: underline;
-    }
-
-    .footer-copy {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-    }
-
-    .footer-copy p {
-        margin: 0;
-        font-size: 0.75rem;
-        opacity: 0.75;
-        font-weight: 700;
-        text-align: center;
-    }
-
-    .footer-redes {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1.25rem;
-    }
-
-    .footer-redes img {
-        width: 24px;
-        height: 24px;
-        opacity: 0.9;
-        transition: opacity 0.2s ease, transform 0.2s ease;
-    }
-
-    .footer-redes img:hover {
-        opacity: 1;
-        transform: translateY(-2px);
     }
 }
 
@@ -723,74 +690,16 @@ section.nos div.equipe img{
         font-size: 1.8rem;
     }
 
-    footer {
-        background-color: var(--azul-principal);
-        color: #ffffff;
-        padding: 2.5rem 5%;
-        margin-top: 3.5rem;
-    }
-
-    .footer-container {
-        max-width: 900px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
-
-    .footer-container .logo-circle {
-        width: 110px;
-        height: auto;
-        border-radius: 0%;
-    }
-
-    .footer-container .logo-circle img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-    .footer-links {
-        display: flex;
-        gap: 1.5rem;
-    }
-
-    .footer-links a {
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 0.85rem;
-        opacity: 0.9;
-        transition: opacity 0.2s ease;
-    }
-
-    .footer-links a:hover {
-        opacity: 1;
-        text-decoration: underline;
-    }
-
-    .footer-copy p {
-        margin: 0;
-        font-size: 0.75rem;
-        opacity: 0.75;
-        font-weight: 700;
-    }
-
-    .footer-redes {
-        display: flex;
-        gap: 1rem;
-    }
-
-    .footer-redes img {
-        width: 20px;
-        height: 20px;
-        opacity: 0.9;
-        transition: opacity 0.2s ease, transform 0.2s ease;
-    }
-
-    .footer-redes img:hover {
-        opacity: 1;
-        transform: translateY(-2px);
-    }
+     .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+  
+  .footer-redes img {
+    width: 20px;
+    height: 20px;
+  }
 }
