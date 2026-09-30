@@ -343,7 +343,7 @@ section.nos div.equipe img{
     }
 
     footer {
-        background-color: var(--azul-escuro-footer);
+        background-color: var(--azul-principal);
         color: #ffffff;
     }
 
@@ -724,7 +724,7 @@ section.nos div.equipe img{
     }
 
     footer {
-        background-color: var(--azul-escuro-footer);
+        background-color: var(--azul-principal);
         color: #ffffff;
         padding: 2.5rem 5%;
         margin-top: 3.5rem;
