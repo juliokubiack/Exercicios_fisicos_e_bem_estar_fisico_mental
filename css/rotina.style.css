@@ -128,7 +128,7 @@ section.rotina h2 span {
 .rotina-desc {
   max-width: 650px;
   margin: 1rem auto;
-  color: var(--texto-escuro);
+  color: var(--texto-cinza);
   line-height: 1.5;
   font-size: 0.95rem;
 }
@@ -280,6 +280,7 @@ section.alimentacao {
   font-size: 0.85rem;
   color: var(--azul-principal);
   margin: 0 0 0.4rem 0;
+  font-weight: 600;
 }
 
 .card-alimento p {
@@ -299,6 +300,7 @@ section.alimentacao {
 .banner-lembrete h3 {
   margin: 0 0 0.3rem 0;
   font-size: 1rem;
+  font-weight: 650;
 }
 
 .banner-lembrete p {
@@ -647,7 +649,7 @@ footer {
     margin: 0 auto;
     padding: 1.5rem;
   }
-
+  
   .footer-redes img {
     width: 20px;
     height: 20px;
