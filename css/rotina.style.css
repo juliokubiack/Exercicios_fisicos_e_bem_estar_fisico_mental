@@ -187,7 +187,26 @@ section.cronograma h2 {
   background-color: var(--azul-fundo-card);
   border-radius: 8px;
   overflow: hidden;
+
+  /* Adicionado para a animação */
+  opacity: 0;
+  transform: translateY(12px);
+  animation: fade-in-up 600ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
+
+@keyframes fade-in-up {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Delays em cascata para cada um dos 5 dias */
+.grid-dias .card-dia:nth-child(1) { animation-delay: 0ms; }
+.grid-dias .card-dia:nth-child(2) { animation-delay: 200ms; }
+.grid-dias .card-dia:nth-child(3) { animation-delay: 400ms; }
+.grid-dias .card-dia:nth-child(4) { animation-delay: 600ms; }
+.grid-dias .card-dia:nth-child(5) { animation-delay: 800ms; }
 
 .dia-header {
   background-color: var(--azul-medio);
@@ -221,7 +240,6 @@ section.cronograma h2 {
 .dia-corpo ul li {
   margin-bottom: 0.4rem;
 }
-
 .descanso-fds {
   background-color: #bdd5ea;
   border-radius: 8px;
