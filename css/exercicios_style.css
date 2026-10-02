@@ -136,6 +136,7 @@ main {
   display: inline-block;
   font-size: 3.3vw;
   color: #333333;
+  line-height: 1.4 !important;
 }
 
 .comecar .quebra-linha {
@@ -150,7 +151,7 @@ main {
 .comecar ul li {
   background-color: white;
   padding: 10px 2px;
-  margin: 5vw;
+  margin: 1vw;
   border-radius: 2vw;
 }
 
