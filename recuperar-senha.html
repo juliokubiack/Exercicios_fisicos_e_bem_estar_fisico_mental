@@ -1,85 +1,102 @@
 <!doctype html>
 <html lang="pt-br">
- 
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- 
+
+  <link rel="shortcut icon" href="img_sobre-nos/cerebro-pensnte-pequeno.png" type="image/x-icon" />
+
   <title>Be Well - Recuperar senha</title>
- 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
-   <link rel="stylesheet" href="css/TODOS_style.css" />
-    <script type="module" src="java.script/avatar.js"></script>
-    <script type="module" src="java.script/menu_todos.js"></script>
- 
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/login_style.css" />
- 
-  <link rel="shortcut icon" href="img_sobre-nos/cerebro-pensnte-pequeno.png" type="image/x-icon">
-  <link rel="shortcut icon" href="img_sobre-nos/image-removebg-preview (1) 7.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/TODOS_style.css" />
+  <link rel="stylesheet" href="css/recuperar-senha_style.css" />
+
+  <script type="module" src="java.script/avatar.js"></script>
+  <script type="module" src="java.script/menu_todos.js"></script>
 </head>
-    <body>
-    <header>
-      <div class="logo-circle">
-        <img src="img_rotina/logo.png" alt="logo site" />
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Início</a></li>
-          <li><a href="rotina_index.html">Rotina</a></li>
-          <li><a href="exercicio_index.html">Exercícios</a></li>
-          <li><a href="progresso_index.html">Progresso</a></li>
-          <li><a href="sobre-nos_index.html" >Sobre nós</a></li>
-          <li><a href="contate-nos_index.html">Contate-nos</a></li>
-          <li class="item-perfil"><a href="perfil_index.html"class="ativo">Perfil</a></li>
-          <li class="item-editar-perfil" style="display: none">
-            <a href="editar-perfil.html">Editar perfil</a>
-          </li>
-          <li class="item-fechar"><a href="#" id="fecharMenu">Fechar </a></li>
-        </ul>
-      </nav>
-      <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">
-        <span class="icone-abrir">☰</span>
-        <span class="icone-fechar"></span>
-      </button>
-      <div class="header-icones">
-         <span class="avatar"
-      ><a href="perfil_index.html"
-        ><span id="avatarConteudo" class="avatar-icone">
-          <img
-            src="img_sobre-nos/icone-de-perfil-de-avatar-padrao-imagem-de-usuario-de-midia-social-icone-de-avatar-cinza-silhueta-de-perfil-em-branco-ilustracao-vetorial_561158-3485.avif"
-            alt="usuario anonimo"
-          /></span></a
-    ></span>
-      </div>
-    </header>
- 
+
 <body>
-  <div class="container">
-    <div class="login">
-      <img src="img_progresso/logo.png" alt="logo" />
- 
-      <h2>Recuperar senha</h2>
- 
-      <p>Confirme seu nome e e-mail para criar uma nova senha</p>
- 
-      <form id="recuperarForm">
-        <input type="text" id="nome" placeholder="Seu nome completo" required />
- 
-        <input type="email" id="email" placeholder="Seu e-mail" required />
- 
-        <input type="password" id="novaSenha" placeholder="Nova senha" required minlength="6" />
- 
-        <button type="submit">Redefinir senha</button>
- 
-        <a href="perfil_index.html">Lembrou a senha? Entrar</a>
-      </form>
+  <header>
+    <div class="logo-circle">
+      <img src="img_rotina/logo.png" alt="logo site" />
     </div>
-  </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="rotina_index.html">Rotina</a></li>
+        <li><a href="exercicio_index.html">Exercícios</a></li>
+        <li><a href="progresso_index.html">Progresso</a></li>
+        <li><a href="sobre-nos_index.html">Sobre nós</a></li>
+        <li><a href="contate-nos_index.html">Contate-nos</a></li>
+        <li class="item-perfil"><a href="perfil_index.html" class="ativo">Perfil</a></li>
+        <li class="item-editar-perfil" style="display: none">
+          <a href="editar-perfil.html">Editar perfil</a>
+        </li>
+        <li class="item-fechar"><a href="#" id="fecharMenu">Fechar </a></li>
+      </ul>
+    </nav>
+    <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">
+      <span class="icone-abrir">☰</span>
+      <span class="icone-fechar"></span>
+    </button>
+    <div class="header-icones">
+      <span class="avatar">
+        <a href="perfil_index.html">
+          <span id="avatarConteudo" class="avatar-icone">
+            <img
+              src="img_sobre-nos/icone-de-perfil-de-avatar-padrao-imagem-de-usuario-de-midia-social-icone-de-avatar-cinza-silhueta-de-perfil-em-branco-ilustracao-vetorial_561158-3485.avif"
+              alt="usuario anonimo" />
+          </span>
+        </a>
+      </span>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="auth-card">
+      <div class="auth-form-container">
+        <div class="auth-tabs">
+          <a href="perfil_index.html" class="tab-btn">Login</a>
+          <a href="cadastro.html" class="tab-btn">Cadastro</a>
+        </div>
+
+        <h2>Recuperar senha</h2>
+        <p class="subtitle">Confirme seu nome e e-mail para criar uma nova senha</p>
+
+        <form id="recuperarForm">
+          <div class="input-group">
+            <input type="text" id="nome" placeholder="Seu nome completo" required />
+          </div>
+
+          <div class="input-group">
+            <input type="email" id="email" placeholder="Seu e-mail" required />
+          </div>
+
+          <div class="input-group">
+            <input type="password" id="novaSenha" placeholder="Nova senha" required minlength="6" />
+          </div>
+
+          <button type="submit" class="btn-submit">Redefinir senha</button>
+
+          <div class="login-links">
+            <a href="login.html">Lembrou a senha? Entrar</a>
+          </div>
+        </form>
+      </div>
+
+      <div class="auth-image-container">
+        <img src="img_login_conta/yoga.png" alt="Pessoa praticando yoga na praia" />
+      </div>
+    </div>
+  </main>
+
   <footer>
     <div class="footer-container">
       <div class="footer-logo">
@@ -87,15 +104,15 @@
           <img src="img_rotina/logo-escuro.png" alt="logo site">
         </div>
       </div>
-       <div class="footer-links">
-          <a href="contate-nos_index.html">Contate-nos</a>
-          <a href="index.html">Início</a>
-          <a href="sobre-nos_index.html">Sobre nós</a>
-          <a href="rotina_index.html">Rotina</a>
-          <a href="exercicio_index.html">Exercícios</a>
-          <a href="progresso_index.html">Progresso</a>
-          <a href="perfil_index.html">Perfil</a>
-        </div>
+      <div class="footer-links">
+        <a href="contate-nos_index.html">Contate-nos</a>
+        <a href="index.html">Início</a>
+        <a href="sobre-nos_index.html">Sobre nós</a>
+        <a href="rotina_index.html">Rotina</a>
+        <a href="exercicio_index.html">Exercícios</a>
+        <a href="progresso_index.html">Progresso</a>
+        <a href="perfil_index.html">Perfil</a>
+      </div>
       <div class="footer-copy">
         <p>Transforme sua rotina!</p>
         <p>Cuidar de você é o primeiro passo para uma vida leve.</p>
@@ -107,9 +124,8 @@
       </div>
     </div>
   </footer>
-</body>
-</html>
+
   <script type="module" src="java.script/recuperarSenha.js"></script>
 </body>
- 
+
 </html>

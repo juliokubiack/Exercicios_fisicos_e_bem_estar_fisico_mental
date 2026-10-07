@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: #d9dede;
+  background-color: #e8e9eb;
 }
 
 :root {
@@ -27,7 +27,7 @@ body {
 
 header {
   padding: 3vw 5vw;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #e2e2e2;
 }
 
 header .logo-circle {
