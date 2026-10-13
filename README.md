@@ -1,3 +1,5 @@
+Escrita
+
 # Exercícios Físicos e Bem-Estar Físico e Mental
 
 # Ata 1 – Projeto Integrador (Professor Mehran)
@@ -17,15 +19,10 @@ Organização das funções e distribuição das tarefas entre os integrantes do
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** Realizar pesquisas aprofundadas sobre possíveis conteúdos para o site.
-
 - **Beatriz Gomes dos Santos:** Pesquisar temas e conteúdos que poderão ser utilizados no projeto.
-
 - **Beatriz Costa:** Desenvolver a estrutura inicial do site (wireframe), propondo ideias para as páginas.
-
 - **Isabela Luiza Maciel:** Auxiliar na elaboração da estrutura do site e sugerir ideias para as páginas.
-
-- **Melissa:** Buscar vídeos e outras fontes de mídia para utilização no projeto.
-
+- **Melissa Fagundes:** Buscar vídeos e outras fontes de mídia para utilização no projeto.
 - **Todos os integrantes:** Contribuir com sugestões de layout, design e melhorias para o desenvolvimento do site.
 
 ---
@@ -47,14 +44,10 @@ Discussão sobre o desenvolvimento do Figma e organização das pesquisas.
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** Continuação das pesquisas sobre os conteúdos do site.
-
 - **Beatriz Gomes dos Santos:** Continuação das pesquisas dos conteúdos.
-
 - **Beatriz Costa:** Desenvolvimento do projeto no Figma.
-
 - **Isabela Luiza Maciel:** Organização das páginas, imagens e vídeos.
-
-- **Melissa:** Pesquisa de vídeos e demais mídias.
+- **Melissa Fagundes:** Pesquisa de vídeos e demais mídias.
 
 ---
 
@@ -75,16 +68,13 @@ Andamento do Figma e elaboração dos textos do site.
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** Continuação das pesquisas.
-
 - **Beatriz Gomes dos Santos:** Produção dos textos e pesquisa de modelos de wireframe.
-
 - **Isabela Luiza Maciel:** Organização das páginas, imagens e vídeos.
-
-- **Melissa:** Pesquisa de vídeos e fontes de mídia.
+- **Melissa Fagundes:** Pesquisa de vídeos e fontes de mídia.
 
 ### Observações
 
-Mesmo ausente, **Beatriz Costa** continuou responsável pelo desenvolvimento principal do Figma. As alunas **Isabela Luiza Maciel** e **Melissa** criaram uma segunda página no Figma para apresentar sugestões e auxiliar no trabalho. Enquanto isso, **Beatriz Gomes** ficou responsável pela produção dos textos e pela busca de referências para o wireframe.
+Mesmo ausente, **Beatriz Costa** continuou responsável pelo desenvolvimento principal do Figma. As alunas **Isabela Luiza Maciel** e **Melissa Fagundes** criaram uma segunda página no Figma para apresentar sugestões e auxiliar no trabalho. Enquanto isso, **Beatriz Gomes** ficou responsável pela produção dos textos e pela busca de referências para o wireframe.
 
 ---
 
@@ -98,19 +88,16 @@ Mesmo ausente, **Beatriz Costa** continuou responsável pelo desenvolvimento pri
 
 ### Assunto
 
-Desenvolvimento do Figma e início da programação da página **index.html**.
+Desenvolvimento do Figma e início da programação da página `index.html`.
 
 **Ausências:** Beatriz Costa (participando de passeio escolar).
 
 ### Responsabilidades
 
-- **Julio César da Silva Kubiack:** Desenvolvimento do Figma e da página **index.html**.
-
+- **Julio César da Silva Kubiack:** Desenvolvimento do Figma e da página `index.html`.
 - **Beatriz Gomes dos Santos:** Auxílio no desenvolvimento do Figma.
-
 - **Isabela Luiza Maciel:** Desenvolvimento do Figma.
-
-- **Melissa:** Desenvolvimento do Figma.
+- **Melissa Fagundes:** Desenvolvimento do Figma.
 
 ---
 
@@ -131,12 +118,9 @@ Continuação do desenvolvimento do Figma, das páginas do site e organização 
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** Organização e atualização do GitHub.
-
 - **Beatriz Gomes dos Santos:** Desenvolvimento das páginas no Figma.
-
 - **Isabela Luiza Maciel:** Desenvolvimento das páginas no Figma.
-
-- **Melissa:** Desenvolvimento das páginas no Figma.
+- **Melissa Fagundes:** Desenvolvimento das páginas no Figma.
 
 ---
 
@@ -159,14 +143,10 @@ Nesta reunião foi realizada a preparação para a **primeira avaliação parcia
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** Organização do GitHub.
-
 - **Beatriz Gomes dos Santos:** Sugestões e melhorias para o Figma.
-
 - **Beatriz Costa:** Finalização da versão definitiva do Figma.
-
 - **Isabela Luiza Maciel:** Sugestões e melhorias para o Figma.
-
-- **Melissa:** Sugestões e melhorias para o Figma.
+- **Melissa Fagundes:** Sugestões e melhorias para o Figma.
 
 ---
 
@@ -185,18 +165,14 @@ Continuação do projeto e integração de um novo integrante ao grupo.
 ### Responsabilidades
 
 - **Julio César da Silva Kubiack:** Organização e manutenção do GitHub.
-
 - **Beatriz Gomes dos Santos:** Auxílio nas melhorias do Figma.
-
 - **Beatriz Costa:** Finalização do layout do Figma.
-
 - **Isabela Luiza Maciel:** Sugestões para o Figma.
-
-- **Melissa:** Sugestões para o Figma.
+- **Melissa Fagundes:** Sugestões para o Figma.
 
 ### Observações
 
-O aluno **Vinicios Korman** passou a integrar a equipe. Durante a reunião, foram apresentados o andamento do Projeto Integrador, os objetivos do site e as atividades já realizadas. Neste primeiro momento, o novo integrante está se familiarizando com o projeto. Suas responsabilidades serão definidas nas próximas reuniões, conforme o avanço das atividades.
+O aluno **Vinicius Kormann** passou a integrar a equipe. Durante a reunião, foram apresentados o andamento do Projeto Integrador, os objetivos do site e as atividades já realizadas. Neste primeiro momento, o novo integrante está se familiarizando com o projeto. Suas responsabilidades serão definidas nas próximas reuniões, conforme o avanço das atividades.
 
 ---
 
@@ -216,15 +192,11 @@ Continuação do desenvolvimento do Projeto Integrador.
 
 ### Responsabilidades
 
-- **Julio César da Silva Kubiack:** Organização e manutenção do repositório no GitHub, além do desenvolvimento da primeira página em HTML e CSS (index).
-
+- **Julio César da Silva Kubiack:** Organização e manutenção do repositório no GitHub, além do desenvolvimento da primeira página em HTML e CSS (`index`).
 - **Beatriz Gomes dos Santos:** Auxílio nas melhorias do protótipo no Figma.
-
 - **Isabela Luiza Maciel:** Sugestões e melhorias para o protótipo no Figma.
-
-- **Melissa:** Sugestões e melhorias para o protótipo no Figma.
-
-- **Vinicios Korman** (se integrando)
+- **Melissa Fagundes:** Sugestões e melhorias para o protótipo no Figma.
+- **Vinicius Kormann:** Em processo de integração ao grupo.
 
 ### Observações
 
@@ -244,7 +216,7 @@ Neste dia, os integrantes do grupo se reuniram fora da sala de aula para dar con
 
 ### Responsabilidades
 
-- **Julio César da Silva Kubiack:** desenvolvimento da primeira página em HTML e CSS (index).
+- **Julio César da Silva Kubiack:** Desenvolvimento da primeira página em HTML e CSS (`index`).
 
 ---
 
@@ -258,25 +230,19 @@ Neste dia, os integrantes do grupo se reuniram fora da sala de aula para dar con
 
 ### Assunto
 
-Arrumar o que está acontecendo com os commits e dar continuidade com as páginas em HTML e CSS (index).
+Arrumar o que está acontecendo com os commits e dar continuidade às páginas em HTML e CSS (`index`).
 
 **Ausências:** Beatriz Costa.
 
 ### Responsabilidades
 
-- **Julio César da Silva Kubiack:** página em HTML e CSS (index).
-
-- **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
-
-- **Isabela Luiza Maciel:** página em HTML e CSS (index).
-
-- **Melissa:** página em HTML e CSS (index).
-
-- **Vinicios Korman** (se integrando)
+- **Julio César da Silva Kubiack:** Página em HTML e CSS (`index`).
+- **Beatriz Gomes dos Santos:** Página em HTML e CSS (`index`).
+- **Isabela Luiza Maciel:** Página em HTML e CSS (`index`).
+- **Melissa Fagundes:** Página em HTML e CSS (`index`).
+- **Vinicius Kormann:** Em processo de integração ao grupo.
 
 ---
-
-
 
 # Ata 9.1 – Projeto Integrador (Professor Mehran)
 
@@ -288,15 +254,15 @@ Arrumar o que está acontecendo com os commits e dar continuidade com as página
 
 ### Assunto
 
-Aprender e executar banco de dados
+Aprender e executar o banco de dados.
 
 ### Observação
 
-Esse passo apenas o aluno Julio está fazendo por conta própria
+Essa etapa estava sendo realizada apenas pelo aluno Julio, por conta própria.
 
 ### Responsabilidades
 
-- **Julio César da Silva Kubiack:** página em HTML e CSS (index).
+- **Julio César da Silva Kubiack:** Página em HTML e CSS (`index`).
 
 ---
 
@@ -310,23 +276,19 @@ Esse passo apenas o aluno Julio está fazendo por conta própria
 
 ### Assunto
 
-Arrumar o que está acontecendo com os commits e dar continuidade com as páginas em HTML e CSS (index).
-
-
+Arrumar o que está acontecendo com os commits e dar continuidade às páginas em HTML e CSS (`index`).
 
 ### Responsabilidades
 
-- **Julio César da Silva Kubiack:** página em HTML e CSS (index).
+- **Julio César da Silva Kubiack:** Página em HTML e CSS (`index`).
+- **Beatriz Gomes dos Santos:** Página em HTML e CSS (`index`).
+- **Isabela Luiza Maciel:** Página em HTML e CSS (`index`).
+- **Melissa Fagundes:** Página em HTML e CSS (`index`).
+- **Vinicius Kormann:** HTML.
 
-- **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
+---
 
-- **Isabela Luiza Maciel:** página em HTML e CSS (index).
-
-- **Melissa:** página em HTML e CSS (index).
-
-- **Vinicios Korman** Html
-
-# Atas 11 – Projeto Integrador (Professor Mehran) (as dos dias 11 e 18 foram apenas continuação de html todos fizeram as mesmas coisas html)
+# Ata 11 – Projeto Integrador (Professor Mehran)
 
 **Data:** 25/08/2026
 
@@ -336,41 +298,33 @@ Arrumar o que está acontecendo com os commits e dar continuidade com as página
 
 ### Assunto
 
-Arrumar o que está acontecendo com os commits e dar continuidade com as páginas em HTML e CSS (index).
+Arrumar o que está acontecendo com os commits e dar continuidade às páginas em HTML e CSS (`index`).
 
 ### Responsabilidades
 
-- **Julio César da Silva Kubiack:** página em HTML e CSS (index).
-
-- **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
-
-- **Isabela Luiza Maciel:** página em HTML e CSS (index).
-
-- **Melissa:** página em HTML e CSS (index).
-
-- **Beatriz Costa:** página em HTML e CSS (index).
-
-- **Vinicios Korman** Html
-
----
+- **Julio César da Silva Kubiack:** Página em HTML e CSS (`index`).
+- **Beatriz Gomes dos Santos:** Página em HTML e CSS (`index`).
+- **Isabela Luiza Maciel:** Página em HTML e CSS (`index`).
+- **Melissa Fagundes:** Página em HTML e CSS (`index`).
+- **Beatriz Costa:** Página em HTML e CSS (`index`).
+- **Vinicius Kormann:** HTML.
 
 ### Observação
 
-A seguir vai estar quais paginas cada integrante fez...
+As reuniões dos dias 11 e 18 de agosto foram dedicadas à continuação do desenvolvimento em HTML, com todos os integrantes realizando as mesmas atividades.
 
-- **Julio César da Silva Kubiack:** página Sobre nós 
+A seguir, estão as páginas desenvolvidas por cada integrante:
 
-- **Beatriz Gomes dos Santos:** página Rotina, progresso
+- **Julio César da Silva Kubiack:** Página Sobre Nós.
+- **Beatriz Gomes dos Santos:** Páginas Rotina e Progresso.
+- **Isabela Luiza Maciel:** Página Exercícios.
+- **Melissa Fagundes:** Página Início.
+- **Beatriz Costa:** Página Login.
+- **Vinicius Kormann:** Página Contate-nos.
 
-- **Isabela Luiza Maciel:** página Exercícios
+---
 
-- **Melissa:** página Início
-
-- **Beatriz Costa:** página login 
-
-- **Vinicios Korman** página formulário
-
-# Atas 12 – Projeto Integrador (Professor Mehran)
+# Ata 12 – Projeto Integrador (Professor Mehran)
 
 **Data:** 29/08/2026
 
@@ -380,29 +334,24 @@ A seguir vai estar quais paginas cada integrante fez...
 
 ### Assunto
 
-Arrumar o que está acontecendo com os commits e dar continuidade com as páginas em HTML e CSS (index).
+Arrumar o que está acontecendo com os commits e dar continuidade às páginas em HTML e CSS (`index`).
 
 ### Responsabilidades
 
-- **Julio César da Silva Kubiack:** página em HTML e CSS (index).
-
-- **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
-
-- **Isabela Luiza Maciel:** página em HTML e CSS (index).
-
-- **Melissa:** página em HTML e CSS (index).
-
-- **Beatriz Costa:** página em HTML e CSS (index).
-
-- **Vinicios Korman** Html e CSS
-
----
+- **Julio César da Silva Kubiack:** Página em HTML e CSS (`index`).
+- **Beatriz Gomes dos Santos:** Página em HTML e CSS (`index`).
+- **Isabela Luiza Maciel:** Página em HTML e CSS (`index`).
+- **Melissa Fagundes:** Página em HTML e CSS (`index`).
+- **Beatriz Costa:** Página em HTML e CSS (`index`).
+- **Vinicius Kormann:** HTML e CSS.
 
 ### Observação
 
-Sábado Letivo
+Sábado letivo.
 
-# Atas 12.1 – Projeto Integrador (Professor Mehran)
+---
+
+# Ata 12.1 – Projeto Integrador (Professor Mehran)
 
 ### Observação
 
@@ -412,21 +361,23 @@ Eu, Julio Kubiack, usei IA para arrumar as atas no dia 29/08/2026, com o objetiv
 
 Com isso, agora irei falar sobre o que foi feito durante essas 12 atas a seguir.
 
-Nas atas, foi dito que a aluna Beatriz Costa fez o Figma e que as alunas auxiliaram ela. Porém, o que realmente aconteceu foi que as alunas Melissa, Beatriz Gomes e Isabela Maciel fizeram todo o Figma. Beatriz Costa também ajudou no Figma, porém sua participação foi mais como auxílio do que como responsável pelo desenvolvimento.
+Nas atas, foi dito que a aluna Beatriz Costa fez o Figma e que as alunas auxiliaram ela. Porém, o que realmente aconteceu foi que as alunas Melissa Fagundes, Beatriz Gomes e Isabela Maciel fizeram todo o Figma. Beatriz Costa também ajudou no Figma, porém sua participação foi mais como auxílio do que como responsável pelo desenvolvimento.
 
 A aluna Beatriz Costa, que esteve presente auxiliando no projeto, também fez, com seu auxílio, a página de login.
 
 A aluna Isabela Maciel esteve presente fazendo o Figma e a página de exercícios.
 
-A aluna Melissa esteve presente na elaboração do Figma e fez a página inicial.
+A aluna Melissa Fagundes esteve presente na elaboração do Figma e fez a página inicial.
 
 A aluna Beatriz Gomes atuou na formação do Figma e no desenvolvimento das páginas Progresso e Rotina.
 
-O aluno Vinicios Korman, que entrou no grupo no meio do projeto, deu sua opinião sobre o Figma e fez a página Contate-nos.
+O aluno Vinicius Kormann, que entrou no grupo no meio do projeto, deu sua opinião sobre o Figma e fez a página Contate-nos.
 
 O aluno Julio Kubiack atuou na parte de ensinar aos alunos um pouco sobre o GitHub, transmitindo seus conhecimentos aos demais integrantes. Também fez a página Sobre Nós, juntou e arrumou as páginas dos outros alunos e auxiliou e ajudou no Figma.
 
-# Atas 13 – Projeto Integrador (Professor Mehran)
+---
+
+# Ata 13 – Projeto Integrador (Professor Mehran)
 
 **Data:** 29/08/2026
 
@@ -436,58 +387,56 @@ O aluno Julio Kubiack atuou na parte de ensinar aos alunos um pouco sobre o GitH
 
 ### Assunto
 
-ultimos passos do CSS...
+Últimos passos do CSS.
+
 ### Responsabilidades
 
-- **Julio César da Silva Kubiack:** página em HTML e CSS (index).
-
-- **Beatriz Gomes dos Santos:** página em HTML e CSS (index).
-
-- **Isabela Luiza Maciel:** página em HTML e CSS (index).
-
-- **Melissa:** página em HTML e CSS (index).
-
-- **Beatriz Costa:** página em HTML e CSS (index).
-
-- **Vinicios Korman** Html e CSS
-
----
+- **Julio César da Silva Kubiack:** Página em HTML e CSS (`index`).
+- **Beatriz Gomes dos Santos:** Página em HTML e CSS (`index`).
+- **Isabela Luiza Maciel:** Página em HTML e CSS (`index`).
+- **Melissa Fagundes:** Página em HTML e CSS (`index`).
+- **Beatriz Costa:** Página em HTML e CSS (`index`).
+- **Vinicius Kormann:** HTML e CSS.
 
 ### Observação
 
-Aula do Kennedy
+Aula do Kennedy.
 
-# ATA 13.1 — 14/09/2026 #
+---
 
-**Data: 14/09/2026**
+# Ata 13.1 – Projeto Integrador (Professor Mehran)
 
-**Coordenadora: Beatriz Gomes**
+**Data:** 14/09/2026
 
-**Secretário e responsável pelo GitHub: Julio Kubiack**
+**Coordenadora:** Beatriz Gomes
+
+**Secretário e responsável pelo GitHub:** Julio Kubiack
 
 ### Atividades realizadas
 
-Nesta reunião, continuamos o desenvolvimento do site do projeto. Trabalhamos principalmente na página “Sobre nós”, ajustando o HTML e o CSS para deixar a página mais parecida com o modelo feito no Figma.
+Nesta reunião, continuamos o desenvolvimento do site do projeto. Trabalhamos principalmente na página “Sobre Nós”, ajustando o HTML e o CSS para deixar a página mais parecida com o modelo feito no Figma.
 
 Também foram feitos ajustes no header e footer, deixando os dois padronizados com as outras páginas do site. Foram realizados ajustes no tamanho das imagens, organização das seções e na responsividade para celular e desktop.
 
 Além disso, foram corrigidos detalhes da seção “Etapas do desenvolvimento”, principalmente as caixas azuis com os textos, para ficarem mais próximas do modelo do Figma.
 
-***Responsabilidades:***
+### Responsabilidades
 
-***Julio Kubiack***: organização do HTML e CSS da página “Sobre nós”, ajustes de responsividade e organização do GitHub
+- **Julio Kubiack:** Organização do HTML e CSS da página “Sobre Nós”, ajustes de responsividade e organização do GitHub.
 
 ### Progresso do projeto
 
-```mermaid
+```
 pie title Andamento do projeto
-    "Concluído" : 80
-    "Em desenvolvimento" : 15
+    "Concluído" : 90
+    "Em desenvolvimento" : 5
     "Ideias e melhorias" : 5
 ```
-``` 
+
 O projeto está aproximadamente 70% concluído. Ainda existem algumas partes em desenvolvimento e algumas ideias que podem ser adicionadas futuramente.
-```
+
+---
+
 # Ata 13.2 – Projeto Integrador (Professor Mehran)
 
 **Data:** 19/09/2026
@@ -502,15 +451,19 @@ Correção do envio do formulário de Contate-nos (Supabase) e implementação d
 
 ### Responsabilidades
 
-- **Julio César da Silva Kubiack:** identificação e correção do erro de permissão (RLS) que impedia o envio do formulário de Contate-nos — o problema estava no uso de `.select()` junto do `.insert()`, que exigia uma política de leitura inexistente na tabela `contatos_db`; criação de uma Edge Function no Supabase (`quick-endpoint`) para permitir a redefinição de senha de usuários sem depender de envio de e-mail de verificação, já que o projeto não possui esse serviço configurado; a função confere se o nome e o e-mail informados batem com os dados salvos na tabela `usuarios_db` e, em caso positivo, atualiza a senha diretamente pelo Supabase Auth; criação da página `recuperar-senha.html` e do script `recuperarSenha.js`, responsáveis por coletar nome, e-mail e nova senha e chamar a Edge Function; ajuste da configuração da função para desativar a exigência de verificação de JWT (Enforce JWT Verification), permitindo que ela seja chamada por usuários ainda não autenticados.
-
----
+- **Julio César da Silva Kubiack:** Identificação e correção do erro de permissão (RLS) que impedia o envio do formulário de Contate-nos — o problema estava no uso de `.select()` junto do `.insert()`, que exigia uma política de leitura inexistente na tabela `contatos_db`; criação de uma Edge Function no Supabase (`quick-endpoint`) para permitir a redefinição de senha de usuários sem depender de envio de e-mail de verificação, já que o projeto não possui esse serviço configurado; a função confere se o nome e o e-mail informados batem com os dados salvos na tabela `usuarios_db` e, em caso positivo, atualiza a senha diretamente pelo Supabase Auth; criação da página `recuperar-senha.html` e do script `recuperarSenha.js`, responsáveis por coletar nome, e-mail e nova senha e chamar a Edge Function; ajuste da configuração da função para desativar a exigência de verificação de JWT (Enforce JWT Verification), permitindo que ela seja chamada por usuários ainda não autenticados.
 
 ### Observação
 
-O formulário de Contate-nos está funcionando corretamente e salvando as mensagens na tabela `contatos_db`. A recuperação de senha também foi testada com sucesso. Pendências que seguem em aberto: replicar os ajustes de header, avatar e menu nas demais páginas do site; decidir sobre a criação de uma página de Política de Privacidade; revisar o sistema de metas da página Progresso. tudo isso foi feito com a ideias minha, porem com o auxilio da ia "claude" mostrando e ensinando como fazia cada passo do codigo.
+O formulário de Contate-nos está funcionando corretamente e salvando as mensagens na tabela `contatos_db`. A recuperação de senha também foi testada com sucesso.
 
-**Fora da sala**
+Pendências que seguem em aberto: replicar os ajustes de header, avatar e menu nas demais páginas do site; decidir sobre a criação de uma página de Política de Privacidade; revisar o sistema de metas da página Progresso.
+
+Tudo isso foi feito com as ideias minhas, porém com o auxílio da IA Claude, mostrando e ensinando como fazer cada passo do código.
+
+**Fora da sala.**
+
+---
 
 # Ata 13.3 – Projeto Integrador (Professor Mehran)
 
@@ -522,23 +475,20 @@ O formulário de Contate-nos está funcionando corretamente e salvando as mensag
 
 ### Assunto
 
-Implementação do menu hambúrguer responsivo no cabeçalho do site, ajuste do layout do header para desktop e correção do bug de atualização do avatar do usuário logado. E paginas sendo finalizadas
+Implementação do menu hambúrguer responsivo no cabeçalho do site, ajuste do layout do header para desktop e correção do bug de atualização do avatar do usuário logado. Páginas sendo finalizadas.
 
 ### Responsabilidades
 
-***Julio Kubiack***: implementação do menu , ajustes de header (mobile e desktop) e correção do avatar do usuário.
+- **Julio Kubiack:** Implementação do menu, ajustes de header (mobile e desktop) e correção do avatar do usuário.
+- **Beatriz Gomes dos Santos:** Ajustes na própria página.
+- **Isabela Luiza Maciel:** Ajustes na própria página.
+- **Melissa Fagundes:** Ajustes na própria página.
+- **Beatriz Costa:** Ajustes na própria página.
+- **Vinicius Kormann:** Ajustes na própria página.
 
-- **Beatriz Gomes dos Santos:** arrumando sua propria pragina
+---
 
-- **Isabela Luiza Maciel:** arrumando sua propria pragina
-
-- **Melissa:** arrumando sua propria pragina
-
-- **Beatriz Costa:** arrumando sua propria pragina
-
-- **Vinicios Korman** arrumando sua propria pragina
-
-# Ata 13.3 – Projeto Integrador (Professor Mehran)
+# Ata 13.4 – Projeto Integrador (Professor Mehran)
 
 **Data:** 23/09/2026
 
@@ -548,18 +498,46 @@ Implementação do menu hambúrguer responsivo no cabeçalho do site, ajuste do 
 
 ### Assunto
 
-SITE NO ARRRRR
+Site no ar!
 
 ### Responsabilidades
 
-***Julio Kubiack***: SITE NO AR
+- **Julio Kubiack:** Publicação do site.
+- **Beatriz Gomes dos Santos:** Participação na publicação do site.
+- **Isabela Luiza Maciel:** Participação na publicação do site.
+- **Melissa Fagundes:** Participação na publicação do site.
+- **Beatriz Costa:** Participação na publicação do site.
+- **Vinicius Kormann:** Participação na publicação do site.
 
-- **Beatriz Gomes dos Santos:** SITE NO AR
+---
 
-- **Isabela Luiza Maciel:** SITE NO AR
+# Ata 14 – Projeto Integrador (Professor Mehran)
 
-- **Melissa:** SITE NO AR
+**Data:** 13/10/2026
 
-- **Beatriz Costa:** SITE NO AR
+**Coordenadora:** Beatriz Gomes
 
-- **Vinicios Korman** SITE NO AR
+**Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
+
+### Assunto
+
+Reunião sobre o andamento do projeto.
+
+Durante nossa reunião, concordamos que o site está quase completo. No entanto, decidimos realizar algumas melhorias e complementar o projeto com novos recursos, além de corrigir alguns erros que ainda estão presentes e acrescentar novas funcionalidades.
+
+Também ficou decidido que todos os integrantes do grupo deverão compreender o funcionamento do banco de dados, para que esse conhecimento não fique restrito apenas ao aluno Julio, responsável pelo seu desenvolvimento, mas seja compartilhado com toda a equipe.
+
+Entre as novas funcionalidades planejadas, estão a inclusão de uma seção de vídeos e a criação de um minijogo, cujo tema e funcionamento ainda serão definidos pelo grupo.
+
+Além disso, já temos uma página interativa no site, que passará por algumas modificações. Uma das principais melhorias será fazer com que o nome do usuário apareça corretamente nessa página após ele entrar em sua conta, tornando a experiência mais personalizada.
+
+Dessa forma, nosso objetivo é finalizar o site com as correções necessárias, implementar novos recursos e garantir que todos os integrantes do grupo tenham conhecimento sobre as diferentes partes do projeto.
+
+### Responsabilidades
+
+- **Julio Kubiack:** Participação na reunião.
+- **Beatriz Gomes dos Santos:** Participação na reunião.
+- **Isabela Luiza Maciel:** Participação na reunião.
+- **Melissa Fagundes:** Participação na reunião.
+- **Beatriz Costa:** Participação na reunião.
+- **Vinicius Kormann:** Participação na reunião.
