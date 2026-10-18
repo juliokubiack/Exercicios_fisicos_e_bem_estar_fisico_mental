@@ -1,0 +1,134 @@
+
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Be Well - Progresso</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+   <link rel="shortcut icon" href="img_sobre-nos/cerebro-pensnte-pequeno.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/TODOS_style.css" />   
+   <link rel="stylesheet" href="css/mini_jogo.css">
+    <script type="module" src="java.script/avatar.js"></script>
+    <script type="module" src="java.script/menu_todos.js"></script> 
+     <script src="java.script/mini_jogo.js"></script>
+     <link rel="stylesheet" href="css/mini_jogo.css">
+     <script src="java.script/mini_jogo.js"></script>
+</head>
+<body>
+  <body>
+    <header>
+      <div class="logo-circle">
+        <img src="img_rotina/logo.png" alt="logo site" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="rotina_index.html">Rotina</a></li>
+          <li><a href="exercicio_index.html">Exercícios</a></li>
+          <li><a href="progresso_index.html" class="ativo">Progresso</a></li>
+          <li><a href="sobre-nos_index.html" >Sobre nós</a></li>
+          <li><a href="contate-nos_index.html">Contate-nos</a></li>
+          <li class="item-perfil"><a href="perfil_index.html">Perfil</a></li>
+          <li class="item-editar-perfil" style="display: none">
+            <a href="editar-perfil.html">Editar perfil</a>
+          </li>
+          <li class="item-fechar"><a href="#" id="fecharMenu">Fechar </a></li>
+        </ul>
+      </nav>
+      <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">
+        <span class="icone-abrir">☰</span>
+        <span class="icone-fechar"></span>
+      </button>
+      <div class="header-icones">
+         <span class="avatar"
+      ><a href="perfil_index.html"
+        ><span id="avatarConteudo" class="avatar-icone">
+          <img
+            src="img_sobre-nos/icone-de-perfil-de-avatar-padrao-imagem-de-usuario-de-midia-social-icone-de-avatar-cinza-silhueta-de-perfil-em-branco-ilustracao-vetorial_561158-3485.avif"
+            alt="usuario anonimo"
+          /></span></a
+    ></span>
+      </div>
+
+    </header>
+
+  <main>
+
+<section class="niveis">
+          <h1 onclick="mostrarMenu()">BE WELL ARENA</h1>
+    <div class="status">
+      <span>NÍVEL <b id="nivel">1</b></span>
+      <div class="barra"><div id="barra-xp"></div></div>
+      <span><b id="xp">0</b> XP</span>
+    </div>
+</section>
+    <section id="menu">
+      <p class="texto">Escolha seu treino de hoje:</p>
+
+      <div class="cards">
+        <div class="card corrida" onclick="abrirModo('corrida')">
+          <h2>Corrida</h2>
+          <p>Distância e tempo. Cada km vira XP.</p>
+        </div>
+        <div class="card academia" onclick="abrirModo('academia')">
+          <h2>Academia</h2>
+          <p>Carga, séries e repetições.</p>
+        </div>
+        <div class="card calistenia" onclick="abrirModo('calistenia')">
+          <h2>Calistenia</h2>
+          <p>Só o peso do seu corpo.</p>
+        </div>
+      </div>
+
+      <h3>Últimos treinos</h3>
+      <ul id="historico"></ul>
+
+      <button class="botao pequeno" onclick="apagarTudo()">Apagar progresso</button>
+    </section>
+
+
+    <section id="lista" class="escondido"></section>
+
+
+    <section id="exercicio" class="escondido"></section>
+
+  </main>
+
+
+  <div id="aviso"></div>
+<footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <div class="logo-circle">
+          <img src="img_rotina/logo-escuro.png" alt="logo site">
+        </div>
+      </div>
+       <div class="footer-links">
+          <a href="contate-nos_index.html">Contate-nos</a>
+          <a href="index.html">Início</a>
+          <a href="sobre-nos_index.html">Sobre nós</a>
+          <a href="rotina_index.html">Rotina</a>
+          <a href="exercicio_index.html">Exercícios</a>
+          <a href="progresso_index.html">Progresso</a>
+          <a href="perfil_index.html">Perfil</a>
+        </div>
+      <div class="footer-copy">
+        <p>Transforme sua rotina!</p>
+        <p>Cuidar de você é o primeiro passo para uma vida leve.</p>
+      </div>
+      <div class="footer-redes">
+        <a href="https://www.facebook.com/profile.php?id=61594357695006&mibextid=wwXIfr"><img src="img_rotina/facebook.png" alt="Facebook"></a>
+        <a href="https://www.tiktok.com/@bewellifc"><img src="img_rotina/tiktok.png" alt="TikTok"></a>
+        <a href="https://www.instagram.com/bewellpi/"><img src="img_rotina/instagram.png" alt="Instagram"></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
