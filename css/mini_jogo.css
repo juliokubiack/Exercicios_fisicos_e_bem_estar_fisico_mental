@@ -259,3 +259,65 @@
 #aviso.mostrar {
   opacity: 1;
 }
+
+#arena #arena-erro {
+  margin-bottom: 1rem;
+  padding: 0.8rem 1rem;
+  background: #fde2e4;
+  color: #7a1020;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+#arena .corpos {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0.6rem 0;
+}
+
+#arena .corpos figure {
+  margin: 0;
+  width: 130px;
+}
+
+#arena .corpos svg {
+  width: 100%;
+  height: auto;
+}
+
+#arena .corpos figcaption {
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--a-cinza);
+}
+
+#arena .corpos .base * {
+  fill: #ffffff;
+  stroke: var(--a-azul-medio);
+  stroke-width: 0.8;
+}
+
+#arena .corpos .musculos * {
+  fill: rgba(125, 162, 197, 0.25);
+  stroke: none;
+}
+
+#arena .corpos .musculos .ativo {
+  fill: #e0558f;
+  stroke: var(--a-azul);
+  stroke-width: 0.8;
+}
+
+#arena .texto-musculos {
+  margin: 0.4rem 0 0;
+}
+
+#arena .foto-ex img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  margin-bottom: 0.6rem;
+}

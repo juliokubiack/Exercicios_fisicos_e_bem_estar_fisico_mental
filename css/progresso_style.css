@@ -263,6 +263,13 @@ section.grafico h2 span {
   margin-bottom: 2rem;
 }
 
+.legenda-grafico {
+  max-width: 550px;
+  margin: -1rem 0 1.5rem;
+  font-size: 0.85rem;
+  color: #3a4a62;
+}
+
 .botoes-metas {
   display: flex;
   gap: 1.2rem;

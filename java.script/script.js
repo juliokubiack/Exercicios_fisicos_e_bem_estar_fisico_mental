@@ -5,29 +5,41 @@ imgPrata.src = "img_progresso/medalha-dois.png";
 const imgOuro = new Image();
 imgOuro.src = "img_progresso/medalha-tres.png";
 
+const metasDia = [100, 200, 300];
+
+function medalhaDoDia(xp) {
+  let total = 0;
+  for (let i = 0; i < metasDia.length; i++) {
+    if (xp >= metasDia[i]) total = i + 1;
+  }
+  return total;
+}
+
 const pluginMedalhasComImagens = {
   id: "pluginMedalhasComImagens",
   afterDatasetsDraw(chart) {
     const { ctx, data } = chart;
     const tamanhoMedalha = 24;
+    const imagens = [null, imgBronze, imgPrata, imgOuro];
 
     ctx.save();
+    ctx.textAlign = "center";
+    ctx.font = "700 12px Mulish, sans-serif";
+    ctx.fillStyle = "#252b42";
     data.datasets[0].data.forEach((valor, index) => {
+      if (valor <= 0) return;
       const metaBarra = chart.getDatasetMeta(0).data[index];
       const xBarra = metaBarra.x;
       const yBarra = metaBarra.y;
 
-      let imagemParaDesenhar = null;
+      ctx.fillText(valor + " XP", xBarra, yBarra - 6);
 
-      if (valor === 1) imagemParaDesenhar = imgBronze;
-      else if (valor === 2) imagemParaDesenhar = imgPrata;
-      else if (valor === 3) imagemParaDesenhar = imgOuro;
-
-      if (imagemParaDesenhar && imagemParaDesenhar.complete && valor > 0) {
+      const imagem = imagens[medalhaDoDia(valor)];
+      if (imagem && imagem.complete) {
         ctx.drawImage(
-          imagemParaDesenhar,
+          imagem,
           xBarra - tamanhoMedalha / 2,
-          yBarra - (tamanhoMedalha + 6),
+          yBarra - tamanhoMedalha - 22,
           tamanhoMedalha,
           tamanhoMedalha
         );
@@ -53,25 +65,54 @@ const meuGrafico = new Chart(ctx, {
   options: {
     responsive: true,
     maintainAspectRatio: false,
+    layout: { padding: { top: 40 } },
     plugins: {
       legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: (item) => item.parsed.y + " XP",
+        },
+      },
     },
     scales: {
-      x: { 
-        grid: { display: false } 
+      x: {
+        grid: { display: false },
       },
       y: {
         display: false,
         beginAtZero: true,
-        max: 3.8,
+        max: 375,
       },
     },
   },
   plugins: [pluginMedalhasComImagens],
 });
 
-const jsDay = new Date().getDay();
-const indiceHoje = jsDay === 0 ? 6 : jsDay - 1;
+function xpPorDia() {
+  const hoje = new Date();
+  const diaSemana = hoje.getDay() === 0 ? 6 : hoje.getDay() - 1;
+  const segunda = new Date(hoje.getFullYear(), hoje.getMonth(), hoje.getDate() - diaSemana);
+  const lista = [];
+
+  for (let i = 0; i < 7; i++) {
+    const dia = new Date(segunda.getFullYear(), segunda.getMonth(), segunda.getDate() + i);
+    const texto = dia.toLocaleDateString("pt-BR");
+    let soma = 0;
+    for (let j = 0; j < treinos.length; j++) {
+      if (treinos[j].data === texto) soma += treinos[j].xp;
+    }
+    lista.push(soma);
+  }
+  return lista;
+}
+
+function atualizarGraficoXP() {
+  const dados = xpPorDia();
+  const maior = Math.max(metasDia[2], ...dados);
+  meuGrafico.data.datasets[0].data = dados;
+  meuGrafico.options.scales.y.max = Math.ceil(maior * 1.25);
+  meuGrafico.update();
+}
 
 function atualizarTudo() {
   const lista = document.getElementById("lista-tarefas");
@@ -95,8 +136,6 @@ function atualizarTudo() {
   const contador = document.getElementById("contador");
   if (contador) contador.innerText = `${marcadas}/${totalMetas}`;
 
-  meuGrafico.data.datasets[0].data[indiceHoje] = marcadas;
-  meuGrafico.update();
 }
 
 function abrirModal() {
@@ -155,4 +194,5 @@ function removerMeta() {
 
 document.addEventListener("DOMContentLoaded", () => {
   atualizarTudo();
+  atualizarGraficoXP();
 });
