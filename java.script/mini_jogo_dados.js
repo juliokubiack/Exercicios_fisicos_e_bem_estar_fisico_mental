@@ -72,7 +72,7 @@ const exercicios = {
             treino: 'A',
             descricao: 'Costas, Ombro, Peito.',
             dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
+            video: buscar('COLOCAR ALGO')
         },
         {
             nome: 'Pullover',
@@ -80,7 +80,7 @@ const exercicios = {
             treino: 'A',
             descricao: 'Costas, Ombro, Peito.',
             dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
+            video: buscar('COLOCAR ALGO...')
         },
         {
             nome: 'elevação frontal com barra supinada',
@@ -88,7 +88,7 @@ const exercicios = {
             treino: 'A',
             descricao: 'Costas, Ombro, Peito.',
             dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
+            video: buscar('COLOCAR ALGO...')
         },
         {
             nome: 'Desenvolvimento Sentado na barra guiada',
@@ -96,7 +96,7 @@ const exercicios = {
             treino: 'A',
             descricao: 'Costas, Ombro, Peito.',
             dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
+            video: buscar('COLOCAR ALGO...')
         },
         {
             nome: 'Elevação lateral polia (por trás)',
@@ -104,7 +104,7 @@ const exercicios = {
             treino: 'A',
             descricao: 'Costas, Ombro, Peito.',
             dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
+            video: buscar('COLOCAR ALGO...')
         },
         {
             nome: 'Remada Alta Cross Over',
@@ -112,138 +112,138 @@ const exercicios = {
             treino: 'A',
             descricao: 'Costas, Ombro, Peito.',
             dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
+            video: buscar('COLOCAR ALGO...')
+        },
+        {
+            nome: 'Remada Baixa Neutra',
+            tipo: 'peso',
+            treino: 'B',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        },
+        {
+            nome: 'Peck Deck inverso',
+            tipo: 'peso',
+            treino: 'B',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, {
+            nome: 'Pull Down',
+            tipo: 'peso',
+            treino: 'B',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, {
+            nome: 'Puxada Alta Bi-articulada',
+            tipo: 'peso',
+            treino: 'B',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, {
+            nome: 'Extensor Lombar',
+            tipo: 'peso',
+            treino: 'B',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, {
+            nome: 'agachamnetp com barra romana',
+            tipo: 'peso',
+            treino: 'B',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        },
+        {
+            nome: 'abdominal Bicicleta',
+            tipo: 'peso',
+            treino: 'B',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        },
+        {
+            nome: 'Prancha Alternada com 2 apois',
+            tipo: 'peso',
+            treino: 'B',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, {
+            nome: `V-sit`,
+            tipo: 'peso',
+            treino: 'B',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, {
+            nome: 'Agachamento no Hack inverso',
+            tipo: 'peso',
+            treino: 'C',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, {
+            nome: 'leg press horizontal(180° graus)',
+            tipo: 'peso',
+            treino: 'C',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, {
+            nome: 'Remada Alta Cross Over',
+            tipo: 'peso',
+            treino: 'C',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, {
+            nome: 'Remada Alta Cross Over',
+            tipo: 'peso',
+            treino: 'D',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
         },
         {
             nome: 'Remada Alta Cross Over',
             tipo: 'peso',
-            treino: 'B',
+            treino: 'D',
             descricao: 'Costas, Ombro, Peito.',
             dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-        {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'B',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'B',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'B',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'B',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'B',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-        {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'C',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-        {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'C',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'C',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'C',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'C',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'C',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
+            video: buscar('COLOCAR ALGO...')
         }, {
             nome: 'Remada Alta Cross Over',
             tipo: 'peso',
             treino: 'D',
             descricao: 'Costas, Ombro, Peito.',
             dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-        {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'D',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
+            video: buscar('COLOCAR ALGO...')
         }, {
             nome: 'Remada Alta Cross Over',
             tipo: 'peso',
             treino: 'D',
             descricao: 'Costas, Ombro, Peito.',
             dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
+            video: buscar('COLOCAR ALGO...')
         }, {
             nome: 'Remada Alta Cross Over',
             tipo: 'peso',
             treino: 'D',
             descricao: 'Costas, Ombro, Peito.',
             dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
+            video: buscar('COLOCAR ALGO...')
         }, {
             nome: 'Remada Alta Cross Over',
             tipo: 'peso',
             treino: 'D',
             descricao: 'Costas, Ombro, Peito.',
             dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'D',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
+            video: buscar('COLOCAR ALGO...')
         },
     ],
 
