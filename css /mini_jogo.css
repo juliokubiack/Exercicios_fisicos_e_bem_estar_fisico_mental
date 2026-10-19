@@ -1,0 +1,261 @@
+#arena {
+  --a-azul: #1c4d8d;
+  --a-azul-medio: #7da2c5;
+  --a-azul-claro: #c8d4e1;
+  --a-rosa: #f5a9c9;
+  --a-texto: #252b42;
+  --a-cinza: #3a4a62;
+  --a-branco: #ffffff;
+  margin: 2.5rem 0 1rem;
+  text-align: center;
+  color: var(--a-texto);
+  font-family: "Mulish", system-ui, -apple-system, sans-serif;
+}
+
+#arena *,
+#arena *::before,
+#arena *::after {
+  box-sizing: border-box;
+}
+
+#arena h2,
+#arena h3 {
+  font-family: "Orbitron", "Mulish", sans-serif;
+  color: inherit;
+  margin: 0 0 0.6rem;
+}
+
+#arena .arena-topo {
+  background: var(--a-azul);
+  color: var(--a-branco);
+  padding: 1.2rem 1rem;
+  border-radius: 12px;
+  margin-bottom: 1.2rem;
+}
+
+#arena .arena-titulo {
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  margin: 0 0 0.8rem;
+  cursor: pointer;
+}
+
+#arena .status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  font-family: "Orbitron", "Mulish", sans-serif;
+  font-size: 0.85rem;
+}
+
+#arena .status b {
+  color: var(--a-rosa);
+}
+
+#arena .barra {
+  width: 160px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#arena #barra-xp {
+  height: 100%;
+  width: 0%;
+  background: var(--a-rosa);
+  border-radius: 10px;
+  transition: width 0.5s;
+}
+
+#arena .escondido {
+  display: none;
+}
+
+#arena .texto {
+  font-size: 1.1rem;
+  margin: 0 0 0.9rem;
+}
+
+#arena .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#arena .card {
+  flex: 1;
+  min-width: 200px;
+  padding: 1.4rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#arena .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(28, 77, 141, 0.35);
+}
+
+#arena .card h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+#arena .card p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+#arena .corrida {
+  background: var(--a-azul-claro);
+  color: var(--a-texto);
+}
+
+#arena .academia {
+  background: var(--a-azul);
+  color: var(--a-branco);
+}
+
+#arena .calistenia {
+  background: var(--a-azul-medio);
+  color: #0d2a52;
+}
+
+#arena #menu h3,
+#arena #exercicio h3 {
+  margin: 0.6rem 0 0.5rem;
+}
+
+#arena #lista > h2,
+#arena #exercicio > h2 {
+  font-size: 1.4rem;
+  margin: 0.9rem 0 0.6rem;
+}
+
+#arena ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#arena #historico li {
+  margin-bottom: 0.3rem;
+}
+
+#arena .item {
+  background: var(--a-azul-claro);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 0.7rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#arena .item:hover {
+  background: var(--a-azul-medio);
+}
+
+#arena .item small {
+  color: var(--a-cinza);
+}
+
+#arena .botao {
+  display: inline-block;
+  background: var(--a-azul);
+  color: var(--a-branco);
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem 1.1rem;
+  margin: 0.3rem 0.3rem 0.3rem 0;
+  font-family: "Mulish", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#arena .botao:hover {
+  background: var(--a-azul-medio);
+}
+
+#arena .pequeno {
+  margin-top: 1.5rem;
+  padding: 0.35rem 0.8rem;
+  background: transparent;
+  color: var(--a-cinza);
+  border: 1px solid var(--a-cinza);
+  font-size: 0.75rem;
+}
+
+#arena .pequeno:hover {
+  background: var(--a-azul-claro);
+}
+
+#arena .caixa {
+  background: var(--a-azul-claro);
+  border-radius: 12px;
+  padding: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+#arena .dicas {
+  margin-top: 0.8rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+#arena .dicas li {
+  margin-bottom: 0.5rem;
+}
+
+#arena label {
+  display: block;
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+#arena input {
+  width: 100%;
+  margin-top: 0.25rem;
+  padding: 0.6rem;
+  background: var(--a-branco);
+  color: var(--a-texto);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  font-family: "Mulish", sans-serif;
+  font-size: 1rem;
+}
+
+#arena input:focus {
+  outline: none;
+  border-color: var(--a-azul);
+}
+
+#aviso {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  z-index: 1000;
+  transform: translateX(-50%);
+  max-width: 90%;
+  padding: 0.8rem 1.4rem;
+  background: #1c4d8d;
+  color: #ffffff;
+  border-radius: 14px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+#aviso.mostrar {
+  opacity: 1;
+}

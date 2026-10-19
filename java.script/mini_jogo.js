@@ -1,293 +1,4 @@
-
-function buscar(texto) {
-    return 'https://www.youtube.com/results?search_query=' + encodeURIComponent(texto);
-}
-
-const modos = {
-    corrida: 'Corrida',
-    academia: 'Academia',
-    calistenia: 'Calistenia',
-    treino: `treino ibrido`,//configurar
-};
-
-const treinosAcademia = {
-    A: 'Braço, Costas e Ombro, Peito.',
-    B: 'Abdome, Antebraço, Braço, Costa, Coxa, Glúteo, Ombro',
-    C: 'Abdome,Costa,Coxa, Glúteo, Panturrilha',
-    D: 'Abdômen, Antebraço, Braço, Costa, Ombro'
-};
-
-const exercicios = {
-    corrida: [
-        {
-            nome: 'Corrida leve',
-            tipo: 'corrida',
-            descricao: 'Ritmo em que dá pra conversar.',
-            dicas: ['Passada curta e leve', 'Braços dobrados a 90 graus', 'Respire de forma natural'],
-            video: buscar('corrida leve técnica para iniciantes')
-        },
-        {
-            nome: 'Tiros',
-            tipo: 'corrida',
-            descricao: 'Blocos rápidos com descanso no meio.',
-            dicas: ['Aqueça uns 10 minutos antes', 'Tiros de 30 a 60 segundos', 'Descanse trotando ou caminhando'],
-            video: buscar('treino de tiros corrida como fazer')
-        },
-        {
-            nome: 'Longão',
-            tipo: 'corrida',
-            descricao: 'O treino mais longo da semana.',
-            dicas: ['Comece devagar', 'Beba água antes e durante', 'Aumente a distância aos poucos'],
-            video: buscar('longão corrida como fazer')
-        },
-        {
-            nome: 'Caminhada acelerada',
-            tipo: 'corrida',
-            descricao: 'Baixo impacto, ótima pra começar.',
-            dicas: ['Postura ereta', 'Passos firmes', 'Balance os braços'],
-            video: buscar('caminhada acelerada técnica correta')
-        }
-    ],
-
-    academia: [
-
-        {
-            nome: 'Supino reto barra guiada',
-            tipo: 'peso',
-            treino: 'A',
-            descricao: 'Braço, Ombro, Peito.',
-            dicas: [`alinhar o banco para a barra descer na linha dos mamilos, manter as escápulas retraídas, os cotovelos em diagonal (45° a 60°) e os antebraços verticais indicamos que faça  series progredindo a carga, começe com pouco peso para que o musculo aqueça e não cause lesoes, logo em seguida coloque equivalente a 40% de sua força, na 3 serie coloque equivalente a 80% de sua forma na ultima serie coloque 100-110% de sua força, POREM LEMBRE SEGUIRANÇA EM PRIMEIRO LUGAR`],
-            video: buscar('Supino Reto na Barra Guiada')
-        },
-        {
-            nome: 'Crucifixo inclinado polia baixa',
-            tipo: 'peso',
-            treino: 'A',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-        {
-            nome: 'Supino inclinado com Halteres',
-            tipo: 'peso',
-            treino: 'A',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-        {
-            nome: 'Pullover',
-            tipo: 'peso',
-            treino: 'A',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-        {
-            nome: 'elevação frontal com barra supinada',
-            tipo: 'peso',
-            treino: 'A',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-        {
-            nome: 'Desenvolvimento Sentado na barra guiada',
-            tipo: 'peso',
-            treino: 'A',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-        {
-            nome: 'Elevação lateral polia (por trás)',
-            tipo: 'peso',
-            treino: 'A',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-        {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'A',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-        {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'B',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-        {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'B',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'B',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'B',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'B',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'B',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-        {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'C',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-        {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'C',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'C',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'C',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'C',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'C',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'D',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-        {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'D',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'D',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'D',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'D',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        }, {
-            nome: 'Remada Alta Cross Over',
-            tipo: 'peso',
-            treino: 'D',
-            descricao: 'Costas, Ombro, Peito.',
-            dicas: [`COLOCAR ALGO`],
-            video: buscar('Crucifixo Inclinado no Crossover - Exercício para Peito')
-        },
-    ],
-
-    calistenia: [
-        {
-            nome: 'Flexão de braço',
-            tipo: 'reps',
-            descricao: 'Peito, ombros e tríceps.',
-            dicas: ['Corpo reto da cabeça aos pés', 'Cotovelos um pouco fechados', 'Desça até quase tocar o chão'],
-            video: buscar('flexão de braço execução correta')
-        },
-        {
-            nome: 'Barra fixa',
-            tipo: 'reps',
-            descricao: 'Costas e bíceps.',
-            dicas: ['Comece com os braços esticados', 'Puxe o peito até a barra', 'Desça com controle'],
-            video: buscar('barra fixa como fazer execução correta')
-        },
-        {
-            nome: 'Agachamento sem peso',
-            tipo: 'reps',
-            descricao: 'Pernas e glúteos.',
-            dicas: ['Pés na largura dos ombros', 'Quadril pra trás', 'Peito erguido'],
-            video: buscar('agachamento sem peso execução correta')
-        },
-        {
-            nome: 'Prancha',
-            tipo: 'tempo',
-            descricao: 'Abdômen. Conta em segundos.',
-            dicas: ['Cotovelos embaixo dos ombros', 'Não deixe o quadril cair', 'Contraia a barriga'],
-            video: buscar('prancha abdominal execução correta')
-        },
-        {
-            nome: 'Burpee',
-            tipo: 'reps',
-            descricao: 'Corpo todo.',
-            dicas: ['Mãos no chão e pés pra trás', 'Faça a flexão', 'Volte e termine com um salto'],
-            video: buscar('burpee execução correta')
-        }
-    ]
-};
-
-// ===== guardando os treinos no navegador =====
+let carregado = false;
 let treinos = [];
 try {
     treinos = JSON.parse(localStorage.getItem('bewell-treinos')) || [];
@@ -299,8 +10,6 @@ function guardar() {
     localStorage.setItem('bewell-treinos', JSON.stringify(treinos));
 }
 
-// ===== xp e nivel =====
-// cada 100 xp = 1 nivel
 function totalXP() {
     let soma = 0;
     for (let i = 0; i < treinos.length; i++) {
@@ -313,20 +22,56 @@ function calcularNivel(xp) {
     return Math.floor(xp / 100) + 1;
 }
 
+const metasMedalha = [400, 800, 1200];
+const nomesMedalha = ['bronze', 'prata', 'ouro'];
+
+function medalhasConquistadas(xp) {
+    let total = 0;
+    for (let i = 0; i < metasMedalha.length; i++) {
+        if (xp >= metasMedalha[i]) {
+            total = i + 1;
+        }
+    }
+    return total;
+}
+
+function atualizarMedalhas() {
+    const xp = totalXP();
+    const ganhas = medalhasConquistadas(xp);
+
+    for (let i = 0; i < 3; i++) {
+        const img = document.getElementById('med-' + (i + 1));
+        if (img) {
+            img.classList.toggle('opaca', ganhas <= i);
+        }
+    }
+
+    const texto = document.getElementById('medalha-texto');
+    if (texto) {
+        if (ganhas >= 3) {
+            texto.innerHTML = 'Todas as medalhas conquistadas!';
+        } else {
+            texto.innerHTML = '<strong>' + xp + '/' + metasMedalha[ganhas] + '</strong> XP para a medalha de ' + nomesMedalha[ganhas] + '!';
+        }
+    }
+}
+
 function atualizarTopo() {
     const xp = totalXP();
     document.getElementById('xp').textContent = xp;
     document.getElementById('nivel').textContent = calcularNivel(xp);
     document.getElementById('barra-xp').style.width = (xp % 100) + '%';
+    atualizarMedalhas();
 }
 
-// ===== trocar de tela =====
 function mostrarSecao(id) {
     document.getElementById('menu').classList.add('escondido');
     document.getElementById('lista').classList.add('escondido');
     document.getElementById('exercicio').classList.add('escondido');
     document.getElementById(id).classList.remove('escondido');
-    window.scrollTo(0, 0);
+    if (carregado) {
+        document.getElementById('arena').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
 }
 
 function mostrarMenu() {
@@ -335,7 +80,6 @@ function mostrarMenu() {
     desenharHistorico();
 }
 
-// tela com os 4 botoes de treino da academia
 function abrirTreinos() {
     let html = '<button class="botao" onclick="mostrarMenu()">← Voltar</button>';
     html += '<h2>Academia</h2>';
@@ -353,7 +97,6 @@ function abrirTreinos() {
     mostrarSecao('lista');
 }
 
-// lista os exercicios de um treino (A, B, C ou D)
 function abrirTreino(letra) {
     let html = '<button class="botao" onclick="abrirTreinos()">← Voltar</button>';
     html += '<h2>Treino ' + letra + '</h2>';
@@ -379,7 +122,6 @@ function abrirTreino(letra) {
 }
 
 function abrirModo(modo) {
-    // academia tem os 4 treinos, entao abre outra tela
     if (modo === 'academia') {
         abrirTreinos();
         return;
@@ -403,7 +145,6 @@ function abrirModo(modo) {
 function abrirExercicio(modo, indice) {
     const ex = exercicios[modo][indice];
 
-    // na academia o voltar vai pro treino (A, B, C ou D)
     let voltar = 'abrirModo(\'' + modo + '\')';
     if (modo === 'academia') {
         voltar = 'abrirTreino(\'' + ex.treino + '\')';
@@ -411,7 +152,6 @@ function abrirExercicio(modo, indice) {
     let html = '<button class="botao" onclick="' + voltar + '">← Voltar</button>';
     html += '<h2>' + ex.nome + '</h2>';
 
-    // video e dicas
     html += '<div class="caixa">';
     html += '<a class="botao" href="' + ex.video + '" target="_blank">▶ Ver como fazer (YouTube)</a>';
     html += '<ul class="dicas">';
@@ -420,7 +160,6 @@ function abrirExercicio(modo, indice) {
     }
     html += '</ul></div>';
 
-    // formulario (muda dependendo do tipo)
     html += '<div class="caixa"><h3>Registrar treino</h3>';
     if (ex.tipo === 'corrida') {
         html += campo('km', 'Distância (km)') + campo('minutos', 'Tempo (minutos)');
@@ -437,7 +176,6 @@ function abrirExercicio(modo, indice) {
     html += '<br><button class="botao" onclick="salvarTreino(\'' + modo + '\', ' + indice + ')">Salvar treino</button>';
     html += '</div>';
 
-    // historico desse exercicio
     html += '<h3>Seu histórico</h3><ul>';
     let achou = false;
     for (let i = treinos.length - 1; i >= 0; i--) {
@@ -455,12 +193,10 @@ function abrirExercicio(modo, indice) {
     mostrarSecao('exercicio');
 }
 
-// cria um campo de texto
 function campo(id, texto) {
     return '<label for="' + id + '">' + texto + '</label><input id="' + id + '" type="text" inputmode="decimal">';
 }
 
-// pega o numero de dentro de um campo
 function pegar(id) {
     const caixa = document.getElementById(id);
     if (!caixa) {
@@ -473,7 +209,6 @@ function pegar(id) {
     return n;
 }
 
-// ===== salvar o treino =====
 function salvarTreino(modo, indice) {
     const ex = exercicios[modo][indice];
     const dados = {};
@@ -520,12 +255,12 @@ function salvarTreino(modo, indice) {
         xp = Math.round(dados.series * 8);
     }
 
-    // xp minimo
     if (xp < 5) {
         xp = 5;
     }
 
     const nivelAntes = calcularNivel(totalXP());
+    const medalhasAntes = medalhasConquistadas(totalXP());
 
     treinos.push({
         modo: modo,
@@ -538,19 +273,20 @@ function salvarTreino(modo, indice) {
     guardar();
 
     const nivelDepois = calcularNivel(totalXP());
+    const medalhasDepois = medalhasConquistadas(totalXP());
     atualizarTopo();
 
-    if (nivelDepois > nivelAntes) {
+    if (medalhasDepois > medalhasAntes) {
+        avisar('MEDALHA DE ' + nomesMedalha[medalhasDepois - 1].toUpperCase() + ' CONQUISTADA! (+' + xp + ' XP)');
+    } else if (nivelDepois > nivelAntes) {
         avisar('SUBIU DE NÍVEL! Agora você é nível ' + nivelDepois + ' (+' + xp + ' XP)');
     } else {
         avisar('+' + xp + ' XP! Bora continuar!');
     }
 
-    // abre a pagina de novo pra atualizar o historico
     abrirExercicio(modo, indice);
 }
 
-// texto resumido de um treino
 function resumo(t) {
     if (t.tipo === 'corrida') {
         return t.dados.km + ' km em ' + t.dados.minutos + ' min';
@@ -564,7 +300,6 @@ function resumo(t) {
     return t.dados.series + 'x' + t.dados.segundos + ' s';
 }
 
-// ultimos treinos na tela inicial
 function desenharHistorico() {
     const lista = document.getElementById('historico');
     if (treinos.length === 0) {
@@ -580,7 +315,6 @@ function desenharHistorico() {
     lista.innerHTML = html;
 }
 
-// mensagem que aparece embaixo da tela
 function avisar(texto) {
     const aviso = document.getElementById('aviso');
     aviso.textContent = texto;
@@ -598,5 +332,5 @@ function apagarTudo() {
     }
 }
 
-// quando a pagina abre
 mostrarMenu();
+carregado = true;

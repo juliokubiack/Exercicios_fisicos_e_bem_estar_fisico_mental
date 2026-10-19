@@ -95,14 +95,6 @@ function atualizarTudo() {
   const contador = document.getElementById("contador");
   if (contador) contador.innerText = `${marcadas}/${totalMetas}`;
 
-  const med1 = document.getElementById("med-1");
-  const med2 = document.getElementById("med-2");
-  const med3 = document.getElementById("med-3");
-
-  if (med1) med1.classList.toggle("opaca", marcadas < 1);
-  if (med2) med2.classList.toggle("opaca", marcadas < 2);
-  if (med3) med3.classList.toggle("opaca", marcadas < 3);
-
   meuGrafico.data.datasets[0].data[indiceHoje] = marcadas;
   meuGrafico.update();
 }

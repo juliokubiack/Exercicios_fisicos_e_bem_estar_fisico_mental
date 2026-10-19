@@ -7,27 +7,15 @@
   <title>Be Well - Progresso</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@500;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/progresso_style.css">
    <link rel="shortcut icon" href="img_sobre-nos/cerebro-pensnte-pequeno.png" type="image/x-icon">
   <link rel="stylesheet" href="css/TODOS_style.css" />
+  <link rel="stylesheet" href="css/mini_jogo.css">
     <script type="module" src="java.script/avatar.js"></script>
     <script type="module" src="java.script/menu_todos.js"></script>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="css/reset.css">
-   <link rel="shortcut icon" href="img_sobre-nos/cerebro-pensnte-pequeno.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/TODOS_style.css" />   
-   <link rel="stylesheet" href="css/mini_jogo.css">
-    <script type="module" src="java.script/avatar.js"></script>
-    <script type="module" src="java.script/menu_todos.js"></script> 
-     <script src="java.script/mini_jogo.js"></script>
-     <link rel="stylesheet" href="css/mini_jogo.css">
-     <script src="java.script/mini_jogo.js"></script>
 </head>
 
   <body>
@@ -72,18 +60,19 @@
       <div class="card-jornada-container">
         <div class="card-metas">
           <h2>Suas metas para o dia:</h2>
-          <p>Complete para avançar e derrotar chefões!</p>
+          <p>Ganhe XP no jogo lá embaixo: 400 XP medalha de bronze, 800 XP de prata e 1200 XP de ouro!</p>
 
           <div class="medalhas-conquista">
             <img src="img_progresso/medalha-um.png" id="med-1" class="medalha-img opaca" alt="Medalha Bronze">
             <img src="img_progresso/medalha-dois.png" id="med-2" class="medalha-img opaca" alt="Medalha Prata">
             <img src="img_progresso/medalha-tres.png" id="med-3" class="medalha-img opaca" alt="Medalha Ouro">
-            <span><strong id="contador">0/0</strong> Tarefas concluídas!</span>
+            <span id="medalha-texto"><strong>0/400</strong> XP para a medalha de bronze!</span>
           </div>
 
           <ul class="lista-tarefas" id="lista-tarefas">
           </ul>
           <p id="sem-meta-msg" class="texto-sem-meta">Sem metas cadastradas</p>
+          <p class="contador-tarefas"><strong id="contador">0/0</strong> Tarefas concluídas!</p>
         </div>
         <div class="imagem-castelo">
           <img src="img_progresso/castelo.png" alt="Caminho para o castelo">
@@ -149,48 +138,44 @@
       </div>
     </section>
 
-<section class="niveis">
-          <h1 onclick="mostrarMenu()">BE WELL ARENA</h1>
-    <div class="status">
-      <span>NÍVEL <b id="nivel">1</b></span>
-      <div class="barra"><div id="barra-xp"></div></div>
-      <span><b id="xp">0</b> XP</span>
-    </div>
-</section>
-    <section id="menu">
-      <p class="texto">Escolha seu treino de hoje:</p>
-
-      <div class="cards">
-        <div class="card corrida" onclick="abrirModo('corrida')">
-          <h2>Corrida</h2>
-          <p>Distância e tempo. Cada km vira XP.</p>
-        </div>
-        <div class="card academia" onclick="abrirModo('academia')">
-          <h2>Academia</h2>
-          <p>Carga, séries e repetições.</p>
-        </div>
-        <div class="card calistenia" onclick="abrirModo('calistenia')">
-          <h2>Calistenia</h2>
-          <p>Só o peso do seu corpo.</p>
+<section class="arena" id="arena">
+      <div class="arena-topo">
+        <h2 class="arena-titulo" onclick="mostrarMenu()">BE WELL ARENA</h2>
+        <div class="status">
+          <span>NÍVEL <b id="nivel">1</b></span>
+          <div class="barra"><div id="barra-xp"></div></div>
+          <span><b id="xp">0</b> XP</span>
         </div>
       </div>
 
-      <h3>Últimos treinos</h3>
-      <ul id="historico"></ul>
+      <div id="menu">
+        <p class="texto">Escolha seu treino de hoje:</p>
 
-      <button class="botao pequeno" onclick="apagarTudo()">Apagar progresso</button>
+        <div class="cards">
+          <div class="card corrida" onclick="abrirModo('corrida')">
+            <h2>Corrida</h2>
+            <p>Distância e tempo. Cada km vira XP.</p>
+          </div>
+          <div class="card academia" onclick="abrirModo('academia')">
+            <h2>Academia</h2>
+            <p>Carga, séries e repetições.</p>
+          </div>
+          <div class="card calistenia" onclick="abrirModo('calistenia')">
+            <h2>Calistenia</h2>
+            <p>Só o peso do seu corpo.</p>
+          </div>
+        </div>
+
+        <h3>Últimos treinos</h3>
+        <ul id="historico"></ul>
+
+        <button class="botao pequeno" onclick="apagarTudo()">Apagar progresso</button>
+      </div>
+
+      <div id="lista" class="escondido"></div>
+      <div id="exercicio" class="escondido"></div>
+      <div id="aviso"></div>
     </section>
-
-
-    <section id="lista" class="escondido"></section>
-
-
-    <section id="exercicio" class="escondido"></section>
-
-
-
-
-  <div id="aviso"></div>
 
   </main>
 
@@ -233,6 +218,8 @@
       </div>
     </div>
   </footer>
+  <script src="java.script/mini_jogo_dados.js"></script>
+  <script src="java.script/mini_jogo.js"></script>
   <script src="java.script/script.js"></script>
 </body>
 </html>
