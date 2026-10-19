@@ -201,6 +201,70 @@ const exercicios = {
             descricao: 'Costas, Ombro, Peito.',
             dicas: [`COLOCAR ALGO`],
             video: buscar('COLOCAR ALGO...')
+        }, 
+        {
+            nome: 'Remada Alta Cross Over',
+            tipo: 'peso',
+            treino: 'C',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, 
+        {
+            nome: 'Remada Alta Cross Over',
+            tipo: 'peso',
+            treino: 'C',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, 
+        {
+            nome: 'Remada Alta Cross Over',
+            tipo: 'peso',
+            treino: 'C',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, 
+        {
+            nome: 'Remada Alta Cross Over',
+            tipo: 'peso',
+            treino: 'C',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, 
+        {
+            nome: 'Remada Alta Cross Over',
+            tipo: 'peso',
+            treino: 'C',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, 
+        {
+            nome: 'Remada Alta Cross Over',
+            tipo: 'peso',
+            treino: 'C',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, 
+        {
+            nome: 'Remada Alta Cross Over',
+            tipo: 'peso',
+            treino: 'C',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        }, 
+        {
+            nome: 'Remada Alta Cross Over',
+            tipo: 'peso',
+            treino: 'C',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
         }, {
             nome: 'Remada Alta Cross Over',
             tipo: 'peso',
@@ -238,6 +302,38 @@ const exercicios = {
             dicas: [`COLOCAR ALGO`],
             video: buscar('COLOCAR ALGO...')
         }, {
+            nome: 'Remada Alta Cross Over',
+            tipo: 'peso',
+            treino: 'D',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        },
+        {
+            nome: 'Remada Alta Cross Over',
+            tipo: 'peso',
+            treino: 'D',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        },
+        {
+            nome: 'Remada Alta Cross Over',
+            tipo: 'peso',
+            treino: 'D',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        },
+        {
+            nome: 'Remada Alta Cross Over',
+            tipo: 'peso',
+            treino: 'D',
+            descricao: 'Costas, Ombro, Peito.',
+            dicas: [`COLOCAR ALGO`],
+            video: buscar('COLOCAR ALGO...')
+        },
+        {
             nome: 'Remada Alta Cross Over',
             tipo: 'peso',
             treino: 'D',
