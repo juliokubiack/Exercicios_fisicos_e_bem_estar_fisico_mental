@@ -169,65 +169,6 @@ section.inicio h1 span {
   font-weight: 600;
 }
 
-.lista-tarefas {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.lista-tarefas li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.lista-tarefas input[type="checkbox"] {
-  appearance: none;
-  -webkit-appearance: none;
-  width: 20px;
-  height: 20px;
-  border: 2px solid #bbb;
-  border-radius: 6px;
-  background-color: #fff;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 10px;
-  flex-shrink: 0;
-}
-
-.lista-tarefas input[type="checkbox"]:hover {
-  border-color: var(--azul-principal);
-}
-
-.lista-tarefas input[type="checkbox"]:checked {
-  background-color: var(--azul-principal);
-  border-color: var(--azul-principal);
-}
-
-.lista-tarefas input[type="checkbox"]:checked::before {
-  content: '';
-  width: 4px;
-  height: 9px;
-  border: solid white;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg);
-  margin-bottom: 2px;
-}
-
-.lista-tarefas label {
-  font-size: 0.85rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  color: var(--texto-escuro);
-}
-
-.lista-tarefas input[type="checkbox"]:checked + label {
-  color: #999;
-  text-decoration: line-through;
-}
-
 .texto-sem-meta {
   color: #888888;
   font-style: italic;
@@ -245,15 +186,14 @@ section.grafico {
 }
 
 section.grafico h2 {
-  font-size: 1.5rem;
-  color: black;
-  font-weight: 400;
-  margin-bottom: 1.5rem;
-}
-
-section.grafico h2 span {
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: 700;
+  font-size: 1.3rem;
+    border: 1px solid;
+    padding: 1.5vw 2vw 1.5vw 2vw;
+    border-radius: 12px;
+    border-color: white;
+    background-color: #4988C4;
 }
 
 .canvas-wrapper {
