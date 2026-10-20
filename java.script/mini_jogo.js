@@ -44,6 +44,16 @@ try {
 
 function guardar() {
     localStorage.setItem('bewell-treinos', JSON.stringify(treinos));
+    if (typeof sincronizarNuvem === 'function') {
+        sincronizarNuvem(treinos);
+    }
+}
+
+function definirTreinos(lista) {
+    treinos = lista;
+    localStorage.setItem('bewell-treinos', JSON.stringify(treinos));
+    atualizarTopo();
+    desenharHistorico();
 }
 
 function totalXP() {
