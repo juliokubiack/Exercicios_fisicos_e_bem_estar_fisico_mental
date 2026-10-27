@@ -541,3 +541,68 @@ Dessa forma, nosso objetivo é finalizar o site com as correções necessárias,
 - **Melissa Fagundes:** Participação na reunião.
 - **Beatriz Costa:** Participação na reunião.
 - **Vinicius Kormann:** Participação na reunião.
+
+---
+
+# Ata 15 – Projeto Integrador (Professor Mehran)
+
+**Data:** 20/10/2026
+
+**Coordenadora:** Beatriz Gomes
+
+**Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
+
+### Assunto
+
+Reunião sobre o andamento do projeto.
+
+Cada um de nós trabalhou em suas páginas. Criamos um conjunto com o grupo do BeHealthier e unimos os sites, todos ajudaram.
+
+Também ficou decidido que todos os integrantes do grupo deverão compreender o funcionamento do banco de dados, para que esse conhecimento não fique restrito apenas ao aluno Julio, responsável pelo seu desenvolvimento, mas seja compartilhado com toda a equipe.
+
+Entre as novas funcionalidades planejadas, estão a inclusão de uma seção de vídeos e a criação de um minijogo, cujo tema e funcionamento ainda serão definidos pelo grupo.
+
+Além disso, já temos uma página interativa no site, que passará por algumas modificações. Uma das principais melhorias será fazer com que o nome do usuário apareça corretamente nessa página após ele entrar em sua conta, tornando a experiência mais personalizada.
+
+Dessa forma, nosso objetivo é finalizar o site com as correções necessárias, implementar novos recursos e garantir que todos os integrantes do grupo tenham conhecimento sobre as diferentes partes do projeto.
+
+### Responsabilidades
+
+- **Julio Kubiack:** Participação na reunião.
+- **Beatriz Gomes dos Santos:** Participação na reunião.
+- **Isabela Luiza Maciel:** Participação na reunião.
+- **Melissa Fagundes:** Participação na reunião.
+- **Beatriz Costa:** Participação na reunião.
+- **Vinicius Kormann:** Participação na reunião.
+---
+
+# Ata 16 – Projeto Integrador (Professor Mehran)
+
+**Data:** 27/10/2026
+
+**Coordenadora:** Beatriz Gomes
+
+**Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
+
+### Assunto
+
+Reunião sobre o andamento do projeto.
+
+Durante nossa reunião, concordamos que o site está quase completo. No entanto, decidimos realizar algumas melhorias e complementar o projeto com novos recursos, além de corrigir alguns erros que ainda estão presentes e acrescentar novas funcionalidades.
+
+Também ficou decidido que todos os integrantes do grupo deverão compreender o funcionamento do banco de dados, para que esse conhecimento não fique restrito apenas ao aluno Julio, responsável pelo seu desenvolvimento, mas seja compartilhado com toda a equipe.
+
+Entre as novas funcionalidades planejadas, estão a inclusão de uma seção de vídeos e a criação de um minijogo, cujo tema e funcionamento ainda serão definidos pelo grupo.
+
+Além disso, já temos uma página interativa no site, que passará por algumas modificações. Uma das principais melhorias será fazer com que o nome do usuário apareça corretamente nessa página após ele entrar em sua conta, tornando a experiência mais personalizada.
+
+Dessa forma, nosso objetivo é finalizar o site com as correções necessárias, implementar novos recursos e garantir que todos os integrantes do grupo tenham conhecimento sobre as diferentes partes do projeto.
+
+### Responsabilidades
+
+- **Julio Kubiack:** Participação na reunião.
+- **Beatriz Gomes dos Santos:** Participação na reunião.
+- **Isabela Luiza Maciel:** Participação na reunião.
+- **Melissa Fagundes:** Participação na reunião.
+- **Beatriz Costa:** Participação na reunião.
+- **Vinicius Kormann:** Participação na reunião.
