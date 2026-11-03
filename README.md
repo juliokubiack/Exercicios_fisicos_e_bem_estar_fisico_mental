@@ -588,7 +588,7 @@ Dessa forma, nosso objetivo é finalizar o site com as correções necessárias,
 
 Reunião sobre o andamento do projeto.
 
-Durante nossa reunião, concordamos que o site está quase completo. No entanto, decidimos realizar algumas melhorias e complementar o projeto com novos recursos, além de corrigir alguns erros que ainda estão presentes e acrescentar novas funcionalidades.
+Durante nossa reunião, concordamos que o site está quase completo. No entanto, decidimos realizar algumas melhorias e complementar o projeto com novos recursos, além de corrigir alguns erros que ainda estão presentes e acrescentar novas funcionalidades. A colaboração com BeHealthier foi mais desenvolvida e o site foi ajustado.
 
 Também ficou decidido que todos os integrantes do grupo deverão compreender o funcionamento do banco de dados, para que esse conhecimento não fique restrito apenas ao aluno Julio, responsável pelo seu desenvolvimento, mas seja compartilhado com toda a equipe.
 
@@ -606,3 +606,36 @@ Dessa forma, nosso objetivo é finalizar o site com as correções necessárias,
 - **Melissa Fagundes:** Participação na reunião.
 - **Beatriz Costa:** Participação na reunião.
 - **Vinicius Kormann:** Participação na reunião.
+
+---
+
+# Ata 17 – Projeto Integrador (Professor Mehran)
+
+**Data:** 03/10/2026
+
+**Coordenadora:** Beatriz Gomes
+
+**Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
+
+### Assunto
+
+Finalizações individuais do projeto.
+
+Nossos integrantes fizeram ajustes individuais em suas páginas. O texto da página Exercícios foi alterado, o CSS da página Sobre Nós e Contate-nos foram refeitos.
+
+Entre as novas funcionalidades incluidas, estão apresentação individual de cada membro e um design mais desenvolvido na página Contate-nos.
+
+Além disso, alguns ajustes em partes como footers e headers foram feitos.
+
+Dessa forma, nosso objetivo é finalizar o site com as correções necessárias, implementar novos recursos e garantir que todos os integrantes do grupo tenham conhecimento sobre as diferentes partes do projeto.
+
+**Ausências:** Vinicius Kormann. Motivo não justificado.
+
+### Responsabilidades
+
+- **Julio Kubiack:** GitHub e fotos individuais na página Sobre Nós.
+- **Beatriz Gomes dos Santos:** Arrumando o CSS da página Sobre Nós.
+- **Isabela Luiza Maciel:** Correção dos textos da página Exercícios e atas.
+- **Melissa Fagundes:** Arrumando o CSS da página Início.
+- **Beatriz Costa:** Arrumando o CSS da página Contate-nos.
+- **Vinicius Kormann:** Ausente!
