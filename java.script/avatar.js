@@ -4,6 +4,12 @@ async function carregarAvatar() {
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return; // ninguém logado: mantém tudo padrão
 
+  // Usuário logado: clicar na foto leva para editar perfil (e não para login/cadastro)
+  document.querySelectorAll(".avatar a").forEach(link => {
+    link.href = "editar-perfil.html";
+    link.title = "Editar perfil";
+  });
+
   document.querySelectorAll(".item-perfil").forEach(el => el.style.display = "none");
   document.querySelectorAll(".continuar-sem-login").forEach(el => el.style.display = "none");
   document.querySelectorAll(".link-sair").forEach(el => el.style.display = "block");
