@@ -35,6 +35,9 @@ body {
 header {
     padding: 3vw 5vw;
     border-bottom: 1px solid #cccccc;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem; 
 }
 
 header .logo-circle {
