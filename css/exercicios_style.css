@@ -36,6 +36,9 @@ header {
   padding: 3vw 5vw;
   border-bottom: 1px solid #cccccc;
   font-size: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
 }
 
 header .logo-circle {
@@ -150,7 +153,7 @@ main {
 .comecar ul li {
   background-color: white;
   padding: 10px 2px;
-  margin: 1.1rem;
+  margin: 1.1;
   border-radius: 2vw;
 }
 
