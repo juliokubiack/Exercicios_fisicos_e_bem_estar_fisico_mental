@@ -611,7 +611,7 @@ Dessa forma, nosso objetivo é finalizar o site com as correções necessárias,
 
 # Ata 17 – Projeto Integrador (Professor Mehran)
 
-**Data:** 03/10/2026
+**Data:** 03/11/2026
 
 **Coordenadora:** Beatriz Gomes
 
@@ -639,3 +639,29 @@ Dessa forma, nosso objetivo é finalizar o site com as correções necessárias,
 - **Melissa Fagundes:** Arrumando o CSS da página Início.
 - **Beatriz Costa:** Arrumando o CSS da página Contate-nos.
 - **Vinicius Kormann:** Ausente!
+- ---
+
+# Ata 18 – Projeto Integrador (Professor Mehran)
+
+**Data:** 10/11/2026
+
+**Coordenadora:** Beatriz Gomes
+
+**Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
+
+### Assunto
+
+Finalizações individuais do projeto.
+
+Individualmente, os integrantes estão se reunindo para aperfeiçoar os códigos das páginas para o dia da avaliação. Também estamos nos auxiliando com nossas dúvidas
+
+**Ausências:** Vinicius Kormann. Motivo não justificado.
+
+### Responsabilidades
+
+- **Julio Kubiack:** Aperfeiçoando detalhes do código da sua página. Arrumando pequenas coisas do banco de dados
+- **Beatriz Gomes dos Santos:** Aperfeiçoando detalhes do código da sua página
+- **Isabela Luiza Maciel:** Aperfeiçoando detalhes do código da sua página
+- **Melissa Fagundes:** Aperfeiçoando detalhes do código da sua página e ata dessse dia
+- **Beatriz Costa:** Aperfeiçoando detalhes do código da sua página
+- **Vinicius Kormann:** Ausente
