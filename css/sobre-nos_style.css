@@ -144,9 +144,15 @@ header nav ul li a.ativo {
     margin-bottom: 0.8rem;
 }
 
-.texto-missao p,
-.texto-nos p {
+.texto-missao p {
     color: #252b42;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.texto-nos p {
+    color: #586777;
     font-size: 0.9rem;
     line-height: 1.5;
     text-align: left;
@@ -179,6 +185,15 @@ section.nos div.equipe img{
 
 .texto-nos {
     width: 100%;
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #f1f5f8;
+}
+
+.texto-nos h2 {
+    color: #52718d;
 }
 
 .texto-nos p+p {
@@ -673,7 +688,7 @@ footer {
     }
 
     .texto-nos {
-        width: 30%;
+        width: 100%;
     }
 
     .texto-nos h2 {
