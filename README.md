@@ -665,3 +665,26 @@ Individualmente, os integrantes estão se reunindo para aperfeiçoar os códigos
 - **Melissa Fagundes:** Aperfeiçoando detalhes do código da sua página e ata dessse dia
 - **Beatriz Costa:** Aperfeiçoando detalhes do código da sua página
 - **Vinicius Kormann:** Ausente
+
+- # Ata 19 – Projeto Integrador (Professor Mehran)
+
+**Data:** 17/11/2026
+
+**Coordenadora:** Beatriz Gomes
+
+**Secretário e responsável pelo GitHub:** Julio César da Silva Kubiack
+
+### Assunto
+
+Continuação das finalizações do projeto e ajustes finais.
+
+Individualmente, os integrantes estão corrigindo detalhes nos códigos das páginas para o dia da avaliação. Estamos também nos auxiliando com nossas dúvidas e dificuldades.
+
+### Responsabilidades
+
+- **Julio Kubiack:** Aperfeiçoando detalhes do código da sua página. Arrumando pequenas coisas do banco de dados
+- **Beatriz Gomes dos Santos:** Ajustando detalhes da página Rotina
+- **Isabela Luiza Maciel:** Ajustando valores na página Exercícios
+- **Melissa Fagundes:**Correção dos FOOTERS gerais e ajustes na página Início
+- **Beatriz Costa:** Aperfeiçoando detalhes do código da sua página
+- **Vinicius Kormann:** Analisando possíveis melhoras em seu código
