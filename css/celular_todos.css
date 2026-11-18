@@ -129,7 +129,7 @@ header nav ul li a.ativo {
     }
 
     header nav ul {
-        display: flex;
+      
         flex-direction: column;
         gap: 4px;
         font-size: 1.05rem;
