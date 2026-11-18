@@ -84,7 +84,11 @@ section.inicio {
   margin-bottom: 1.5rem;
 }
 
-.banner-img {
+.banner-container img {
+  display: none;
+}
+
+.banner-container h1{
   display: none;
 }
 
@@ -612,31 +616,28 @@ footer {
     padding: 1.5rem;
   }
 
+.banner-container img {
+    border-radius: 1.3vw;
+    display: block;
+}
+
   .banner-container {
     display: block;
-    padding: 2vw;
     position: relative;
 }
 
 .banner-container h1 {
-    font-size: 4.5rem;
+  display: block;
+    font-size: 3rem;
     font-weight: 400;
     position: absolute;
     top: 34%;
     left: 10%;
-    width: 40%;
-    text-align: center;
     color: #000000;
 }
 
 .banner-container span {
     font-weight: 700;
-}
-
-.banner-container img {
-    border-radius: 1.3vw;
-    width: 100%;
-    display: block;
 }
 
   section.inicio {
