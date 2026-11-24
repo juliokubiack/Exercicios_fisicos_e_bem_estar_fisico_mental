@@ -11,190 +11,186 @@
     rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/Inicio_style.css">
-    <link rel="stylesheet" href="css/TODOS_style.css" />
-    <link rel="stylesheet" href="css/footer_todos.css" />
-    <script type="module" src="java.script/avatar.js"></script>
-    <script type="module" src="java.script/menu_todos.js"></script>
+  <link rel="stylesheet" href="css/TODOS_style.css" />
+  <link rel="stylesheet" href="css/footer_todos.css" />
+  <script type="module" src="java.script/avatar.js"></script>
+  <script type="module" src="java.script/menu_todos.js"></script>
   <link rel="shortcut icon" href="img_sobre-nos/cerebro-pensnte-pequeno.png" type="image/x-icon">
 </head>
 
-  <body id="index">
+<body id="index">
 
-    <header id="header">
-      <div class="logo-circle">
-       <h1>
-         <a href="index.html"><img src="img_rotina/logo.png" alt="logo site" /></a>
-         </h1>
+  <header id="header">
+    <div class="logo-circle">
+      <h1>
+        <a href="index.html"><img src="img_rotina/logo.png" alt="logo site" /></a>
+      </h1>
+    </div>
+    <nav id="navegation_header">
+      <ul>
+        <li><a href="index.html" class="ativo">Início</a></li>
+        <li><a href="rotina_index.html">Rotina</a></li>
+        <li><a href="exercicio_index.html">Exercícios</a></li>
+        <li><a href="progresso_index.html">Progresso</a></li>
+        <li><a href="sobre-nos_index.html">Sobre nós</a></li>
+        <li><a href="contate-nos_index.html">Contate-nos</a></li>
+        <li class="item-perfil"><a href="perfil_index.html">Perfil</a></li>
+        <li class="item-editar-perfil" style="display: none">
+          <a href="editar-perfil.html">Editar perfil</a>
+        </li>
+        <li class="item-fechar"><a href="#" id="fecharMenu">Fechar </a></li>
+      </ul>
+    </nav>
+    <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">
+      <span class="icone-abrir">☰</span>
+      <span class="icone-fechar"></span>
+    </button>
+    <div class="header-icones">
+      <span class="avatar"><a href="perfil_index.html"><span id="avatarConteudo" class="avatar-icone">
+            <img
+              src="img_sobre-nos/icone-de-perfil-de-avatar-padrao-imagem-de-usuario-de-midia-social-icone-de-avatar-cinza-silhueta-de-perfil-em-branco-ilustracao-vetorial_561158-3485.avif"
+              alt="usuario anonimo" /></span></a></span>
+    </div>
+  </header>
+  <main id="content">
+    <section class="comeco">
+      <div class="texto">
+        <h2>O seu bem estar começa com <span> uma escolha. </span></h2>
+        <p>
+          Na sociedade atual, se sentir sobrecarregado, cansado e sozinho se
+          torna cada vez mais comum. Mas todos os dias é possível nos
+          tornarmos pessoas melhores! Com calma e organização, a vida não
+          precisa ser tão pesada!
+        </p>
       </div>
-      <nav id="navegation_header">
-        <ul>
-          <li><a href="index.html" class="ativo">Início</a></li>
-          <li><a href="rotina_index.html">Rotina</a></li>
-          <li><a href="exercicio_index.html">Exercícios</a></li>
-          <li><a href="progresso_index.html">Progresso</a></li>
-          <li><a href="sobre-nos_index.html" >Sobre nós</a></li>
-          <li><a href="contate-nos_index.html">Contate-nos</a></li>
-          <li class="item-perfil"><a href="perfil_index.html">Perfil</a></li>
-          <li class="item-editar-perfil" style="display: none">
-            <a href="editar-perfil.html">Editar perfil</a>
-          </li>
-          <li class="item-fechar"><a href="#" id="fecharMenu">Fechar </a></li>
-        </ul>
-      </nav>
-      <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">
-        <span class="icone-abrir">☰</span>
-        <span class="icone-fechar"></span>
-      </button>
-      <div class="header-icones">
-         <span class="avatar"
-      ><a href="perfil_index.html"
-        ><span id="avatarConteudo" class="avatar-icone">
-          <img
-            src="img_sobre-nos/icone-de-perfil-de-avatar-padrao-imagem-de-usuario-de-midia-social-icone-de-avatar-cinza-silhueta-de-perfil-em-branco-ilustracao-vetorial_561158-3485.avif"
-            alt="usuario anonimo"
-          /></span></a
-    ></span>
+      <div class="imagem">
+        <img src="imgs/mulher_postiti.png" alt="Imagem" />
       </div>
-    </header>
-    <main id="content">
-      <section class="comeco">
-        <div class="texto">
-          <h2>O seu bem estar começa com <span> uma escolha. </span></h2>
+    </section>
+    <section class="diferenciais">
+      <h3>Nossos <span> diferenciais </span></h3>
+      <ul>
+        <li class="peso">
+          <img src="imgs/peso.png" alt="peso" />
+          <h4>Dicas para você evoluir!</h4>
           <p>
-            Na sociedade atual, se sentir sobrecarregado, cansado e sozinho se
-            torna cada vez mais comum. Mas todos os dias é possível nos
-            tornarmos pessoas melhores! Com calma e organização, a vida não
-            precisa ser tão pesada!
+            Queremos te ajudar a sempre crescer mais em suas metas, e você
+            sempre pode ver nossas recomendações para uma boa saúde!
           </p>
-        </div>
-        <div class="imagem">
-          <img src="imgs/mulher_postiti.png" alt="Imagem" />
-        </div>
-      </section>
-      <section class="diferenciais">
-        <h3>Nossos <span> diferenciais </span></h3>
-        <ul>
-          <li class="peso">
-            <img src="imgs/peso.png" alt="peso" />
-            <h4>Dicas para você evoluir!</h4>
-            <p>
-              Queremos te ajudar a sempre crescer mais em suas metas, e você
-              sempre pode ver nossas recomendações para uma boa saúde!
-            </p>
-          </li>
-          <li class="relogio">
-            <img src="imgs/relogio.png" alt="relogio" />
-            <h4>Complete desafios</h4>
-            <p>
-              Aqui você encontrará recursos que podem te ajudar a regular o seu
-              corpo e ter uma vida mais saudável!
-            </p>
-          </li>
-          <li class="andar">
-            <img src="imgs/boneco.png" alt="andar" />
-            <h4>Acompanhe o progresso</h4>
-            <p>
-              Observe dados e gráficos sobre o seu desempenho semanal! Podendo
-              comparar e ver o quanto você melhora a cada dia!
-            </p>
-          </li>
-          <li class="mente">
-            <img src="imgs/celebro.png" alt="mente" />
-            <h4>Cuidado da mente</h4>
-            <p>
-              Nos preocupamos não somente com seu estado físico, mas com a sua
-              mente também! Aqui temos um espaço para você descansar!
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="beneficios">
-        <div class="esquerdotexto">
-          <h2>
-            Andamos junto 
-            com você!
-          </h2>
-          <div class="arrumarlista">
-            <div class="item">
-              <div class="numero">1</div>
+        </li>
+        <li class="relogio">
+          <img src="imgs/relogio.png" alt="relogio" />
+          <h4>Complete desafios</h4>
+          <p>
+            Aqui você encontrará recursos que podem te ajudar a regular o seu
+            corpo e ter uma vida mais saudável!
+          </p>
+        </li>
+        <li class="andar">
+          <img src="imgs/boneco.png" alt="andar" />
+          <h4>Acompanhe o progresso</h4>
+          <p>
+            Observe dados e gráficos sobre o seu desempenho semanal! Podendo
+            comparar e ver o quanto você melhora a cada dia!
+          </p>
+        </li>
+        <li class="mente">
+          <img src="imgs/celebro.png" alt="mente" />
+          <h4>Cuidado da mente</h4>
+          <p>
+            Nos preocupamos não somente com seu estado físico, mas com a sua
+            mente também! Aqui temos um espaço para você descansar!
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="beneficios">
+      <div class="esquerdotexto">
+        <h2>
+          Andamos junto
+          com você!
+        </h2>
+        <div class="arrumarlista">
+          <div class="item">
+            <div class="numero">1</div>
 
-              <div class="texto">
-                Sua rotina na palma da sua mão, da forma mais prática e
-                eficiente possível.
-              </div>
+            <div class="texto">
+              Sua rotina na palma da sua mão, da forma mais prática e
+              eficiente possível.
             </div>
+          </div>
 
-            <div class="item">
-              <div class="numero">2</div>
+          <div class="item">
+            <div class="numero">2</div>
 
-              <div class="texto">
-                Sempre que você precisar se lembrar das suas metas e objetivos,
-                basta um clique!
-              </div>
+            <div class="texto">
+              Sempre que você precisar se lembrar das suas metas e objetivos,
+              basta um clique!
             </div>
+          </div>
 
-            <div class="item">
-              <div class="numero">3</div>
+          <div class="item">
+            <div class="numero">3</div>
 
-              <div class="texto">
-                Projeto gratuito e acessível, visando atender todos os públicos.
-              </div>
+            <div class="texto">
+              Projeto gratuito e acessível, visando atender todos os públicos.
             </div>
           </div>
         </div>
-        <div class="imagem">
-          <img src="imgs/Celular.png" alt="Celular" />
-        </div>
-        <div class="direitatexto">
-          <h3>É simples e você <br />pode começar agora mesmo!</h3>
-          <p>
-            Explorando nosso site, você encontrará soluções tranquilas para
-            deixar a sua vida mais leve
-          </p>
-        </div>
-      </section>
-      <section class="recursos">
-        <h3>Nossos recursos</h3>
-        <ul>
-          <li>
-            <img src="imgs/correr.png" alt="pessoa-andando" />
-            <div class="texto">
-              <h4>Ajuda para rotina</h4>
-              <p>
-                Nossa aba específica para rotinas foi criada com um propósito
-                específico de te ajudar a adaptar e criar uma rotina. Tudo para
-                o bem estar não ser um incômodo para você!
-              </p>
-              <a href="progresso_index.html">Visitar</a>
-            </div>
-          </li>
-          <li class="homem">
-            <img src="imgs/peso2.png" alt="Homem-exercicio" />
-            <div class="texto">
-              <h4>Bem estar</h4>
-              <p>
-                Nossa proposta não só cuida da praticidade no dia a dia, mas
-                preza pela sua saúde mental e física, de todas as maneiras.
-                Incluindo conteúdo gameficado!
-              </p>
-              <a href="progresso_index.html">Visitar</a>
-            </div>
-          </li>
-          <li>
-            <img src="imgs/centado.png" alt="Homem-yoga" />
-            <div class="texto">
-              <h4>Progresso interativo</h4>
-              <p>
-                Nossa aba “Progresso” fornece vários dados necessários para a
-                sua caminhada com o bem estar. Lá, você compara resultados,
-                evolui a cada dia com um propósito!
-              </p>
-              <a href="progresso_index.html">Visitar</a>
-            </div>
-          </li>
-        </ul>
-      </section>
-    </main>
+      </div>
+      <div class="imagem">
+        <img src="imgs/Celular.png" alt="Celular" />
+      </div>
+      <div class="direitatexto">
+        <h3>É simples e você <br />pode começar agora mesmo!</h3>
+        <p>
+          Explorando nosso site, você encontrará soluções tranquilas para
+          deixar a sua vida mais leve
+        </p>
+      </div>
+    </section>
+    <section class="recursos">
+      <h3>Nossos recursos</h3>
+      <ul>
+        <li>
+          <img src="imgs/correr.png" alt="pessoa-andando" />
+          <div class="texto">
+            <h4>Ajuda para rotina</h4>
+            <p>
+              Nossa aba específica para rotinas foi criada com um propósito
+              específico de te ajudar a adaptar e criar uma rotina. Tudo para
+              o bem estar não ser um incômodo para você!
+            </p>
+            <a href="progresso_index.html">Visitar</a>
+          </div>
+        </li>
+        <li class="homem">
+          <img src="imgs/peso2.png" alt="Homem-exercicio" />
+          <div class="texto">
+            <h4>Bem estar</h4>
+            <p>
+              Nossa proposta não só cuida da praticidade no dia a dia, mas
+              preza pela sua saúde mental e física, de todas as maneiras.
+              Incluindo conteúdo gameficado!
+            </p>
+            <a href="progresso_index.html">Visitar</a>
+          </div>
+        </li>
+        <li>
+          <img src="imgs/centado.png" alt="Homem-yoga" />
+          <div class="texto">
+            <h4>Progresso interativo</h4>
+            <p>
+              Nossa aba “Progresso” fornece vários dados necessários para a
+              sua caminhada com o bem estar. Lá, você compara resultados,
+              evolui a cada dia com um propósito!
+            </p>
+            <a href="progresso_index.html">Visitar</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
   <footer>
     <div class="footer-container">
       <div class="footer-logo">
@@ -202,17 +198,17 @@
           <img src="img_rotina/logo-escuro.png" alt="logo site">
         </div>
       </div>
-       <div class="footer-links">
+      <div class="footer-links">
         <a href="index.html">Início</a>
-          <a href="rotina_index.html">Rotina</a>
-          <a href="exercicio_index.html">Exercícios</a>
-          <a href="progresso_index.html">Progresso</a>
-          <a href="sobre-nos_index.html" >Sobre nós</a>
-          <a href="contate-nos_index.html">Contate-nos</a>
-          <a href="perfil_index.html" class="ativo">Perfil</a>
-          <a href="editar-perfil.html">Editar perfil</a>
-          
-        </div>
+        <a href="rotina_index.html">Rotina</a>
+        <a href="exercicio_index.html">Exercícios</a>
+        <a href="progresso_index.html">Progresso</a>
+        <a href="sobre-nos_index.html">Sobre nós</a>
+        <a href="contate-nos_index.html">Contate-nos</a>
+        <a href="perfil_index.html" class="ativo">Perfil</a>
+        <a href="editar-perfil.html">Editar perfil</a>
+
+      </div>
       <div class="footer-copy">
         <p>Transforme sua rotina!</p>
         <p>Cuidar de você é o primeiro passo para uma vida leve.</p>
@@ -223,11 +219,13 @@
         <p><a href="tel:+5547999999999">47 99999-9999</a></p>
       </div>
       <div class="footer-redes">
-        <a href="https://www.facebook.com/profile.php?id=61594357695006&mibextid=wwXIfr"><img src="img_rotina/facebook.png" alt="Facebook"></a>
-        <a href="https://www.tiktok.com/@bewellifc"><img src="img_rotina/tiktok.png" alt="TikTok"></a>
-        <a href="https://www.instagram.com/bewellpi/"><img src="img_rotina/instagram.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/profile.php?id=61594357695006&mibextid=wwXIfr"><img
+            src="img_rotina/facebook.svg" alt="Facebook"></a>
+        <a href="https://www.tiktok.com/@bewellifc"><img src="img_rotina/tiktok.svg" alt="TikTok"></a>
+        <a href="https://www.instagram.com/bewellpi/"><img src="img_rotina/instagram.svg" alt="Instagram"></a>
       </div>
     </div>
   </footer>
 </body>
+
 </html>
