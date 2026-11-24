@@ -5,25 +5,36 @@
   max-width: 60ch;
   padding: 0 1rem;
 }
-.tituloSecao h3 { font-size: clamp(1.6rem, 4vw, 2.2rem); margin: 0 0 .3rem; }
-.tituloSecao p  { margin: 0; opacity: .75; }
+
+.tituloSecao h3 {
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  margin: 0 0 .3rem;
+}
+
+.tituloSecao p {
+  margin: 0;
+  opacity: .75;
+}
 
 .gradeEquipe {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.5rem;
+  gap: 2rem;
   max-width: 1100px;
   margin: 0 auto 4rem;
-  padding: 0 1.25rem;
+
 }
+
 /* variação extra, caso você queira ajustar só a equipe do Be Well */
-.gradeEquipeBeWell { justify-content: center; }
+.gradeEquipeBeWell {
+  justify-content: center;
+}
 
 .cardMembro {
   background: #fff;
   border: 1px solid #dde5d8;
   border-radius: 16px;
-  padding: 1.25rem;
+
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -31,6 +42,7 @@
   gap: .6rem;
   transition: transform .2s ease, box-shadow .2s ease;
 }
+
 .cardMembro:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 24px rgba(0, 0, 0, .1);
@@ -45,19 +57,35 @@
   background: #dde5d8;
 }
 
-.nomeMembro { margin: .4rem 0 0; font-size: 1.1rem; }
-.nomeMembro a { color: #1c4d8d; text-decoration: none; }
+.nomeMembro {
+  margin: .4rem 0 0;
+  font-size: 1.1rem;
+}
+
+.nomeMembro a {
+  color: #1c4d8d;
+  text-decoration: none;
+}
+
 .nomeMembro a:hover,
-.nomeMembro a:focus-visible { text-decoration: underline; }
+.nomeMembro a:focus-visible {
+  text-decoration: underline;
+}
 
 .descricaoMembro {
   margin: 0;
   font-size: .92rem;
-  line-height: 1.5;
+  line-height: 1.8;
   opacity: .8;
+  padding: 0 22px 10px 22px;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .cardMembro { transition: none; }
-  .cardMembro:hover { transform: none; }
+  .cardMembro {
+    transition: none;
+  }
+
+  .cardMembro:hover {
+    transform: none;
+  }
 }
