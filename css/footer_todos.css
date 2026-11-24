@@ -33,6 +33,7 @@ footer .footer-container {
 .footer-contato a {
   color: #ffffff;
   text-decoration: none;
+  font-size: 15px;
 }
 
 .footer-links a:hover,
