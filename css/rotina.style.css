@@ -81,11 +81,8 @@ section.inicio {
 }
 
 .banner-container {
-  margin-bottom: 1.5rem;
-}
-
-.banner-container img {
   display: none;
+  margin-bottom: 1.5rem;
 }
 
 .banner-container h1{
@@ -623,29 +620,30 @@ footer {
     padding: 1.5rem;
   }
 
-.banner-container img {
-    border-radius: 1.3vw;
-    display: block;
-}
-
-  .banner-container {
+.banner-container {
     display: block;
     position: relative;
-}
+    width: 100%;
+    min-height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1.3vw;
+    overflow: hidden;
+  }
 
-.banner-container h1 {
-  display: block;
+  .banner-container h1 {
+    display: block;
     font-size: 3rem;
     font-weight: 400;
     position: absolute;
     top: 34%;
     left: 10%;
     color: #000000;
-}
+  }
 
-.banner-container span {
+  .banner-container span {
     font-weight: 700;
-}
+  }
 
   section.inicio {
     margin-top: 1rem;
