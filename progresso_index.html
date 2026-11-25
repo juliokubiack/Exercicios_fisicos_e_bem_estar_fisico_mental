@@ -1,226 +1,706 @@
-<!doctype html>
-<html lang="pt-br">
+/* ==== BASE E VARIÁVEIS (Globais) ==== */
+:root {
+  --azul-principal: #1c4d8d;
+  --azul-medio: #4988c4;
+  --azul-claro: #d9e6f2;
+  --azul-fundo-card: #e4eef7;
+  --azul-escuro-footer: #153966;
+  --texto-escuro: #252b42;
+  --texto-cinza: #555555;
+  --borda-suave: #96BFE5;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Be Well - Progresso</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@500;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/progresso_style.css">
-   <link rel="shortcut icon" href="img_sobre-nos/cerebro-pensnte-pequeno.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/TODOS_style.css" />
-  <link rel="stylesheet" href="css/footer_todos.css" />
-  <link rel="stylesheet" href="css/mini_jogo.css">
-    <script type="module" src="java.script/avatar.js"></script>
-    <script type="module" src="java.script/menu_todos.js"></script>
-</head>
+html {
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  scroll-behavior: smooth;
+}
 
-  <body>
-    <header id="header">
-      <div class="logo-circle">
-        <img src="img_rotina/logo.png" alt="logo site" />
-      </div>
-      <nav id="navegation_header">
-        <ul>
-          <li><a href="index.html">Início</a></li>
-          <li><a href="rotina_index.html">Rotina</a></li>
-          <li><a href="exercicio_index.html">Exercícios</a></li>
-          <li><a href="progresso_index.html" class="ativo">Progresso</a></li>
-          <li><a href="sobre-nos_index.html" >Sobre nós</a></li>
-          <li><a href="contate-nos_index.html">Contate-nos</a></li>
-          <li class="item-perfil"><a href="perfil_index.html">Perfil</a></li>
-          <li class="item-editar-perfil" style="display: none">
-            <a href="editar-perfil.html">Editar perfil</a>
-          </li>
-          <li class="item-fechar"><a href="#" id="fecharMenu">Fechar </a></li>
-        </ul>
-      </nav>
-      <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">
-        <span class="icone-abrir">☰</span>
-        <span class="icone-fechar"></span>
-      </button>
-      <div class="header-icones">
-         <span class="avatar"
-      ><a href="perfil_index.html"
-        ><span id="avatarConteudo" class="avatar-icone">
-          <img
-            src="img_sobre-nos/icone-de-perfil-de-avatar-padrao-imagem-de-usuario-de-midia-social-icone-de-avatar-cinza-silhueta-de-perfil-em-branco-ilustracao-vetorial_561158-3485.avif"
-            alt="usuario anonimo"
-          /></span></a
-    ></span>
-      </div>
-    </header>
+body {
+  background-color: #e8e9eb;
+}
 
-  <main id="content">
-    <section class="inicio">
-      <h1>Acompanhe a <span>sua jornada!</span></h1>
-      <div class="card-jornada-container">
-        <div class="card-metas">
-          <h2>Suas metas para o dia:</h2>
-          <p>Ganhe XP no jogo lá embaixo: 400 XP medalha de bronze, 800 XP de prata e 1200 XP de ouro!</p>
 
-          <div class="medalhas-conquista">
-            <img src="img_progresso/medalha-um.png" id="med-1" class="medalha-img opaca" alt="Medalha Bronze">
-            <img src="img_progresso/medalha-dois.png" id="med-2" class="medalha-img opaca" alt="Medalha Prata">
-            <img src="img_progresso/medalha-tres.png" id="med-3" class="medalha-img opaca" alt="Medalha Ouro">
-            <span id="medalha-texto"><strong>0/400</strong> XP para a medalha de bronze!</span>
-          </div>
+header {
+  padding: 3vw 5vw;
+  border-bottom: 1px solid #cccccc;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
 
-          <ul class="lista-tarefas" id="lista-tarefas">
-        </div>
-        <div class="imagem-castelo">
-          <img src="img_progresso/castelo.png" alt="Caminho para o castelo">
-        </div>
-      </div>
-    </section>
+header .logo-circle {
+  justify-self: start;
+  text-align: left;
+}
 
-    <section class="grafico">
-      <h2>Você está indo muito bem<span id="nome-usuario"></span>!</h2>
 
-      <div class="canvas-wrapper">
-        <canvas id="meuGrafico"></canvas>
-      </div>
-      <p class="legenda-grafico">XP ganho em cada dia da semana. Medalhas do dia: 100 XP bronze, 200 XP prata e 300 XP ouro.</p>
+header nav ul {
+  font-size: 1rem;
+  padding: 5px 0 5px 0;
+}
 
-      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    </section>
+header nav ul li a {
+  color: var(--texto-principal);
+  font-weight: 600;
+}
 
-    <section class="exercicios">
-      <div class="exercicios-texto">
-        <h2>Prática de exercícios</h2>
-        <p>Dicas para desenvolver resistência e bem estar no esporte/atividade física:</p>
+header nav ul li a.ativo {
+  color: #4988C4;
+  font-weight: 800;
+}
 
-        <ul class="exercicios-lista">
-          <li>Sempre se mantenha constante no exercício, por mais leve que seja!</li>
-          <li>Respeite os <span>limites do seu corpo</span>, não use pesos ou realize atividades que exigem demais de
-            você</li>
-          <li>Procure incluir exercícios simples no seu dia a dia!</li>
-          <li>Se você não tem muita experiência com esportes ou exercícios, procure realizar um desses em conjunto com
-            outras pessoas! Isso ajuda a não te sentir sozinho!</li>
-        </ul>
-      </div>
+.sino img {
+  width: 10%;
+}
 
-      <div class="exercicios-img">
-        <img src="img_progresso/boneco.png" alt="imagem boneco">
-      </div>
-    </section>
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-    <section class="sono">
-      <div class="semana">
-        <h2>Você reparou no seu sono essa semana?</h2>
-        <h3>Com a correria do dia-a-dia, muitas pessoas acabam deixando seu sono em segunda mão, mas você sabe a
-          importância dele para a sua saúde?</h3>
-        <ul>
-          <li>Melhora a memória e a aprendizagem;</li>
-          <li>Fortalece o sistema imunológico;</li>
-          <li>Reduz a chance de doenças crônicas;</li>
-        </ul>
-      </div>
+.menu-btn {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
 
-      <div class="regular">
-        <h2>Algumas sugestões para te ajudar a regular seu sono</h2>
-        <ul>
-          <li>Desligue as telas no mínimo <span>1 hora antes </span>de dormir</li>
-          <li>Crie um ritual do sono, para preparar seu corpo para o descanso</li>
-          <li>Deixe luzes apagadas ou baixas</li>
-          <li>Realize leituras</li>
-        </ul>
-      </div>
-    </section>
+/* Main & Seções Mobile */
+main {
+  padding: 0 5%;
+}
 
-<section class="arena" id="arena">
-      <div class="arena-topo">
-        <h2 class="arena-titulo" onclick="mostrarMenu()">BE WELL ARENA</h2>
-        <div class="status">
-          <span>NÍVEL <strong> id="nivel">1</strong></span>
-          <div class="barra"><div id="barra-xp"></div></div>
-          <span><strong> id="xp">0</strong> XP</span>
-        </div>
-      </div>
+section.inicio {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
 
-      <div id="menu">
-        <p class="texto">Escolha seu treino de hoje:</p>
+.banner-container {
+  display: none;
+  margin-bottom: 1.5rem;
+}
 
-        <div class="cards">
-          <div class="card corrida" onclick="abrirModo('corrida')">
-            <h2>Corrida</h2>
-            <p>Distância e tempo. Cada km vira XP.</p>
-          </div>
-          <div class="card academia" onclick="abrirModo('academia')">
-            <h2>Academia</h2>
-            <p>Carga, séries e repetições.</p>
-          </div>
-          <div class="card calistenia" onclick="abrirModo('calistenia')">
-            <h2>Calistenia</h2>
-            <p>Só o peso do seu corpo.</p>
-          </div>
-        </div>
+.banner-container h1{
+  display: none;
+}
 
-        <h3>Últimos treinos</h3>
-        <ul id="historico"></ul>
+section.inicio h1,
+section.inicio h2 {
+  font-size: 1.5rem;
+  color: #2b2b2b;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
 
-        <button class="botao pequeno" onclick="apagarTudo()">Apagar progresso</button>
-      </div>
+section.inicio h1 span,
+section.inicio h2 span,
+section.inicio p span {
+  font-weight: 800;
+}
 
-      <div id="lista" class="escondido"></div>
-      <div id="exercicio" class="escondido"></div>
-      <div id="aviso"></div>
-    </section>
+section.inicio p {
+  line-height: 1.6;
+  color: var(--texto-cinza);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
 
-  </main>
+/* Seção Rotina */
+section.rotina {
+  text-align: center;
+  margin-bottom: 3rem;
+}
 
-  <div id="modal-meta" class="modal-fundo">
-    <div class="modal-conteudo">
-      <h3>Nova Meta</h3>
-      <p>Digite a meta que deseja adicionar (Máximo 3):</p>
-      <input type="text" id="input-meta-texto" placeholder="Ex: Beber 2L de água">
-      <div class="modal-acoes">
-        <button type="button" class="btn-cancelar" onclick="fecharModal()">Cancelar</button>
-        <button type="button" class="btn-salvar" onclick="salvarMeta()">Salvar</button>
-      </div>
-    </div>
-  </div>
+section.rotina h2 {
+  color: var(--azul-principal);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0;
+}
 
-  <footer>
-    <div class="footer-container">
-      <div class="footer-logo">
-        <div class="logo-circle">
-          <img src="img_rotina/logo-escuro.png" alt="logo site">
-        </div>
-      </div>
-       <div class="footer-links">
-        <a href="index.html">Início</a>
-          <a href="rotina_index.html">Rotina</a>
-          <a href="exercicio_index.html">Exercícios</a>
-          <a href="progresso_index.html">Progresso</a>
-          <a href="sobre-nos_index.html" >Sobre nós</a>
-          <a href="contate-nos_index.html">Contate-nos</a>
-          <a href="perfil_index.html" class="ativo">Perfil</a>
-          <a href="editar-perfil.html">Editar perfil</a>
-        </div>
-      <div class="footer-copy">
-        <p>Transforme sua rotina!</p>
-        <p>Cuidar de você é o primeiro passo para uma vida leve.</p>
-      </div>
-      <div class="footer-contato">
-        <p><strong>Entre em contato</strong></p>
-        <p><a href="mailto:be-well@gmail.com">be-well@gmail.com</a></p>
-        <p><a href="tel:+5547999999999">47 99999-9999</a></p>
-      </div>
-      <div class="footer-redes">
-        <a href="https://www.facebook.com/profile.php?id=61594357695006&mibextid=wwXIfr"><img src="img_rotina/facebook.svg" alt="Facebook"></a>
-        <a href="https://www.tiktok.com/@bewellifc"><img src="img_rotina/tiktok.svg" alt="TikTok"></a>
-        <a href="https://www.instagram.com/bewellpi/"><img src="img_rotina/instagram.svg" alt="Instagram"></a>
-      </div>
-    </div>
-  </footer>
-  <script src="java.script/mini_jogo_dados.js"></script>
-  <script src="java.script/mini_jogo.js"></script>
-  <script src="java.script/script.js"></script>
-  <script type="module" src="java.script/progresso_conta.js"></script>
-</body>
-</html>
+section.rotina h2 span {
+  color: var(--azul-medio);
+}
+
+.rotina-desc {
+  max-width: 650px;
+  margin: 1rem auto;
+  color: var(--texto-cinza);
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.card-constancia {
+  border: 2px solid var(--borda-suave);
+  border-radius: 10px;
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card-constancia img {
+  width: 40px;
+  height: 40px;
+}
+
+.card-constancia-texto h3 {
+  margin: 0;
+  color: var(--azul-principal);
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.card-constancia-texto p {
+  margin: 0.3rem 0 0 0;
+  color: var(--texto-cinza);
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+/* Seção Cronograma */
+section.cronograma {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+section.cronograma h2 {
+  color: var(--azul-principal);
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+ul.grid-dias {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-dia {
+  background-color: var(--azul-fundo-card);
+  border-radius: 8px;
+  overflow: hidden;
+
+  /* Adicionado para a animação */
+  opacity: 0;
+  transform: translateY(12px);
+  animation: fade-in-up 600ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes fade-in-up {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Delays em cascata para cada um dos 5 dias */
+.grid-dias .card-dia:nth-child(1) { animation-delay: 0ms; }
+.grid-dias .card-dia:nth-child(2) { animation-delay: 200ms; }
+.grid-dias .card-dia:nth-child(3) { animation-delay: 400ms; }
+.grid-dias .card-dia:nth-child(4) { animation-delay: 600ms; }
+.grid-dias .card-dia:nth-child(5) { animation-delay: 800ms; }
+
+.dia-header {
+  background-color: var(--azul-medio);
+  color: #ffffff;
+  text-align: center;
+  padding: 0.6rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.dia-corpo {
+  padding: 1rem 0.8rem;
+  text-align: left;
+}
+
+.dia-corpo h3 {
+  margin: 0 0 0.8rem 0;
+  font-size: 0.9rem;
+  color: var(--azul-principal);
+  text-align: center;
+}
+
+.dia-corpo ul {
+  padding-left: 1.2rem;
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--texto-cinza);
+}
+
+.dia-corpo ul li {
+  margin-bottom: 0.4rem;
+}
+.descanso-fds {
+  background-color: #bdd5ea;
+  border-radius: 8px;
+  padding: 0.8rem 1.2rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--azul-principal);
+}
+
+.descanso-fds span {
+  font-weight: 700;
+}
+
+/* Seção Alimentação */
+section.alimentacao {
+  text-align: center;
+}
+
+.alimentacao-box {
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  padding: 1.5rem;
+  background-color: #f7f9fa;
+  margin-top: 3rem;
+}
+
+.alimentacao-box h2 {
+  color: var(--azul-principal);
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.alimentacao-box .subtitulo {
+  color: var(--texto-cinza);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+ul.grid-alimentacao {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-alimento {
+  background-color: var(--azul-fundo-card);
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.card-alimento h3 {
+  font-size: 0.85rem;
+  color: var(--azul-principal);
+  margin: 0 0 0.4rem 0;
+  font-weight: 600;
+}
+
+.card-alimento p {
+  font-size: 0.75rem;
+  color: var(--texto-cinza);
+  margin: 0;
+}
+
+ul.banner-lembrete {
+  list-style: none;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0 0 0;
+  background-color: var(--azul-principal);
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.banner-lembrete h3 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1rem;
+  font-weight: 650;
+}
+
+.banner-lembrete p {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.bloco-disciplina {
+  background-color: var(--azul-medio);
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 800;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.btn-voltar-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.btn-voltar {
+  background-color: var(--azul-medio);
+  color: #ffffff;
+  padding: 0.7rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-voltar img {
+  width: 18px;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  background-color: var(--azul-principal);
+  color: #ffffff;
+  padding: 2rem 5%;
+  margin-top: 3.5rem;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-container .logo-circle img {
+  width: 120px;
+  height: auto;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.footer-copy p {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.footer-redes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-redes img {
+  width: 24px;
+  height: 24px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .menu-btn {
+    display: block;
+    transition: transform 0.2s ease;
+  }
+
+  .menu-btn:active {
+    transform: scale(0.9);
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  header .logo-circle {
+    justify-self: start;
+  }
+
+  header div.logo-circle img {
+    width: 35%;
+    border-radius: 50%;
+  }
+
+  header nav {
+    justify-self: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 80%;
+    max-width: 320px;
+    background: var(--azul-escuro-footer);
+    padding: 30px 24px;
+    z-index: 150;
+    transform: translateX(100%);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow-y: auto;
+    box-shadow: -8px 0 24px rgba(0, 0, 0, 0.25);
+  }
+
+  header nav.aberto {
+    transform: translateX(0);
+    text-align: center;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 1.05rem;
+    padding: 10px 0;
+  }
+
+  header nav ul li a {
+    display: block;
+    padding: 14px 4px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    transition: color 0.2s ease, padding-left 0.2s ease;
+  }
+
+  header nav ul li a:hover,
+  header nav ul li a:focus {
+    color: var(--azul-medio);
+    padding-left: 10px;
+  }
+
+  header nav ul li a.ativo {
+    color: var(--azul-medio);
+    font-weight: 800;
+  }
+
+  header nav .item-fechar a {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    border-bottom: none;
+  }
+
+  header .header-icones {
+    justify-self: end;
+    text-align: end;
+  }
+
+  header .header-icones img {
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.06);
+  }
+}
+
+/* ==== MEDIA QUERY: DESKTOP ==== */
+@media screen and (min-width: 700px) {
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.4rem 5vw;
+    border-bottom: 1px solid #e3e3e3;
+  }
+
+  header nav .item-fechar {
+    display: none;
+  }
+
+  header div.logo-circle img {
+    width: 3.5rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px var(--azul-claro);
+  }
+
+  header nav ul {
+    display: flex;
+    gap: 2.2vw;
+    font-size: 0.9rem;
+  }
+
+  header nav ul li a {
+    position: relative;
+    color: var(--texto-escuro);
+    font-weight: 500;
+    padding: 6px 2px;
+    transition: color 0.2s ease;
+  }
+
+  header nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--azul-medio);
+    transition: width 0.25s ease;
+  }
+
+  header nav ul li a:hover {
+    color: var(--azul-medio);
+  }
+
+  header nav ul li a:hover::after {
+    width: 100%;
+  }
+
+  header nav ul li a.ativo {
+    color: #4988c4;
+    font-weight: 700;
+  }
+
+  header nav ul li a.ativo::after {
+    width: 100%;
+  }
+
+  .header-icones {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .header-icones img {
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 2px var(--azul-claro);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .header-icones img:hover {
+    box-shadow: 0 0 0 2px var(--azul-medio);
+    transform: scale(1.05);
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+
+.banner-container{
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 320px;
+    background-image: url(../img_rotina/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1.3vw;
+    overflow: hidden;
+  }
+
+  .banner-container h1 {
+    display: block;
+    font-size: 3rem;
+    font-weight: 400;
+    position: absolute;
+    top: 34%;
+    left: 10%;
+    color: #000000;
+  }
+
+  .banner-container span {
+    font-weight: 700;
+  }
+
+  section.inicio {
+    margin-top: 1rem;
+  }
+
+  section.inicio h1,
+  section.inicio h2 {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+
+  section.rotina h2 {
+    font-size: 2rem;
+  }
+
+  ul.grid-dias {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card-dia {
+    flex: 1 1 180px;
+  }
+
+  ul.grid-alimentacao {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card-alimento {
+    flex: 1 1 30%;
+  }
+
+  .bloco-disciplina {
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.1rem;
+  }
+
+  .btn-voltar-container {
+    justify-content: flex-end;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+  
+  .footer-redes img {
+    width: 20px;
+    height: 20px;
+  }
+}
